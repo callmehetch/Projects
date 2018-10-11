@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TTT</title>
+    <style>
+        td{
+            width : 100px;
+            height : 100px;
+            
+            
+        }
+        .vertical{
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+        .horizontal{
+              border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+        table{
+            margin: auto;
+        }
+        h1{
+            text-align: center;
+        }
+
+    </style>
+    <script>
+      function startGame(){
+         
+          
+          document.turn = "H";
+          if(Math.random() <0.5){
+              document.turn = "R";
+          }
+          document.winner = null;
+          setMessage(document.turn + " gets to start. ");
+          
+      }
+        function setMessage(msg){
+            document.getElementById("message").innerText = msg;
+            
+        }
+        
+        function nextMove(a){
+            if(document.winner != null){
+                setMessage("Game Ended as " + document.winner + " fucked you!!");
+                
+            }else if(a.innerText == ""){
+             a.innerText = document.turn;
+            switchTurn();
+            }else{
+                setMessage("Square isn't empty!! You Bitch");
+            }
+        }
+        function switchTurn(){
+            if(checkWinner(document.turn)){
+                setMessage("Congarts " + document.turn + "! You Win! He's fucked up!!");
+                document.winner = document.turn;
+            }
+            else if (document.turn == "H"){
+                document.turn = "R";
+setMessage(document.turn + "'s turn");
+            
+        }else{
+            document.turn = "H";
+             setMessage(document.turn + "'s turn");
+        }
+ 
+        }
+        function checkWinner(move){
+            var result = false;
+            if (checkRow(1,2,3,move) || 
+                checkRow(4,5,6,move) || 
+                checkRow(7,8,9,move) || 
+                checkRow(1,4,7,move) || 
+                checkRow(2,5,8,move) || 
+                checkRow(3,6,9,move) || 
+                checkRow(1,5,9,move) || 
+                checkRow(3,5,7,move)){
+                result = true;
+                
+                }
+            return result;
+        }
+        
+        function checkRow(a,b,c,move){
+            var result = false;
+            if (getBox(a) == move && getBox(b) == move && getBox(c) == move){
+                result = true;
+            }
+            return result;
+            
+        }
+        function getBox(number){
+          return document.getElementById("r" + number).innerText;
+            
+        }
+   
+    </script>
+    
+    </head>
+    
+    <body onload="startGame();">
+    
+        
+        <h1>TTT</h1>
+    <table border="1">
+        <tr>
+            <td id= "r1" class="a" onclick = "nextMove(this);" style="text-align: center"></td>
+             <td id="r2" class = "vertical a" onclick = "nextMove(this);"  style="text-align: center"></td>
+             <td id="r3" class="a"  onclick = "nextMove(this);"  style="text-align: center"></td>
+        </tr>
+        
+         <tr>
+            <td id="r4" class = "horizontal a" onclick = "nextMove(this);"  style="text-align: center"></td>
+             <td id="r5" class = "vertical horizontal a" onclick = "nextMove(this);"  style="text-align: center"></td>
+             <td id="r6" class="horizontal a" onclick = "nextMove(this);"  style="text-align: center"></td>
+        </tr>
+         <tr>
+            <td id="r7" class="a" onclick = "nextMove(this);"  style="text-align: center"></td>
+             <td id="r8" class = "vertical a" onclick = "nextMove(this);"  style="text-align: center"></td>
+             <td id="r9" class="a"  onclick = "nextMove(this);"  style="text-align: center"></td>
+        </tr>
+        </table>
+    
+    <div id = "message" style="text-align: center">Message</div>
+      
+    </body>
+          
+</html>
