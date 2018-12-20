@@ -1,0 +1,854 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>GOOD BAD BETWEEN</title>
+    <meta name="description" content="GOOD BAD BETWEEN">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="/static/assets/img/d.jpg">
+    <link rel="shortcut icon" href="static/assets/img/favicon.ico" type="image/x-icon" />
+    <!--======// Styelesheet Css \\======-->
+    <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+    <link rel="stylesheet" href="static/assets/css/animate.min.css">
+    <link rel="stylesheet" href="maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="static/assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="static/assets/css/card.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <script src="cdn.rawgit.com/oauth-io/oauth-js/c5af4519/dist/oauth.js"></script>
+    <link rel="stylesheet" href="maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.min.css">
+    <script src="ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<style type="text/css">
+    .card_butn {
+        padding: 0px;
+        width: 95px;
+        height: 35px;
+    }
+
+    #card_options {
+        display: none;
+        z-index: 5000;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        background: #036E80;
+    }
+
+    #buttons {
+        margin-bottom: 4%;
+        margin-left: 0%;
+    }
+
+    .tool .tooltiptexthidden {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 3px 5px 3px;
+        position: absolute;
+        z-index: 10000;
+        bottom: 150%;
+        left: 50%;
+        margin-left: -60px;
+    }
+
+    .tool:hover .tooltiptexthidden {
+        visibility: visible;
+    }
+
+    .tool .tooltiptexthidden::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: black transparent transparent transparent;
+    }
+
+    .tool .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: black transparent transparent transparent;
+    }
+
+    .tool {
+        position: relative;
+        display: inline-block;
+    }
+
+    .tool .tooltiptext {
+        visibility: visible;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 150%;
+        left: 50%;
+        margin-left: -60px;
+    }
+
+    .tool .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: black transparent transparent transparent;
+    }
+
+    .tool .tooltiptextlefthidden {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 3px 5px 3px;
+        position: absolute;
+        z-index: 1;
+        top: -5px;
+        right: 110%;
+    }
+
+    .tool .tooltiptextlefthidden::after {
+        content: "";
+        position: absolute;
+        top: 20%;
+        left: 100%;
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent transparent black;
+    }
+
+    .tool:hover .tooltiptextlefthidden {
+        visibility: visible;
+    }
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+    .button {
+  background-color: #08bed3;
+  border: none;
+  color: white;
+  padding: 7.5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+  
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+    #footer {
+        
+        padding-top: 0.75%;
+        background-color: white;
+    }
+
+    #footer h5 {
+        padding-left: 10px;
+        border-left: 3px solid black;
+        padding-bottom: 6px;
+        margin-bottom: 20px;
+        color:  #272d3a;
+;
+    }
+
+    #footer a {
+        color: black;
+        text-decoration: none !important;
+        background-color: transparent;
+        -webkit-text-decoration-skip: objects;
+    }
+
+    #footer ul.social li {
+        padding: 3px 0;
+    }
+
+    #footer ul.social li a i {
+        margin-right: 5px;
+        font-size: 25px;
+        -webkit-transition: .5s all ease;
+        -moz-transition: .5s all ease;
+        transition: .5s all ease;
+    }
+
+    #footer ul.social li:hover a i {
+        font-size: 30px;
+        margin-top: -10px;
+    }
+
+    #footer ul.social li a,
+    #footer ul.quick-links li a {
+        color: black;
+    }
+
+    #footer ul.social li a:hover {
+        color: #08bed3;
+    }
+
+    #footer ul.quick-links li {
+        padding: 3px 0;
+        -webkit-transition: .5s all ease;
+        -moz-transition: .5s all ease;
+        transition: .5s all ease;
+    }
+
+    #footer ul.quick-links li:hover {
+        padding: 3px 0;
+        margin-left: 5px;
+        font-weight: 700;
+    }
+
+    #footer ul.quick-links li a i {
+        margin-right: 5px;
+    }
+
+    #footer ul.quick-links li:hover a i {
+        font-weight: 700;
+    }
+
+    @media (max-width:767px) {
+        #footer h5 {
+            padding-left: 0;
+            border-left: transparent;
+            padding-bottom: 0px;
+            margin-bottom: 10px;
+        }
+    }
+    /* Blink for Webkit and others
+(Chrome, Safari, Firefox, IE, ...)
+*/
+
+@-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+.blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 0.6s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+}
+
+</style>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!--===============================================================================-->
+    <script>
+        window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '101971900572832',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v3.1'
+    });
+    FB.AppEvents.logPageView();   
+    };
+    </script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=1557544637872463&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <!--==============> Preloader Start <==============-->
+    <div class="preloader">
+        <div class="wrap-preload circle-ball">
+            <div class="overlay"></div>
+            <div class="wrap-content">
+                <div class="wrap-circle-ball">
+                    <div class="wrap-ball">
+                        <div class="ball ball-top"></div>
+                        <div class="ball ball-top"></div>
+                    </div>
+                    <div class="wrap-ball">
+                        <div class="ball ball-bot"></div>
+                        <div class="ball ball-bot"></div>
+                    </div>
+                    <div class="wrap-effect">
+                        <div class="wrap-circle">
+                            <div class="circle-effect left"></div>
+                            <div class="circle-effect left"></div>
+                        </div>
+                        <div class="wrap-circle">
+                            <div class="circle-effect right"></div>
+                            <div class="circle-effect right"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--==============> Preloader End <==============-->
+    <!--==============> Nav Start <==============-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="static/assets/img/logo.png" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar" >
+                <ul class="nav navbar-nav navbar-right" style="font-size:  110%">
+                  
+                       
+                            <li  class="list-inline-item" style="padding-top: 4%"><a href="https://www.facebook.com/goodbadbetween/?ref=aymt_homepage_panel" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item" style="padding-top: 4%"><a href="https://twitter.com/GoodBadBetween" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item" style="padding-top: 4%"><a href="https://www.instagram.com/goodbadbetween/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item" style="padding-top: 4%"><a href="https://www.linkedin.com/company/goodbadbetween/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+
+                       
+                       <li class=""><button class = "button1 button" style="cursor: pointer;" data-toggle="modal" data-target="#login">Login</button></li>
+                       
+                  
+                    
+                    <!-- <li><a href="#app-screenshot" class="page-scroll">Product Demo</a></li> -->
+                    <!-- <li><a href="#about-app" class="page-scroll">Our Mission</a></li> -->
+                    <!-- <li><a href="#features" class="page-scroll">Why Choose Us?</a></li> -->
+                    <!-- <li><a href="#contact-area" class="page-scroll">Contact</a></li> -->
+                    <!-- <li><a href="#app-pricing" class="page-scroll">Login</a></li>  -->
+                </ul>
+                <!--  <div class="pull-right" style="position: absolute;right: 5%; top:20%">
+                	<button class="butn">login</button>
+                </div> -->
+            </div>
+        </div>
+    </nav>
+    <!--==============> Nav ENd <==============-->
+    <!--==============> Header Start <==============-->
+    <header id="header" class="colorbg">
+        <div class="header-overlay"></div>
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-md-12" style="padding-top: 2%">
+                    <div class="header-content text-center" style = "padding-top : 10%;">
+                        <h1 class="wow fadeInDown" style="font-size: 280%">A WORLD OF DIVERSE VIEWPOINTS</h1>
+                        <p class="wow fadeInDown" data-wow-delay=".1s" style="font-size: 140%" style = "padding-top : 2%;">Explore - Express - Expand  -  Your Worldview!</p>
+                        <!-- <div class="fb-login-button" data-max-rows="1" data-size="medium" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="true" onlogin="checkLoginState();"></div> -->
+                        <!-- <fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button> -->
+                       <div style="padding-top: 2%" >
+                        <a  style="cursor: pointer; background: white; color: black; width: 35%;  font-size: 300%" data-toggle="modal" data-target="#login" class="wow fadeInDown boxed-btn lg blink" data-wow-delay=".2s" >Explore<i class="fas fa-hand-pointer"></i></a></div>
+                        <!-- login widget -->
+                        <div id="login" class="modal" style="top:20%; left:30%;">
+                            <div class="modal-content animate-zoom" style="width: 600px;border-radius: 20px">
+                                <header class="modal-header" style="background-color: #11B3B8; border-top-left-radius:20px; border-top-right-radius: 20px; ">
+                                    <span onclick="document.getElementById('login').style.display='none'" type='button' class="close" data-dismiss="modal">&times;</span>
+                                    <h2 style="text-align: center; color: white;">Login</h2>
+                                </header>
+                                <div class="modal-body">
+                                    <a id="facebook-button" class="btn btn-social btn-facebook" onclick="checkLoginState('personal');">
+                                        <i class="fa fa-facebook"></i> Sign in with Facebook
+                                    </a>
+                                    <br>
+                                    <br>
+                                    <a id="facebook-button" class="btn btn-social btn-facebook" onclick="checkLoginState('business');">
+                                        <i class="fa fa-facebook"></i> Sign in with Facebook Page
+                                    </a>
+                                    <br>
+                                    <br>
+                                    <a id="twitter-button" class="btn btn-social btn-twitter">
+                                        <i class="fa fa-twitter"></i> Sign in with Twitter
+                                    </a>
+                                </div>
+                                <footer class="container"></footer>
+                            </div>
+                        </div>
+                        <div id="login2" class="w3-modal" style="display:none;">
+                            <div class="w3-modal-content w3-animate-zoom" style="width: 600px;border-radius: 20px">
+                                <header class="w3-container" style="background-color: #11B3B8; border-top-left-radius:20px; border-top-right-radius: 20px; ">
+                                    <span onclick="document.getElementById('login2').style.display='none'" class="w3-button w3-display-topright" style="top: 10px;right: 20px">&times;</span>
+                                    <h2 style="text-align: center;">Login</h2>
+                                </header>
+                                <div class="w3-container w3-section">
+                                    <a id="facebook-button" class="btn btn-social btn-facebook" onclick="checkLoginState('business');">
+                                        <i class="fa fa-facebook"></i> Sign in with Facebook Page
+                                    </a>
+                                    <br>
+                                    <br>
+                                </div>
+                                <footer class="w3-container"></footer>
+                            </div>
+                        </div>
+                        <!-- login widget ends -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--==============> Header ENd <==============-->
+    <!--==============> Subscribe Now Start <==============-->
+  <section id="subscribe" class="spt2" style="background: white; padding-top: 0.5%; padding-bottom: 0.5%" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="subscribe-wrapper">
+                        <div class="row">
+                            <div class="col-md-5 text-center"><h2 style = "font-size: 170%; margin-top: 3.5% ">SEND ME THE BEST VIEWPOINTS</h2></div>
+                            <div class="col-md-7 " style=" ">
+                                <form class="subscription-form" method="POST" action="/subscribe_the_user" style="padding-left : 0% ">
+                                    <input type="email" class="form-control subscribe" id="subscribe-input" name="user_email" placeholder="Your Email Here">
+                                    <button class="email-submit-btn" type="submit"><i class="fa fa-paper-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==============> Contact Start <==============-->
+
+    <!--==============> Contact ENd <==============-->
+    <!--==============> Footer area Start <==============-->
+
+
+
+
+
+    <div style="padding-top: 4.25%">
+        <section id="footer" >
+            <div class="container-fluid">
+                <div class="row text-center text-xs-center text-sm-left text-md-left">
+                    <div class="col-xs-12 col-sm-3 col-md-3" style="margin: auto; align-content:  center">
+
+                        <ul class="list-unstyled quick-links" >
+                            <li class="list-inline-item"><a>Copyright © 2018 GoodBadBetween</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3" style="margin: auto; align-content:  center">
+
+                        <ul class="list-unstyled quick-links" >
+                            <li class="list-inline-item"><a  href="https://mail.google.com/mail/?view=cm&fs=1&to=hello@goodbadbetween.com" target="_blank"><i class="fa fa-envelope"></i>hello@goodbadbetween.com</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3" style="margin: auto; align-items: center">
+
+                        <ul class="list-unstyled list-inline social ">
+                            <li class="list-inline-item"><a href="https://www.facebook.com/goodbadbetween/?ref=aymt_homepage_panel" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="https://twitter.com/GoodBadBetween" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com/goodbadbetween/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/company/goodbadbetween/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3" style="margin: auto; align-items: center">
+
+         
+
+                        <a href="policy.html" target="_blank" style="float:center; margin-left: 5%">Privacy Policy</a> <span style="float: center; margin-left: 5%"> | </span><a href="terms.html" target="_blank" style="float:center;">Terms of Service</a>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!--==============> Footer area ENd <==============-->
+    <!--==============// ALl jS Scripts \\==============-->
+    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="static/assets/js/vendor/jquery-3.2.1.min.js"></script>
+    <script src="static/assets/js/elemets.js"></script>
+    <script src="static/assets/js/swiper.js"></script>
+    <!-- google map -->
+    <script src="maps.googleapis.com/maps/api/js_key_AIzaSyAqoWGSQYygV-G1P5tVrj-dM2rVHR5wOGY.js"></script>
+    <script src="static/assets/js/map-script.js"></script>
+    <!-- Custom script -->
+    <script src="static/assets/js/custom.js"></script>
+    <!-- Wow active -->
+    <script>
+        new WOW().init();
+
+    </script>
+
+
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script type="text/javascript">
+        window.dojoRequire(["mojo/signup-forms/Loader"], function(L) {
+            L.start({
+                "baseUrl": "mc.us19.list-manage.com",
+                "uuid": "9b6178c6259e478913a415bb7",
+                "lid": "87e7813321",
+                "uniqueMethods": true
+            })
+        })
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        // To change the dropdown values to default selelcted values when refresh
+        var options = document.querySelectorAll('#search_param1 option');
+        console.log(options);
+        for (var i = 0, l = options.length; i < l; i++) {
+            options[i].selected = options[i].defaultSelected;
+        }
+        var options = document.querySelectorAll('#search_param2 option');
+        console.log(options);
+        for (var i = 0, l = options.length; i < l; i++) {
+            options[i].selected = options[i].defaultSelected;
+        }
+        $("#myCarousel").carousel({
+            interval: 3000
+        });
+        $("#myCarousel").on('slide.bs.carousel', function(evt) {
+            if ($(this).find('.active').index() == 0) {
+                document.getElementById("search").value = "good";
+            }
+            if ($(this).find('.active').index() == 1) {
+                document.getElementById("search").value = "bad";
+            }
+            if ($(this).find('.active').index() == 2) {
+                document.getElementById("search").value = "between";
+            }
+        })
+        $('#search_param1').change(function() {
+            var polarity = $(this).val();
+            console.log(polarity);
+            var e = document.getElementById("search_param2");
+            var topic = e.options[e.selectedIndex].value;
+            console.log(topic);
+            data = {
+                "polarity": polarity,
+                "topic": topic
+            };
+            // send ajax request to get the cards of selected topic and polarity
+            $.ajax({
+                type: "POST",
+                url: "/get_home_page_cards",
+                data: JSON.stringify(data),
+                contentType: 'application/json',
+                success: function(result) {
+                    // console.log(result);
+                    $(".carousel-inner").replaceWith(result);
+                }
+            });
+        });
+        $('#search_param2').change(function() {
+            var topic = $(this).val();
+            console.log(topic);
+            var e = document.getElementById("search_param1");
+            var polarity = e.options[e.selectedIndex].value;
+            console.log(polarity);
+            data = {
+                "polarity": polarity,
+                "topic": topic
+            };
+            // send ajax request to get the cards of selected topic and polarity
+            $.ajax({
+                type: "POST",
+                url: "/get_home_page_cards",
+                data: JSON.stringify(data),
+                contentType: 'application/json',
+                success: function(result) {
+                    // console.log(result);
+                    $(".carousel-inner").replaceWith(result);
+                }
+            });
+        });
+
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="www.googletagmanager.com/gtag/js_id_UA-125822081-1.js"></script>
+    <script type="text/javascript">
+        function getcontent(argument) {
+            var id = argument.split('_');
+            console.log(id);
+            var card_num = id[2];
+            var loop_num = id[1];
+            // hide current content and show next or previous content accordingly
+            document.getElementById('content_' + loop_num + '_' + card_num).style.display = "none";
+            if (id[0] == 's') {
+                document.getElementById('content_' + String(parseInt(loop_num) + 1) + '_' + card_num).style.display = "block";
+            }
+            if (id[0] == 's2') {
+                document.getElementById('content_' + String(parseInt(loop_num) - 1) + '_' + card_num).style.display = "block";
+            }
+            // hide current buttons and show next or previous buttons accordingly
+            if (document.getElementById('s_' + loop_num + '_' + card_num)) {
+                document.getElementById('s_' + loop_num + '_' + card_num).style.display = "none";
+            }
+            if (document.getElementById('s2_' + loop_num + '_' + card_num)) {
+                document.getElementById('s2_' + loop_num + '_' + card_num).style.display = "none";
+            }
+            if (id[0] == 's') {
+                if (document.getElementById('s_' + String(parseInt(loop_num) + 1) + '_' + card_num)) {
+                    document.getElementById('s_' + String(parseInt(loop_num) + 1) + '_' + card_num).style.display = "block";
+                }
+                if (document.getElementById('s2_' + String(parseInt(loop_num) + 1) + '_' + card_num)) {
+                    document.getElementById('s2_' + String(parseInt(loop_num) + 1) + '_' + card_num).style.display = "block";
+                }
+            }
+            if (id[0] == 's2') {
+                if (document.getElementById('s_' + String(parseInt(loop_num) - 1) + '_' + card_num)) {
+                    document.getElementById('s_' + String(parseInt(loop_num) - 1) + '_' + card_num).style.display = "block";
+                }
+                if (document.getElementById('s2_' + String(parseInt(loop_num) - 1) + '_' + card_num)) {
+                    document.getElementById('s2_' + String(parseInt(loop_num) - 1) + '_' + card_num).style.display = "block";
+                }
+            }
+        }
+
+        function polarity_interact(button_id) {
+            console.log(button_id);
+            var polarity = button_id.match(/good|bad|between/g);
+            console.log(polarity);
+            // var countEles = document.getElementById(button_id).children;
+            var card_id = parseInt(document.getElementById(button_id).getAttribute("card_id"));
+            console.log("card_id:", document.getElementById(button_id).getAttribute("card_id"));
+            // var count = parseInt(countEles[0].textContent.split(' - ')[1].trim());
+            // console.log("count:", count);
+            // var data={'card_id': card_id, 'button': polarity[0], 'count': count};
+            // send ajax request to change the polarity
+            // change the display message and class(to change the color) of button
+            var self_card = document.querySelectorAll('[id="card_' + card_id + '_' + polarity + '"][card_id="' + card_id + '"]');
+            if (polarity == "good") {
+                document.getElementById('displaymessage' + card_id).innerHTML = "Demo user, says its a good thing.";
+                document.getElementById('displaymessage' + card_id).style.display = "block";
+                // self_card[0].className = "butn card_butn greenbutton selected";
+                var self_card_otherbutton = document.querySelectorAll('[id="card_' + card_id + '_bad"][card_id="' + card_id + '"]');
+                // self_card_otherbutton[0].className = "butn card_butn selected";
+                var self_card_otherbutton = document.querySelectorAll('[id="card_' + card_id + '_between"][card_id="' + card_id + '"]');
+                // self_card_otherbutton[0].className = "butn card_butn selected";
+            } else if (polarity == "bad") {
+                document.getElementById('displaymessage' + card_id).innerHTML = "Demo user, says its a bad thing.";
+                // self_card[0].className = "butn card_butn redbutton selected";
+                var self_card_otherbutton = document.querySelectorAll('[id="card_' + card_id + '_good"][card_id="' + card_id + '"]');
+                // self_card_otherbutton[0].className = "butn card_butn selected";
+                var self_card_otherbutton = document.querySelectorAll('[id="card_' + card_id + '_between"][card_id="' + card_id + '"]');
+                // self_card_otherbutton[0].className = "butn card_butn selected";
+            } else if (polarity == "between") {
+                document.getElementById('displaymessage' + card_id).innerHTML = "Demo user, says its a between thing.";
+                // self_card[0].className = "butn card_butn yellowbutton selected";
+                var self_card_otherbutton = document.querySelectorAll('[id="card_' + card_id + '_bad"][card_id="' + card_id + '"]');
+                // self_card_otherbutton[0].className = "butn card_butn selected";
+                var self_card_otherbutton = document.querySelectorAll('[id="card_' + card_id + '_good"][card_id="' + card_id + '"]');
+                // self_card_otherbutton[0].className = "butn card_butn selected";
+            }
+        }
+
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-125822081-1');
+        var user_type;
+        var user_fb_id, user_fb_name, user_fb_email, user_fb_gender, user_fb_age, user_fb_picture;
+
+        function get_pages(page_list, params, callback) {
+            FB.api('/' + user_fb_id + '/accounts', params, function(response) {
+                console.log(response);
+                for (each_page = 0; each_page < response["data"].length; each_page++) {
+                    page_list[response["data"][each_page]["name"]] = response["data"][each_page]["id"];
+                }
+                try {
+                    if (response["paging"]["cursors"]["after"]) {
+                        params = {
+                            "after": response["paging"]["cursors"]["after"]
+                        };
+                        page_list = get_pages(page_list, params, callback);
+                    }
+                } catch (e) {
+                    callback(page_list);
+                }
+            });
+            // return page_list;
+        }
+
+        function checkLoginState(user) {
+            user_type = user;
+            FB.login(function(response) {
+                statusChangeCallback(response);
+            }, {
+                scope: 'email,manage_pages'
+            });
+            // FB.getLoginStatus(function(response) {
+            //     statusChangeCallback(response);
+            // });
+        }
+
+        function statusChangeCallback(response) {
+            console.log(response);
+            if (response["status"] == "connected") {
+                FB.api('/me?fields=name,email', function(response) {
+                    console.log(response);
+                    // get id from the above response
+                    user_fb_id = response["id"];
+                    user_fb_name = response["name"];
+                    user_fb_email = response["email"];
+                    // user_fb_gender = response["gender"];
+                    // user_fb_age = response["age_range"]["min"];
+                    // call FB.api using the above collected user_fb_id
+                    // to get the user profile picture
+                    FB.api('/' + user_fb_id + '/picture?type=large&redirect=false', function(response) {
+                        console.log(response);
+                        // get picture url from the above response
+                        user_fb_picture = response["data"]["url"];
+                        // get pages details if user_type is not personal
+                        if (user_type != "personal") {
+                            // get facebook pages list to create business user
+                            user_page_names = {};
+                            // collect pages using a function to handle pagination of facebook response
+                            get_pages(user_page_names, {}, function(user_page_names) {
+                                console.log(user_page_names);
+                                console.log('Successful login for: ' + user_fb_name);
+                                // send ajax request to store these details in database
+                                // and set the session variables and come back.
+                                var data = {
+                                    'id': user_fb_id,
+                                    'email': user_fb_email,
+                                    'name': user_fb_name,
+                                    'picture': user_fb_picture,
+                                    // "age": user_fb_age,
+                                    // "gender": user_fb_gender, 
+                                    "type": user_type,
+                                    "user_pages": user_page_names
+                                };
+                                $.ajax({
+                                    type: "POST",
+                                    url: "/user/store_userinfo",
+                                    data: JSON.stringify(data),
+                                    contentType: 'application/json',
+                                    success: function(result) {
+                                        console.log(result);
+                                        window.location = result;
+                                    }
+                                });
+                            });
+                        } else {
+                            console.log('Successful login for: ' + user_fb_name);
+                            // send ajax request to store these details in database
+                            // and set the session variables and come back.
+                            var data = {
+                                'id': user_fb_id,
+                                'email': user_fb_email,
+                                'name': user_fb_name,
+                                'picture': user_fb_picture,
+                                // "age": user_fb_age,
+                                // "gender": user_fb_gender, 
+                                "type": user_type,
+                            };
+                            $.ajax({
+                                type: "POST",
+                                url: "/user/store_userinfo",
+                                data: JSON.stringify(data),
+                                contentType: 'application/json',
+                                success: function(result) {
+                                    console.log(result);
+                                    window.location = result;
+                                }
+                            });
+                        }
+                    });
+                });
+            } else {
+                FB.login(function(response) {
+                    statusChangeCallback(response);
+                }, {
+                    scope: 'email,manage_pages'
+                });
+            }
+        }
+        $('#twitter-button').on('click', function() {
+            // Initialize with your OAuth.io app public key
+            OAuth.initialize('PKZOcP2hKxjW45juHY9RlqnPCoQ');
+            // Use popup for OAuth
+            OAuth.popup('twitter').done(twitter => {
+                console.log('twitter:', twitter);
+                // Prompts 'welcome' message with User's email on successful login
+                // #me() is a convenient method to retrieve user data without requiring you
+                // to know which OAuth provider url to call
+                twitter.me().then(data => {
+                    console.log('data:', data);
+                    var data = {
+                        'id': data.id,
+                        'email': data.email,
+                        'name': data.name,
+                        'picture': data.avatar,
+                        "age": "",
+                        "gender": "",
+                        "type": "twitter",
+                    };
+                    $.ajax({
+                        type: "POST",
+                        url: "/user/store_userinfo",
+                        data: JSON.stringify(data),
+                        contentType: 'application/json',
+                        success: function(result) {
+                            console.log(result);
+                            window.location = result;
+                        }
+                    });
+                    // twitter.post('/1.1/statuses/update.json?status=GoodBadBetween').then(data => {
+                    //     console.log('self data:', data);
+                    // }) 
+                });
+                // // Retrieves user data from OAuth provider by using #get() and
+                // // OAuth provider url    
+                // twitter.get('/1.1/account/verify_credentials.json?include_email=true').then(data => {
+                //   console.log('self data:', data);
+                // }) 
+            });
+        })
+
+    </script>
+</body>

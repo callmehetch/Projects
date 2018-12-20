@@ -1,0 +1,239 @@
+@media(max-width: 767px) {
+
+    /* helping class*/
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+
+    .mb-15 {
+        margin-bottom: 15px;
+    }
+
+    .mb-0 {
+        margin-bottom: 0;
+    }
+
+    .collapse.in a {
+        padding: 10px 15px;
+    }
+
+    .navbar {
+        padding: 8px 0 !important;
+    }
+
+    .navbar-brand {
+        padding: 15px 15px;
+    }
+
+    header {
+        margin-bottom: 0;
+    }
+
+    header:before,header:after{
+        display: none;
+    }
+
+    .header-content {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    .header-content p {
+        width: 80%;
+    }
+
+    .aboutapp-img {
+        margin-top: 50px;
+    }
+
+    .app-features-content .mt-70 {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .app-features-content .mb-0 {
+        margin-bottom: 0;
+    }
+
+    .action-features-img {
+        margin-top: 40px;
+    }
+
+    .single-app-screenshot img {
+        min-width: 100%;
+    }
+
+    .screenshot-overlay {
+        width: 100%;
+    }
+
+    .app-screenshot-carousel .owl-dots {
+        display: none;
+    }
+
+    .single-member img {
+        width: 100%;
+    }
+
+    .team-overlay.white-text p {
+        display: none;
+    }
+
+    .team-overlay {
+        top: -15px;
+        left: 0;
+        height: 100%;
+        padding-top: 30%;
+    }
+
+    .single-member:hover .team-overlay {
+        top: 0;
+    }
+
+    .download-img {
+        margin-top: 40px;
+    }
+
+    #subscribe .subscribe-wrapper {
+        padding: 30px;
+    }
+
+    #subscribe .subscribe-wrapper h2 {
+        margin-bottom: 30px;
+    }
+
+    .get-in-touch {
+        padding: 100px 40px 100px 40px;
+    }
+
+    .boxed-btn.live-chat {
+        right: 30%;
+    }
+
+    #map {
+        height: 1400px;
+    }
+
+
+}
+
+/* Small Devices, Tablets */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* helping class*/
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+
+    .mb-3.third {
+        margin-bottom: 0;
+    }
+
+    .mb-15 {
+        margin-bottom: 15px;
+    }
+
+    .mb-0 {
+        margin-bottom: 0;
+    }
+
+    .navbar {
+        padding: 20px 0 !important;
+    }
+
+
+    header:before,header:after{
+        display: none;
+    }
+
+	.dark-version .header-app-slider,
+    .header-app-slider {
+        background: transparent;
+        padding-top: 0px;
+    }
+
+    .swiper-container.one {
+        width: 80%;
+    }
+    
+    #about-app {
+        text-align: center;
+    }
+    .aboutapp-img {
+        margin-top: 50px;
+    }
+
+
+    .action-features-img {
+        margin-top: 40px;
+    }
+
+    .app-screenshot-carousel .owl-dots {
+        display: none;
+    }
+
+
+    .single-member img {
+        width: 100%;
+    }
+
+
+    .team-overlay {
+        top: -15px;
+        left: 0;
+        height: 100%;
+        padding-top: 30%;
+    }
+
+    .single-member:hover .team-overlay {
+        top: 0;
+    }
+    .download-img {
+        margin-top: 40px;
+    }
+    
+    #download-app {
+        text-align: center;
+    }
+    #subscribe .subscribe-wrapper h2 {
+        margin-bottom: 30px;
+    }
+
+    #map {
+        height: 1350px;
+    }
+
+
+    .boxed-btn.live-chat {
+        right: 40%;
+    }
+
+}
+
+
+@media (min-width: 1000px) {
+    .contact-details,
+    .get-in-touch {
+        height: 600px;
+    }
+
+    #download-app a.boxed-btn {
+        margin-bottom: 10px;
+    }
+}
+
+@media  (min-width: 991px) and (max-width: 1200px){   
+
+	.dark-version .header-app-slider,
+    .header-app-slider {
+        background: url(img/headerimg.png) no-repeat scroll center center / 100% 75%;
+        padding-top: 0px;
+    }
+}
+
+@media(max-width: 400px) {
+	#awesome-team .col-xs-6 {
+		width: 100%;
+	}
+}

@@ -1,0 +1,202 @@
+<html>
+<head>
+  <style>
+body {
+    background-image: url("image.jpg");
+
+    background-repeat: no-repeat;
+}
+
+</style>
+
+
+    <script type="text/javascript" src="http://cloud.boltiot.com/static/js/boltCommands.js">
+       
+    </script> 
+    
+</head>
+
+<body>
+
+<center>
+    
+    <button id="myBtn">OFF</button>
+    
+     </center>
+
+
+
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_LzXY7Jdwa1UVzDyJwoiRj");
+   })();
+</script>
+
+
+
+
+
+<script type="text/javascript">
+
+        setKey('{{ApiKey}}','{{Name}}');
+        setDebug(true); 
+        var result;
+        var result1=1;
+        var result2=1;
+            
+
+
+            
+
+                function readdata(msg){
+
+                  
+                  
+                  
+                  digitalRead(4,'output');
+
+                 
+                  if(result=="0" && result1==1)
+                    {
+                      
+                    
+                      emailjs.send("gmail123","temp1",{name: "shreemoy", notes: "Check this out!"});
+
+                    result1=2;
+                  }
+
+                  if(result=="0" && result2==1)
+                    {
+                      document.getElementById("myBtn").addEventListener("click", removeall);
+                      
+
+
+
+                        
+                        result2=2;
+                  }
+
+               setTimeout(readdata,3000);
+
+              
+            }
+             readdata();
+
+             function removeall()
+                        {
+                
+                            digitalWrite1(3,LOW);
+                             digitalWrite(0,LOW);
+                         }
+
+              
+              
+
+
+
+            function digitalRead(pin,element_id) {
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+
+        //document.getElementById(element_id).innerHTML = xmlhttp.responseText;
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            
+            //document.getElementById("javascript_response").innerHTML = "Javascript Response : "+xmlhttp.responseText;
+             var obj = JSON.parse(xmlhttp.responseText);
+             result=obj.value;
+             
+             
+             if(result=="0")
+             {
+
+                
+
+              digitalWrite1(3,HIGH);
+
+                
+              digitalWrite(0,HIGH);
+              setTimeout(digitalWrite(0,LOW),1000);
+
+              
+             
+            
+            
+
+              }
+             else
+             {
+              digitalWrite(0,LOW);
+
+             }
+
+             
+            if(obj.success=="1"){
+              
+              
+                    document.getElementById(element_id).innerHTML = "Pin Val = "+obj.value;
+                    
+                    
+
+                    
+                    
+
+            }
+            else{
+                    document.getElementById(element_id).innerHTML = "Error = "+xmlhttp.responseText;
+                    
+                    
+
+            }
+            
+        }
+    };
+    xmlhttp.open("GET","http://cloud.boltiot.com/remote/"+api_key+"/digitalRead?pin="+pin+"&deviceName="+d_name,true);
+    xmlhttp.send();
+}
+
+
+function digitalWrite(pin,val){
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200 && debug == 1) {
+            //document.getElementById("javascript_response").innerHTML = "Javascript Response : "+xmlhttp.responseText;
+            
+            var obj = JSON.parse(xmlhttp.responseText);
+            if(obj.success=="1"){
+                    
+            }
+        }
+    };  
+    xmlhttp.open("GET","http://cloud.boltiot.com/remote/"+api_key+"/digitalWrite?pin="+pin+"&state="+val+"&deviceName="+d_name,true);
+    xmlhttp.send();    
+}
+
+                
+function digitalWrite1(pin,val){
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200 && debug == 1) {
+            //document.getElementById("javascript_response").innerHTML = "Javascript Response : "+xmlhttp.responseText;
+           
+            var obj = JSON.parse(xmlhttp.responseText);
+            if(obj.success=="1"){
+                    
+            }
+        }
+    };  
+    xmlhttp.open("GET","http://cloud.boltiot.com/remote/"+api_key+"/digitalWrite?pin="+pin+"&state="+val+"&deviceName="+d_name,true);
+    xmlhttp.send();    
+}
+               
+            
+                
+                
+                
+
+    </script>
+    
+
+
+</body>
+</html>

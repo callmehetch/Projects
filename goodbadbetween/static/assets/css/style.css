@@ -1,0 +1,2053 @@
+/*
+*
+* ------------------------------------------------------------------
+*
+* Project: Appan - HTML5 App Landing Page Template
+* Version: 1.0
+* Created : 06/10/2017
+* Template URI: http://unixtheme.com/tf/appan
+* Author Name: Aminul Haque Chowdhury
+* Author URI: http://aminul.unixtheme.com/
+* Description: This is Landing Page Responsive HTML5 App Template
+*
+* -------------------------------------------------------------------
+*
+*/
+
+
+/*==========================================
+*   [Table of contents]
+* ==========================================
+*
+*   01. Theme Reset CSS
+*       1.1 DV Theme Reset CSS
+*   02. Navbar CSS
+*       2.1 DV Navbar CSS
+*   03. Header CSS
+*       3.1 DV Header CSS
+*   04. Services CSS
+*       4.1 DV Services CSS
+*   05. About CSS
+*       5.1 DV About CSS
+*   06. Features CSS
+*       6.1 DV Features CSS
+*   07. Action Features CSS
+*       7.1 DV Action Features CSS
+*   08. Video & Rating CSS
+*       8.1 DV Video & Rating CSS
+*   09. Screenshot CSS
+*       9.1 DV Screenshot CSS
+*   10. Pricing CSS
+*       10.1 DV Pricing CSS
+*   11. Team CSS
+*       11.1 DV Team CSS
+*   12. Download App CSS
+*       12.1 DV Download App CSS
+*   13. Subscribe CSS
+*       13.1 DV Subscribe CSS
+*   14. Contact Area CSS
+*       14.1 DV Contact Area CSS
+*   15. Footer CSS
+*       15.1 DV Footer CSS
+*   16. Color bg
+*   17. Preloader CSS
+*
+* ==========================================*/
+
+
+/*==========================================
+    Theme Fonts + Include All Css File
+============================================
+*/
+
+/* Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Roboto:400,500,700,900');
+
+/* CSS Import */
+@import url('bootstrap.min.css');
+@import url('animate.min.css');
+@import url('font-awesome.min.css');
+@import url('magnific-popup.css');
+@import url('owl.carousel.min.css');
+@import url('owl.theme.default.min.css');
+@import url('swiper.min.css');
+
+
+/*
+==========================================
+    01. Theme Reset Css
+==========================================
+*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #666;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.sp {
+    padding: 120px 0;
+}
+
+.spt {
+    padding: 120px 0 0;
+}
+
+.mt-70 {
+    margin-top: 80px;
+}
+
+.section-title {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #444444;
+    line-height: 56px;
+    margin-bottom: 20px;
+}
+
+.section-title.white-text h2,
+.white-text p,
+.white-text h2,
+.white-text h3,
+.white-text h4,
+.white-text a {
+    color: #fff;
+}
+
+
+
+hr.devider {
+    width: 100px;
+    margin-bottom: 20px;
+    background: #08bed3;
+    height: 2px;
+    border: 0;
+    position: relative;
+    overflow: visible !important;
+    margin-top: 0;
+    display: inline-block;
+}
+
+hr.devider:after {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 34px;
+    width: 34px;
+    height: 14px;
+    background: #fff;
+    border: 2px solid #08bed3;
+}
+
+.white-text hr.devider,
+.white-text hr.devider:after {
+    background: #fff;
+}
+
+.boxed-btn {
+    padding: 14px 40px;
+    color: #fff;
+  //background-color: #08bed3;
+    background: linear-gradient(125deg, #0b81a3, #12182c);
+  //background-image: -moz-linear-gradient( -67deg, rgb(104, 227, 255) 0%, rgba(87, 239, 190, 0.90196) 100%);
+  //background-image: -webkit-linear-gradient( -67deg, rgb(104, 227, 255) 0%, rgba(87, 239, 190, 0.90196) 100%);
+  //background-image: -ms-linear-gradient( -67deg, rgb(104, 227, 255) 0%, rgba(87, 239, 190, 0.90196) 100%);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 20px;
+    letter-spacing: 0.4px;
+    transition: .3s;
+}
+
+.boxed-btn i{
+	margin-left:5px;
+}
+
+.boxed-btn:hover {
+    color: #fff;
+    box-shadow: 0 10px 15px 0px rgba(0, 0, 0, 0.05);
+    transform: translateY(1px);
+    letter-spacing: 1px;
+}
+
+.owl-item {
+    float: left;
+}
+
+.owl-stage-outer {
+    overflow: hidden;
+}
+
+.owl-nav {
+    display: none;
+}
+
+/*
+==========================================
+    01.1 DV Theme Reset Css
+==========================================
+*/
+
+.dark-version .section-title h2 {
+    color: #3897f1;
+}
+
+
+.dark-version .boxed-btn {
+    background: #3897f1;
+}
+
+.dark-version .section-title.white-text h2 {
+    color: #fff;
+}
+
+
+.dark-version hr.devider,
+.dark-version hr.devider:after {
+    background: #3897f1;
+    border-color: #3897f1
+}
+
+.dark-version hr.devider:after {
+    background: #fff;
+    border-color: #3897f1    
+}
+
+
+.dark-version .white-text hr.devider,
+.dark-version .white-text hr.devider:after {
+    background: #fff;
+    border-color: #fff
+}
+
+/*
+==========================================
+    02. Navbar CSS
+==========================================
+*/
+
+.navbar {
+          padding : 25px 0 ;
+    margin-bottom: 0;
+    background: #fff;
+    border-bottom: 0;}
+
+.navbar-brand {
+    padding: 0;
+    margin-top: 4%;
+    height: 0;
+}
+.navbar-nav>li>a:focus,
+.navbar-nav>li>a {
+    padding: 0 15px;
+    color: #666;
+}
+
+.navbar-nav>li>a:hover {
+    color: #08bed3 !important;
+}
+
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a {
+    background: none;
+    color: #08bed3;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+    background: none;
+    color: #08bed3;
+}
+
+
+
+
+/*
+==========================================
+    2.1 DV Navbar CSS
+==========================================
+*/
+
+.dark-version.navbar {
+    background: #272d3a;
+}
+
+.dark-version .navbar-nav>li>a:focus,
+.dark-version .navbar-nav>li>a {
+    color: #fff;
+}
+
+.dark-version .navbar-nav>li>a:hover {
+    color: #3897f1 !important;
+}
+
+.dark-version.navbar-default .navbar-nav>.active>a:focus,
+.dark-version.navbar-default .navbar-nav>.active>a {
+    color: #3897f1;
+}
+
+.dark-version.navbar-default .navbar-nav>.active>a:hover {
+    color: #3897f1;
+}
+
+/*
+==========================================
+    03. Header CSS
+==========================================
+*/
+
+header {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+/*.header-overlay {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #11B3B8;
+  //background-image: -moz-linear-gradient( 90deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+  //background-image: -webkit-linear-gradient( 90deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+  //background-image: -ms-linear-gradient( 90deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+    opacity: 0.93;
+    z-index: -1;
+}*/
+
+/*header:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 200px solid white;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-right: 200px solid transparent;
+    border-left: 0px solid transparent;
+    border-bottom: 200px solid white;
+    z-index: -1;
+}*/
+
+
+
+.header-content h1 {
+    font-size: 44px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.header-content p {
+    width: 50%;
+    margin: 0 auto 40px;
+    color: #fff;
+}
+
+.header-content .boxed-btn {
+    margin-bottom: 10px;
+}
+
+.header-app-slider {
+    padding-top: 100px;
+}
+
+
+.swiper-container.one {
+    padding: 120px 40px;
+    width: 55%;
+    z-index: 999;
+    margin-bottom: -120px;
+    transform: translate(0, 100px);
+}
+
+.swiper-container.one .swiper-slide {
+    padding: 0 43px;
+    margin: 0 -5px !important;
+    width: 390px;
+    height: auto;
+}
+
+/*.swiper-slide img {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); 
+}*/
+
+
+
+/*
+==========================================
+    3.1 DV Header CSS
+==========================================
+*/
+.dark-version .header-overlay {
+    background: #272d3a;
+}
+
+.dark-version .header-app-slider {
+}
+
+
+/*
+==========================================
+    04. Services CSS
+==========================================
+*/
+
+.services-item {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+    padding: 36px 16px;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    transition: all 0.3s ease 0s;
+    border-radius: 10px;
+    border-right: 2px solid #08bed3;
+    border-bottom: 2px solid #08bed3;
+}
+
+.services-item:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .1);
+}
+
+.services-item img {
+    margin-bottom: 20px;
+}
+
+.services-item h4 {
+    margin-bottom: 20px;
+}
+
+.services-item hr {
+    width: 40px;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+
+/*
+==========================================
+    4.1. DV Services CSS
+==========================================
+*/
+
+.dark-version .services-item {
+    background: #272d3a;
+    border: 0;
+}
+
+.dark-version .services-item:hover {
+    background: #222732;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .3);
+}
+
+
+.dark-version .services-item hr {
+    background: #3897f1;
+}
+.dark-version .services-item h4,
+.dark-version .services-item p {
+    color: #fff;
+}
+
+
+
+/*
+==========================================
+    05. About CSS
+==========================================
+*/
+
+#about-app {
+    position: relative;
+    z-index: 1;
+}
+
+#about-app::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    background-color: #08bed3;
+  //background-image: -moz-linear-gradient( -34deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+  //background-image: -webkit-linear-gradient( -34deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+  //background-image: -ms-linear-gradient( -34deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+    z-index: -1;
+}
+
+.aboutapp-content h3,
+.aboutapp-content p {
+    margin-bottom: 46px;
+}
+
+
+
+/*
+==========================================
+    5.1 DV About CSS
+==========================================
+*/
+
+.dark-version#about-app::after  {
+    background: #272d3a;
+}
+
+
+/*
+==========================================
+    06. Features CSS
+==========================================
+*/
+
+.app-features-content {
+    position: relative;
+}
+
+.features-mockup {
+    position: absolute;
+    top: -30px;
+    left: 30%;
+    margin-left: -20px;
+    transform: scale(.9);
+}
+
+.features-item img,
+.features-item h3 {
+    margin-bottom: 20px;
+    transition: .3s all;
+}
+
+.features-item:hover h3 {
+    color: #08bed3;
+}
+
+.features-item p {
+    width: 84%;
+    margin: 0 auto;
+}
+
+
+
+/*
+==========================================
+    06.1 DV Features CSS
+==========================================
+*/
+
+.dark-version .features-item:hover h3{
+    color: #3897f1;
+}
+
+
+
+/*
+==========================================
+    07. Action Features CSS
+==========================================
+*/
+
+.action-features-content h3 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.action-features-content p {
+    margin-bottom: 40px;
+}
+
+.action-features-content li {
+    color: #777;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.action-features-content li i {
+    margin-right: 20px;
+    color: #08bed3;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.action-features-img {
+    margin-top: 20px;
+}
+
+
+/*
+==========================================
+    7.1 DV Action Features CSS
+==========================================
+*/
+
+.dark-version .action-features-content li i {
+    color: #3897f1;
+}
+
+
+/*
+==========================================
+    08. Video & Rating CSS
+==========================================
+*/
+
+.video {
+    position: relative;
+    z-index: 1;
+    padding: 125px 0px;
+}
+
+.video::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #08bed3;
+  //background-image: -moz-linear-gradient( -34deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+  //background-image: -webkit-linear-gradient( -34deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+  //background-image: -ms-linear-gradient( -34deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+    opacity: .8;
+}
+
+
+.rating {
+    background: #fbfbfb;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.11);
+    padding: 80px 0 50px;
+}
+
+.raitng-item img {
+    margin-bottom: 20px;
+}
+
+.raitng-item h3 {
+    margin-bottom: 20px;
+}
+
+.raitng-item .mb-0 {
+    margin-bottom: 0;
+}
+
+
+/*
+==========================================
+    8.1 DV Video & Rating CSS
+==========================================
+*/
+
+.dark-version .video::after {
+    background: #272d3a;
+}
+
+.dark-version .rating {
+    background: #272d3a;
+}
+
+.dark-version .raitng-item h3 {
+    color: #fff;
+}
+
+
+/*
+==========================================
+    09. Screenshot CSS
+==========================================
+*/
+
+.single-app-screenshot {
+    position: relative;
+}
+
+.screenshot-overlay {
+    top: 0;
+    left: 0;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #000;
+    background-color: #08bed3;
+  //background-image: -moz-linear-gradient( 90deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+  //background-image: -webkit-linear-gradient( 90deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+  //background-image: -ms-linear-gradient( 90deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+    padding-top: 70%;
+    transition: all 0.3s ease 0s;
+    transform: scale(.96);
+    opacity: 0;
+}
+
+.single-app-screenshot:hover .screenshot-overlay {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.screenshot-overlay i {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.screenshot-overlay a {
+    color: #fff;
+}
+
+.app-screenshot-carousel .owl-dots {
+    width: 200px;
+    margin: 80px auto 0;
+    text-align: center;
+}
+
+.app-screenshot-carousel .owl-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #272d3a;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.app-screenshot-carousel .owl-dot.active {
+    background: #08bed3;
+    width: 14px;
+    height: 14px;
+}
+
+
+/*
+==========================================
+    9.1 DV Screenshot CSS
+==========================================
+*/
+
+.dark-version .screenshot-overlay,
+.dark-version .app-screenshot-carousel .owl-dot.active {
+    background: #3897f1;
+}
+
+
+/*
+==========================================
+    10. Pricing CSS
+==========================================
+*/
+
+.pricing-table h3 {
+    padding: 15px 0;
+    background: #f9f9f9;
+    border-radius: 5px;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.2);
+    color: #777777;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.pricing-price {
+    padding: 10px 0;
+    background: #f9f9f9;
+    border-radius: 0 0 5px 5px;
+    transition: 0.3s;
+}
+
+.pricing-price h4 span {
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.pricing-price h4 {
+    padding: 35px 0;
+}
+
+.pricing-price h4 small {
+    font-size: 16px;
+}
+
+.pricing-price h4 sup {
+    font-size: 16px;
+    top: -1.5em;
+}
+
+.pricing-price a {
+    color: #777;
+}
+
+.pricing-list {
+    background-color: #08bed3;
+  //background-image: -moz-linear-gradient( -45deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+  //background-image: -webkit-linear-gradient( -45deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+  //background-image: -ms-linear-gradient( -45deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+    border-radius: 0 0 10px 10px;
+    padding: 40px 0 30px;
+    color: #fff;
+    transition: 1s;
+    z-index: 1;
+}
+
+.pricing-list li {
+    font-size: 16px;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.boxed-btn.confirm {
+    margin-top: -20px;
+    background: #f9f9f9;
+    color: #777;
+    text-transform: uppercase;
+}
+
+
+.boxed-btn.confirm {
+    background: white;
+  //background-color: #08bed3;
+  //background-image: -moz-linear-gradient( -67deg, rgb(104, 227, 255) 0%, rgba(87, 239, 190, 0.90196) 100%);
+  //background-image: -webkit-linear-gradient( -67deg, rgb(104, 227, 255) 0%, rgba(87, 239, 190, 0.90196) 100%);
+  //background-image: -ms-linear-gradient( -67deg, rgb(104, 227, 255) 0%, rgba(87, 239, 190, 0.90196) 100%);
+    color: #fff;
+}
+
+
+
+/*
+==========================================
+    10.1 DV Pricing CSS
+==========================================
+*/
+
+.dark-version .pricing-table h3 {
+    background: #272d3a;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+}
+.dark-version .pricing-price {
+    background: #272d3a;
+}
+.dark-version .pricing-price h4,
+.dark-version .pricing-price h4 small,
+.dark-version .pricing-price a {
+    color: #fff;
+}
+
+.dark-version .pricing-list {
+    background: #3897f1;
+}
+
+.dark-version .boxed-btn.confirm {
+    background: white;
+}
+
+
+/*
+==========================================
+    11. Team CSS
+==========================================
+*/
+
+.single-member {
+    box-shadow: 0px 0px 6px 0px rgba(126, 126, 126, 0.4);
+    position: relative;
+}
+
+.team-overlay {
+    position: absolute;
+    top: 45px;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    background-color: #08bed3;
+  //background-image: -moz-linear-gradient( -34deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+  //background-image: -webkit-linear-gradient( -34deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+  //background-image: -ms-linear-gradient( -34deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+    padding: 50px 15px;
+    color: #fff;
+    transition: all .4s;
+    opacity: 0;
+}
+
+.team-overlay h3,
+.team-overlay p {
+    margin-bottom: 20px;
+}
+
+.team-overlay h4 {
+    color: #f5f5f5;
+    text-transform: uppercase;
+    font-family: 'Roboto'
+}
+
+.team-overlay hr {
+    width: 50px;
+    height: 1px;
+    background: #fff;
+}
+
+.team-social li {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+
+.single-member:hover .team-overlay {
+    top: 15px;
+    opacity: 1;
+}
+
+
+/*
+==========================================
+    11.1 DV Team CSS
+==========================================
+*/
+
+.dark-version .team-overlay {
+    background: rgba(39, 45, 58,.9);
+}
+
+
+/*
+==========================================
+    12. Download App CSS
+==========================================
+*/
+
+#download-app {
+    padding: 80px 0 0;
+    position: relative;
+    z-index: 1;
+}
+
+#download-app::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    background-color: #08bed3:
+  //background-image: -moz-linear-gradient( -34deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+  background-image: -webkit-linear-gradient( -34deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+  //background-image: -ms-linear-gradient( -34deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+    z-index: -1;
+}
+
+
+#download-app h2 {
+    margin-bottom: 30px;
+}
+
+#download-app p {
+    margin-bottom: 60px;
+}
+
+
+
+/*
+==========================================
+    12.1 DV Download App CSS
+==========================================
+*/
+.dark-version#download-app::after {
+    background: #272d3a;
+    opacity: .9;
+}
+
+
+/*
+==========================================
+    13. Subscribe CSS
+==========================================
+*/
+
+#subscribe .subscribe-wrapper {
+    background: #fbfbfb;
+    box-shadow: 0px -2px 6px 0px rgba(0, 0, 0, 0.11);
+    padding: 10px;
+}
+
+#subscribe .form-control {
+    border: 2px solid;
+    border-color: #08bed3;
+    border-radius: 25px;
+    background: #fff none repeat scroll 0 0;
+    color: #4c5462;
+    height: 50px;
+    padding: 0 80px 0 20px;
+}
+
+input.subscribe::placeholder {
+    color: #aaa;
+}
+
+.email-submit-btn {
+    font-size: 26px;
+    border: 0;
+    padding: 0 50px;
+    height: 50px;
+    border-radius: 100px;
+    position: absolute;
+    right: 0;
+    color: #fff;
+    top: 0;
+    background-color: #08bed3;
+  //background-image: -moz-linear-gradient( -45deg, rgb(104, 227, 255) 0%, rgba(87, 239, 190, 0.90196) 100%);
+  //background-image: -webkit-linear-gradient( -45deg, rgb(104, 227, 255) 0%, rgba(87, 239, 190, 0.90196) 100%);
+  //background-image: -ms-linear-gradient( -45deg, rgb(104, 227, 255) 0%, rgba(87, 239, 190, 0.90196) 100%);
+}
+
+
+/*
+==========================================
+    13.1 DV Subscribe CSS
+==========================================
+*/
+.dark-version#subscribe .subscribe-wrapper {
+    background: #272d3a;
+}
+
+.dark-version#subscribe h2 {
+    color: #fff;
+}
+
+.dark-version#subscribe .form-control {
+    border-color: #fff;
+    background: transparent;
+}
+
+.dark-version .email-submit-btn {
+    background: #fff;
+    color: #3897f1;
+}
+
+/*
+==========================================
+    14. Contact Area CSS
+==========================================
+*/
+
+#contact-area {
+    position: relative;
+}
+
+
+#map {
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+
+.contact-box {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+}
+
+.get-in-touch {
+    background-color: #08bed3;
+  //background-image: -moz-linear-gradient( -34deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+  //background-image: -webkit-linear-gradient( -34deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+  //background-image: -ms-linear-gradient( -34deg, rgb(104, 227, 255) 0%, rgb(87, 239, 190) 100%);
+    padding: 100px 100px 70px 40px;
+}
+
+.get-in-touch h2 {
+    padding-bottom: 40px;
+}
+
+.get-in-touch .form-control {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    -o-border-image: none;
+    border-color: #fff;
+    border-width: 0 0 1px;
+    box-shadow: none;
+    color: #2b323f;
+    height: auto;
+    padding: 10px 20px;
+    position: relative;
+    margin-bottom: 25px;
+    border-radius: 0;
+}
+
+.form-control::placeholder {
+    color: #fff;
+}
+
+.submit-btn {
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    margin-top: 10px;
+    transition: .3s all;
+}
+
+.submit-btn:hover {
+    background: #fff;
+    color: #08bed3;
+}
+
+.contact-details {
+    background: #fff;
+    padding: 100px 100px 60px 40px;
+}
+
+.contact-details h2 {
+    margin-bottom: 40px;
+}
+
+.address-info {
+    margin-top: 20px;
+}
+
+.phone-number i,
+.email-address i,
+.address i {
+    width: 30px;
+    height: 30px;
+    line-height: 26px;
+    border-radius: 50%;
+    border: 2px solid #08bed3;
+    color: #08bed3;
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.phone-number p,
+.email-address p,
+.address p {
+    display: inline-block;
+}
+
+.phone-number,
+.email-address,
+.address {
+    margin-bottom: 30px;
+}
+
+.contact-social li {
+    display: inline-block;
+}
+
+.contact-social a {
+    color: #777;
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 7px;
+    transition: .3s all;
+}
+
+.contact-social a:hover {
+    color: #08bed3;
+}
+
+.contact-social i {
+    margin-right: 8px;
+}
+
+.boxed-btn.live-chat {
+    position: absolute;
+    bottom: -40px;
+    right: -100px;
+    z-index: 555;
+    border-radius: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 25px 40px;
+}
+
+.boxed-btn.live-chat i {
+    position: absolute;
+}
+
+.boxed-btn.live-chat .two {
+    margin-top: 3px;
+}
+
+#contact-area .contact-m {
+    margin: 100px 0;
+}
+
+
+/*
+==========================================
+    14.1 DV Contact Area CSS
+==========================================
+*/
+
+.dark-version .get-in-touch {
+    background: #3897f1;
+}
+
+.dark-version .contact-social a:hover {
+    color: #3897f1;
+}
+
+.dark-version .phone-number i,
+.dark-version .email-address i,
+.dark-version .address i {
+    border-color: #3897f1;
+    color: #3897f1;
+}
+
+
+.dark-version .submit-btn:hover {
+    background: #fff;
+    color: #3897f1;
+}
+
+
+/*
+==========================================
+    15. Footer CSS
+==========================================
+*/
+
+footer {
+    padding: 30px 0;
+    background: #f5f5f5 color: #666;
+}
+
+footer a {
+    color: #08bed3;
+}
+
+
+/*
+==========================================
+    15. Footer CSS
+==========================================
+*/
+
+footer.dark-version a{
+    color: #3897f1;
+}
+
+
+
+/*
+==========================================
+    16. Color BG
+==========================================
+*/
+
+header.colorbg,
+#about-app.colorbg,
+.colorbg .video,
+#download-app.colorbg {
+    background: none;
+}
+
+.colorbg#download-app::after,
+.colorbg.video::after,
+.colorbg#about-app::after,
+.colorbg .header-overlay {
+    opacity: 1;
+}
+
+
+/*
+==========================================
+    16. Preloader CSS
+==========================================
+*/
+
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #394162;
+    z-index: 9999;
+}
+
+
+
+
+@-webkit-keyframes ball-top {
+  0% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  25% {
+    -webkit-transform: rotate(-13deg);
+    -moz-transform: rotate(-13deg);
+    -ms-transform: rotate(-13deg);
+    -o-transform: rotate(-13deg);
+    transform: rotate(-13deg);
+  }
+  75% {
+    -webkit-transform: rotate(193deg);
+    -moz-transform: rotate(193deg);
+    -ms-transform: rotate(193deg);
+    -o-transform: rotate(193deg);
+    transform: rotate(193deg);
+  }
+  100% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+}
+@-moz-keyframes ball-top {
+  0% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  25% {
+    -webkit-transform: rotate(-13deg);
+    -moz-transform: rotate(-13deg);
+    -ms-transform: rotate(-13deg);
+    -o-transform: rotate(-13deg);
+    transform: rotate(-13deg);
+  }
+  75% {
+    -webkit-transform: rotate(193deg);
+    -moz-transform: rotate(193deg);
+    -ms-transform: rotate(193deg);
+    -o-transform: rotate(193deg);
+    transform: rotate(193deg);
+  }
+  100% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+}
+@-o-keyframes ball-top {
+  0% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  25% {
+    -webkit-transform: rotate(-13deg);
+    -moz-transform: rotate(-13deg);
+    -ms-transform: rotate(-13deg);
+    -o-transform: rotate(-13deg);
+    transform: rotate(-13deg);
+  }
+  75% {
+    -webkit-transform: rotate(193deg);
+    -moz-transform: rotate(193deg);
+    -ms-transform: rotate(193deg);
+    -o-transform: rotate(193deg);
+    transform: rotate(193deg);
+  }
+  100% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+}
+@keyframes ball-top {
+  0% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  25% {
+    -webkit-transform: rotate(-13deg);
+    -moz-transform: rotate(-13deg);
+    -ms-transform: rotate(-13deg);
+    -o-transform: rotate(-13deg);
+    transform: rotate(-13deg);
+  }
+  75% {
+    -webkit-transform: rotate(193deg);
+    -moz-transform: rotate(193deg);
+    -ms-transform: rotate(193deg);
+    -o-transform: rotate(193deg);
+    transform: rotate(193deg);
+  }
+  100% {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+}
+@-webkit-keyframes ball-bot {
+  0% {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+  25% {
+    -webkit-transform: rotate(345deg);
+    -moz-transform: rotate(345deg);
+    -ms-transform: rotate(345deg);
+    -o-transform: rotate(345deg);
+    transform: rotate(345deg);
+  }
+  75% {
+    -webkit-transform: rotate(195deg);
+    -moz-transform: rotate(195deg);
+    -ms-transform: rotate(195deg);
+    -o-transform: rotate(195deg);
+    transform: rotate(195deg);
+  }
+  100% {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+}
+@-moz-keyframes ball-bot {
+  0% {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+  25% {
+    -webkit-transform: rotate(345deg);
+    -moz-transform: rotate(345deg);
+    -ms-transform: rotate(345deg);
+    -o-transform: rotate(345deg);
+    transform: rotate(345deg);
+  }
+  75% {
+    -webkit-transform: rotate(195deg);
+    -moz-transform: rotate(195deg);
+    -ms-transform: rotate(195deg);
+    -o-transform: rotate(195deg);
+    transform: rotate(195deg);
+  }
+  100% {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+}
+@-o-keyframes ball-bot {
+  0% {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+  25% {
+    -webkit-transform: rotate(345deg);
+    -moz-transform: rotate(345deg);
+    -ms-transform: rotate(345deg);
+    -o-transform: rotate(345deg);
+    transform: rotate(345deg);
+  }
+  75% {
+    -webkit-transform: rotate(195deg);
+    -moz-transform: rotate(195deg);
+    -ms-transform: rotate(195deg);
+    -o-transform: rotate(195deg);
+    transform: rotate(195deg);
+  }
+  100% {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+}
+@keyframes ball-bot {
+  0% {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+  25% {
+    -webkit-transform: rotate(345deg);
+    -moz-transform: rotate(345deg);
+    -ms-transform: rotate(345deg);
+    -o-transform: rotate(345deg);
+    transform: rotate(345deg);
+  }
+  75% {
+    -webkit-transform: rotate(195deg);
+    -moz-transform: rotate(195deg);
+    -ms-transform: rotate(195deg);
+    -o-transform: rotate(195deg);
+    transform: rotate(195deg);
+  }
+  100% {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+}
+@-webkit-keyframes circle-effect-left {
+  0% {
+    opacity: 0;
+  }
+  24.99% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+    border-color: rgba(255, 255, 255, 0.6);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  40% {
+    border-color: rgba(255, 255, 255, 0);
+  }
+  45% {
+    opacity: 0;
+    border-color: rgba(255, 255, 255, 0);
+    -webkit-transform: scale(3, 1);
+    -moz-transform: scale(3, 1);
+    -ms-transform: scale(3, 1);
+    -o-transform: scale(3, 1);
+    transform: scale(3, 1);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes circle-effect-left {
+  0% {
+    opacity: 0;
+  }
+  24.99% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+    border-color: rgba(255, 255, 255, 0.6);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  40% {
+    border-color: rgba(255, 255, 255, 0);
+  }
+  45% {
+    opacity: 0;
+    border-color: rgba(255, 255, 255, 0);
+    -webkit-transform: scale(3, 1);
+    -moz-transform: scale(3, 1);
+    -ms-transform: scale(3, 1);
+    -o-transform: scale(3, 1);
+    transform: scale(3, 1);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes circle-effect-left {
+  0% {
+    opacity: 0;
+  }
+  24.99% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+    border-color: rgba(255, 255, 255, 0.6);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  40% {
+    border-color: rgba(255, 255, 255, 0);
+  }
+  45% {
+    opacity: 0;
+    border-color: rgba(255, 255, 255, 0);
+    -webkit-transform: scale(3, 1);
+    -moz-transform: scale(3, 1);
+    -ms-transform: scale(3, 1);
+    -o-transform: scale(3, 1);
+    transform: scale(3, 1);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes circle-effect-left {
+  0% {
+    opacity: 0;
+  }
+  24.99% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+    border-color: rgba(255, 255, 255, 0.6);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  40% {
+    border-color: rgba(255, 255, 255, 0);
+  }
+  45% {
+    opacity: 0;
+    border-color: rgba(255, 255, 255, 0);
+    -webkit-transform: scale(3, 1);
+    -moz-transform: scale(3, 1);
+    -ms-transform: scale(3, 1);
+    -o-transform: scale(3, 1);
+    transform: scale(3, 1);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes circle-effect-right {
+  0% {
+    opacity: 0;
+  }
+  74.99% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+    border-color: rgba(255, 255, 255, 0.6);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  90% {
+    border-color: rgba(255, 255, 255, 0);
+  }
+  95% {
+    opacity: 0;
+    border-color: rgba(255, 255, 255, 0);
+    -webkit-transform: scale(3, 1);
+    -moz-transform: scale(3, 1);
+    -ms-transform: scale(3, 1);
+    -o-transform: scale(3, 1);
+    transform: scale(3, 1);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes circle-effect-right {
+  0% {
+    opacity: 0;
+  }
+  74.99% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+    border-color: rgba(255, 255, 255, 0.6);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  90% {
+    border-color: rgba(255, 255, 255, 0);
+  }
+  95% {
+    opacity: 0;
+    border-color: rgba(255, 255, 255, 0);
+    -webkit-transform: scale(3, 1);
+    -moz-transform: scale(3, 1);
+    -ms-transform: scale(3, 1);
+    -o-transform: scale(3, 1);
+    transform: scale(3, 1);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes circle-effect-right {
+  0% {
+    opacity: 0;
+  }
+  74.99% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+    border-color: rgba(255, 255, 255, 0.6);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  90% {
+    border-color: rgba(255, 255, 255, 0);
+  }
+  95% {
+    opacity: 0;
+    border-color: rgba(255, 255, 255, 0);
+    -webkit-transform: scale(3, 1);
+    -moz-transform: scale(3, 1);
+    -ms-transform: scale(3, 1);
+    -o-transform: scale(3, 1);
+    transform: scale(3, 1);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes circle-effect-right {
+  0% {
+    opacity: 0;
+  }
+  74.99% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+    border-color: rgba(255, 255, 255, 0.6);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  90% {
+    border-color: rgba(255, 255, 255, 0);
+  }
+  95% {
+    opacity: 0;
+    border-color: rgba(255, 255, 255, 0);
+    -webkit-transform: scale(3, 1);
+    -moz-transform: scale(3, 1);
+    -ms-transform: scale(3, 1);
+    -o-transform: scale(3, 1);
+    transform: scale(3, 1);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.wrap-preload {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  visibility: visible;
+  background: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.wrap-preload.circle-ball {
+  background: rgba(0, 0, 0, 0.8);
+}
+.wrap-preload.circle-ball .wrap-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  width: 128px;
+  height: 128px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.wrap-preload.circle-ball .wrap-content .wrap-circle-ball {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.wrap-preload.circle-ball .wrap-content .wrap-circle-ball .ball {
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  border-radius: 100%;
+  width: 16px;
+  height: 16px;
+}
+.wrap-preload.circle-ball .wrap-content .wrap-circle-ball .ball.ball-top {
+  z-index: 1;
+  background: #009D2F;
+  -webkit-transform-origin: 64px 50%;
+  -moz-transform-origin: 64px 50%;
+  -ms-transform-origin: 64px 50%;
+  -o-transform-origin: 64px 50%;
+  transform-origin: 64px 50%;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-animation: ball-top 3s linear 0s infinite;
+  -moz-animation: ball-top 3s linear 0s infinite;
+  -ms-animation: ball-top 3s linear 0s infinite;
+  -o-animation: ball-top 3s linear 0s infinite;
+  animation: ball-top 3s linear 0s infinite;
+}
+.wrap-preload.circle-ball .wrap-content .wrap-circle-ball .ball.ball-top:nth-of-type(2) {
+  background: #17B948;
+  width: 8px;
+  height: 8px;
+  -webkit-animation: ball-top 3s linear 0.6s infinite;
+  -moz-animation: ball-top 3s linear 0.6s infinite;
+  -ms-animation: ball-top 3s linear 0.6s infinite;
+  -o-animation: ball-top 3s linear 0.6s infinite;
+  animation: ball-top 3s linear 0.6s infinite;
+}
+.wrap-preload.circle-ball .wrap-content .wrap-circle-ball .ball.ball-bot {
+  opacity: 0.4;
+  background: #F7AB03;
+  -webkit-transform-origin: 64px 50%;
+  -moz-transform-origin: 64px 50%;
+  -ms-transform-origin: 64px 50%;
+  -o-transform-origin: 64px 50%;
+  transform-origin: 64px 50%;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-animation: ball-bot 3s linear 0s infinite;
+  -moz-animation: ball-bot 3s linear 0s infinite;
+  -ms-animation: ball-bot 3s linear 0s infinite;
+  -o-animation: ball-bot 3s linear 0s infinite;
+  animation: ball-bot 3s linear 0s infinite;
+}
+.wrap-preload.circle-ball .wrap-content .wrap-circle-ball .ball.ball-bot:nth-of-type(2) {
+  background: #FFC239;
+  width: 8px;
+  height: 8px;
+  -webkit-animation: ball-bot 3s linear 0.6s infinite;
+  -moz-animation: ball-bot 3s linear 0.6s infinite;
+  -ms-animation: ball-bot 3s linear 0.6s infinite;
+  -o-animation: ball-bot 3s linear 0.6s infinite;
+  animation: ball-bot 3s linear 0.6s infinite;
+}
+.wrap-preload.circle-ball .wrap-content .wrap-circle-ball .wrap-effect {
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  left: -8px;
+  right: -8px;
+}
+.wrap-preload.circle-ball .wrap-content .wrap-circle-ball .wrap-effect .circle-effect {
+  opacity: 0;
+  position: absolute;
+  border-radius: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  width: 32px;
+  height: 32px;
+}
+.wrap-preload.circle-ball .wrap-content .wrap-circle-ball .wrap-effect .circle-effect:nth-of-type(2):before {
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  width: 8px;
+  height: 8px;
+}
+.wrap-preload.circle-ball .wrap-content .wrap-circle-ball .wrap-effect .circle-effect:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  width: 16px;
+  height: 16px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.wrap-preload.circle-ball .wrap-content .wrap-circle-ball .wrap-effect .circle-effect.left {
+  left: 0;
+  -webkit-animation: circle-effect-left 3s linear 0s infinite;
+  -moz-animation: circle-effect-left 3s linear 0s infinite;
+  -ms-animation: circle-effect-left 3s linear 0s infinite;
+  -o-animation: circle-effect-left 3s linear 0s infinite;
+  animation: circle-effect-left 3s linear 0s infinite;
+}
+.wrap-preload.circle-ball .wrap-content .wrap-circle-ball .wrap-effect .circle-effect.left:nth-of-type(2) {
+  top: 8px;
+  left: 4px;
+  width: 16px;
+  height: 16px;
+  -webkit-animation: circle-effect-left 3s linear 0.6s infinite;
+  -moz-animation: circle-effect-left 3s linear 0.6s infinite;
+  -ms-animation: circle-effect-left 3s linear 0.6s infinite;
+  -o-animation: circle-effect-left 3s linear 0.6s infinite;
+  animation: circle-effect-left 3s linear 0.6s infinite;
+}
+.wrap-preload.circle-ball .wrap-content .wrap-circle-ball .wrap-effect .circle-effect.right {
+  right: 0;
+  -webkit-animation: circle-effect-right 3s linear 0s infinite;
+  -moz-animation: circle-effect-right 3s linear 0s infinite;
+  -ms-animation: circle-effect-right 3s linear 0s infinite;
+  -o-animation: circle-effect-right 3s linear 0s infinite;
+  animation: circle-effect-right 3s linear 0s infinite;
+}
+.wrap-preload.circle-ball .wrap-content .wrap-circle-ball .wrap-effect .circle-effect.right:nth-of-type(2) {
+  top: 8px;
+  right: 4px;
+  width: 16px;
+  height: 16px;
+  -webkit-animation: circle-effect-right 3s linear 0.6s infinite;
+  -moz-animation: circle-effect-right 3s linear 0.6s infinite;
+  -ms-animation: circle-effect-right 3s linear 0.6s infinite;
+  -o-animation: circle-effect-right 3s linear 0.6s infinite;
+  animation: circle-effect-right 3s linear 0.6s infinite;
+}
+.wrap-preload.hide-out {
+  z-index: -1;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(2);
+}
+.wrap-preload .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  display: none;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,2251 @@
+[ 2018-12-06 15:34:09 ] full archive url = https://goodbadbetween.com/
+[ 2018-12-06 15:34:09 ] archive url = https://goodbadbetween.com
+[ 2018-12-06 15:34:09 ] website url = goodbadbetween.com/
+[ 2018-12-06 15:34:09 ] no www url = goodbadbetween.com
+[ 2018-12-06 15:34:09 ] domain = goodbadbetween.com
+[ 2018-12-06 15:34:09 ] subdomain = www
+[ 2018-12-06 15:34:09 ] type( demo or live ) = live
+[ 2018-12-06 15:34:09 ] max_level = 5
+[ 2018-12-06 15:34:09 ] main folder = goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q
+[ 2018-12-06 15:34:09 ] email = 54321hemanth@gmail.com
+[ 2018-12-06 15:34:09 ] scaping_type = all
+[ 2018-12-06 15:34:09 ] file_path_index = 
+[ 2018-12-06 15:34:09 ] file_path_without_ext_index = 
+[ 2018-12-06 15:34:09 ] #####################################################################################################
+[ 2018-12-06 15:34:09 ] ###############https://goodbadbetween.com ( Scraping  of 1 / 1 )  - 0 error pages fixed###############
+[ 2018-12-06 15:34:09 ] ###############Local URL = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/index.html###############
+[ 2018-12-06 15:34:09 ] ###############Try number = 1###############
+[ 2018-12-06 15:34:09 ] #####################################################################################################
+[ 2018-12-06 15:34:09 ]  Main level =0
+[ 2018-12-06 15:34:09 ] ---------------------------------------
+[ 2018-12-06 15:34:09 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:09 ] ---------------------------------------
+[ 2018-12-06 15:34:09 ] TEST 1
+[ 2018-12-06 15:34:09 ] URL = https://goodbadbetween.com
+[ 2018-12-06 15:34:09 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:10 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0; InfoPath.3; MS-RTC LM 8; .NET4.0C; .NET4.0E)
+[ 2018-12-06 15:34:10 ] Original encoding = UTF-8
+[ 2018-12-06 15:34:10 ] Final encoding = UTF-8
+[ 2018-12-06 15:34:10 ] Language = N/A
+[ 2018-12-06 15:34:10 ] 
+[ 2018-12-06 15:34:10 ] 
+[ 2018-12-06 15:34:10 ] /**************************************************************/
+[ 2018-12-06 15:34:10 ] /*******		Extract css_from_import files		**********/
+[ 2018-12-06 15:34:10 ] /**************************************************************/
+[ 2018-12-06 15:34:10 ] /*******		End : Extract css_from_import files		**********/
+[ 2018-12-06 15:34:10 ] 
+[ 2018-12-06 15:34:10 ] 
+[ 2018-12-06 15:34:10 ] 
+[ 2018-12-06 15:34:10 ] /**************************************************************/
+[ 2018-12-06 15:34:10 ] /*******		Extract pdf files		**********/
+[ 2018-12-06 15:34:10 ] /**************************************************************/
+[ 2018-12-06 15:34:10 ] /*******		End : Extract pdf files		**********/
+[ 2018-12-06 15:34:10 ] 
+[ 2018-12-06 15:34:10 ] 
+[ 2018-12-06 15:34:10 ] 
+[ 2018-12-06 15:34:10 ] /**************************************************************/
+[ 2018-12-06 15:34:10 ] /*******		Extract css files		**********/
+[ 2018-12-06 15:34:10 ] /**************************************************************/
+[ 2018-12-06 15:34:10 ] file url = https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css
+[ 2018-12-06 15:34:10 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css
+[ 2018-12-06 15:34:10 ] file url 1 = https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css
+[ 2018-12-06 15:34:10 ] scrape_it = 1
+[ 2018-12-06 15:34:10 ] ---------------------------------------
+[ 2018-12-06 15:34:10 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:10 ] ---------------------------------------
+[ 2018-12-06 15:34:10 ] TEST 1
+[ 2018-12-06 15:34:10 ] URL = https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css
+[ 2018-12-06 15:34:10 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:10 ] useragent = Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:21.0.0) Gecko/20121011 Firefox/21.0.0
+[ 2018-12-06 15:34:10 ] 
+[ 2018-12-06 15:34:10 ] 
+[ 2018-12-06 15:34:10 ] /**************************************************************/
+[ 2018-12-06 15:34:10 ] /*******		Extract css_from_import files		**********/
+[ 2018-12-06 15:34:10 ] /**************************************************************/
+[ 2018-12-06 15:34:10 ] /*******		End : Extract css_from_import files		**********/
+[ 2018-12-06 15:34:10 ] 
+[ 2018-12-06 15:34:10 ] 
+[ 2018-12-06 15:34:10 ] 
+[ 2018-12-06 15:34:10 ] /**************************************************************/
+[ 2018-12-06 15:34:10 ] /*******		Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:10 ] /**************************************************************/
+[ 2018-12-06 15:34:10 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:10 ] 
+[ 2018-12-06 15:34:10 ] 
+[ 2018-12-06 15:34:10 ] 
+[ 2018-12-06 15:34:10 ] /**************************************************************/
+[ 2018-12-06 15:34:10 ] /*******		Extract background_images files		**********/
+[ 2018-12-06 15:34:10 ] /**************************************************************/
+[ 2018-12-06 15:34:10 ] /*******		End : Extract background_images files		**********/
+[ 2018-12-06 15:34:10 ] 
+[ 2018-12-06 15:34:10 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css --> File Created !!!
+[ 2018-12-06 15:34:10 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:10 ] file url = https://goodbadbetween.com/static/assets/css/animate.min.css
+[ 2018-12-06 15:34:10 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/animate.min.css
+[ 2018-12-06 15:34:10 ] file url 1 = https://goodbadbetween.com/static/assets/css/animate.min.css
+[ 2018-12-06 15:34:10 ] scrape_it = 1
+[ 2018-12-06 15:34:10 ] ---------------------------------------
+[ 2018-12-06 15:34:10 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:10 ] ---------------------------------------
+[ 2018-12-06 15:34:10 ] TEST 1
+[ 2018-12-06 15:34:10 ] URL = https://goodbadbetween.com/static/assets/css/animate.min.css
+[ 2018-12-06 15:34:10 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:11 ] useragent = Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:27.0) Gecko/20121011 Firefox/27.0Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0
+[ 2018-12-06 15:34:11 ] 
+[ 2018-12-06 15:34:11 ] 
+[ 2018-12-06 15:34:11 ] /**************************************************************/
+[ 2018-12-06 15:34:11 ] /*******		Extract css_from_import files		**********/
+[ 2018-12-06 15:34:11 ] /**************************************************************/
+[ 2018-12-06 15:34:11 ] /*******		End : Extract css_from_import files		**********/
+[ 2018-12-06 15:34:11 ] 
+[ 2018-12-06 15:34:11 ] 
+[ 2018-12-06 15:34:11 ] 
+[ 2018-12-06 15:34:11 ] /**************************************************************/
+[ 2018-12-06 15:34:11 ] /*******		Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:11 ] /**************************************************************/
+[ 2018-12-06 15:34:11 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:11 ] 
+[ 2018-12-06 15:34:11 ] 
+[ 2018-12-06 15:34:11 ] 
+[ 2018-12-06 15:34:11 ] /**************************************************************/
+[ 2018-12-06 15:34:11 ] /*******		Extract background_images files		**********/
+[ 2018-12-06 15:34:11 ] /**************************************************************/
+[ 2018-12-06 15:34:11 ] /*******		End : Extract background_images files		**********/
+[ 2018-12-06 15:34:11 ] 
+[ 2018-12-06 15:34:11 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/animate.min.css --> File Created !!!
+[ 2018-12-06 15:34:11 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:11 ] file url = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css
+[ 2018-12-06 15:34:11 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css
+[ 2018-12-06 15:34:11 ] file url 1 = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css
+[ 2018-12-06 15:34:11 ] scrape_it = 1
+[ 2018-12-06 15:34:11 ] ---------------------------------------
+[ 2018-12-06 15:34:11 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:11 ] ---------------------------------------
+[ 2018-12-06 15:34:11 ] TEST 1
+[ 2018-12-06 15:34:11 ] URL = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css
+[ 2018-12-06 15:34:11 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:11 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36
+[ 2018-12-06 15:34:11 ] 
+[ 2018-12-06 15:34:11 ] 
+[ 2018-12-06 15:34:11 ] /**************************************************************/
+[ 2018-12-06 15:34:11 ] /*******		Extract css_from_import files		**********/
+[ 2018-12-06 15:34:11 ] /**************************************************************/
+[ 2018-12-06 15:34:11 ] file url = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/before{content:
+[ 2018-12-06 15:34:11 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/before{content_.css
+[ 2018-12-06 15:34:11 ] file url 1 = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/before{content:
+[ 2018-12-06 15:34:11 ] scrape_it = 1
+[ 2018-12-06 15:34:11 ] ---------------------------------------
+[ 2018-12-06 15:34:11 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:11 ] ---------------------------------------
+[ 2018-12-06 15:34:11 ] TEST 1
+[ 2018-12-06 15:34:11 ] URL = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/before{content:
+[ 2018-12-06 15:34:11 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:12 ] useragent = Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; fr-fr) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2018-12-06 15:34:12 ] Code = 403
+[ 2018-12-06 15:34:12 ] HTML found = Yes
+[ 2018-12-06 15:34:12 ]     No sleep!
+[ 2018-12-06 15:34:12 ] ----
+[ 2018-12-06 15:34:12 ] TEST 2
+[ 2018-12-06 15:34:12 ] URL = http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/before{content:  --> Switch protocol ( Try 'http' )
+[ 2018-12-06 15:34:12 ] no proxy used ( Test nbr 2/5 )
+[ 2018-12-06 15:34:12 ] useragent = Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20130331 Firefox/21.0
+[ 2018-12-06 15:34:12 ] Code = 403
+[ 2018-12-06 15:34:12 ] HTML found = Yes
+[ 2018-12-06 15:34:12 ]     No sleep!
+[ 2018-12-06 15:34:12 ] ----
+[ 2018-12-06 15:34:12 ] TEST 3
+[ 2018-12-06 15:34:12 ] URL = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/before{content:
+[ 2018-12-06 15:34:12 ] no proxy used ( Test nbr 3/5 )
+[ 2018-12-06 15:34:12 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/4.0; GTB7.4; InfoPath.1; SV1; .NET CLR 2.8.52393; WOW64; en-US)
+[ 2018-12-06 15:34:12 ] proxy_ip = http://163.172.110.165:1313
+[ 2018-12-06 15:34:12 ] Code = 403
+[ 2018-12-06 15:34:12 ] HTML found = Yes
+[ 2018-12-06 15:34:12 ]     No sleep!
+[ 2018-12-06 15:34:12 ] ----
+[ 2018-12-06 15:34:12 ] TEST 4
+[ 2018-12-06 15:34:12 ] URL = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/before{content:
+[ 2018-12-06 15:34:12 ] proxy_ip = http://163.172.110.165:1313 ( Test nbr 4/5 )
+[ 2018-12-06 15:34:14 ] useragent = Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.2309.372 Safari/537.36
+[ 2018-12-06 15:34:14 ] proxy_ip = http://163.172.110.165:1314
+[ 2018-12-06 15:34:14 ] Code = 403
+[ 2018-12-06 15:34:14 ] HTML found = Yes
+[ 2018-12-06 15:34:14 ]     No sleep!
+[ 2018-12-06 15:34:14 ] ----
+[ 2018-12-06 15:34:14 ] TEST 5
+[ 2018-12-06 15:34:14 ] URL = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/before{content:
+[ 2018-12-06 15:34:14 ] proxy_ip = http://163.172.110.165:1314 ( Test nbr 5/5 )
+[ 2018-12-06 15:34:16 ] useragent = Mozilla/5.0 (X11; Linux i686; rv:15.0) Gecko/20100101 Firefox/15.0 Iceweasel/15.0
+[ 2018-12-06 15:34:16 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:16 ] /*******		End : Extract css_from_import files		**********/
+[ 2018-12-06 15:34:16 ] 
+[ 2018-12-06 15:34:16 ] 
+[ 2018-12-06 15:34:16 ] 
+[ 2018-12-06 15:34:16 ] /**************************************************************/
+[ 2018-12-06 15:34:16 ] /*******		Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:16 ] /**************************************************************/
+[ 2018-12-06 15:34:16 ] file url = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/../fonts/glyphicons-halflings-regular.eot
+[ 2018-12-06 15:34:16 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/../fonts/glyphicons-halflings-regular.eot
+[ 2018-12-06 15:34:16 ] file url 1 = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.eot
+[ 2018-12-06 15:34:16 ] scrape_it = 1
+[ 2018-12-06 15:34:16 ] ---------------------------------------
+[ 2018-12-06 15:34:16 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:16 ] ---------------------------------------
+[ 2018-12-06 15:34:16 ] TEST 1
+[ 2018-12-06 15:34:16 ] URL = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.eot
+[ 2018-12-06 15:34:16 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:16 ] useragent = Mozilla/5.0 (Windows NT 5.1; rv:21.0) Gecko/20130401 Firefox/21.0
+[ 2018-12-06 15:34:16 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/../fonts/glyphicons-halflings-regular.eot --> File Created !!!
+[ 2018-12-06 15:34:16 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:16 ] file url = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/../fonts/glyphicons-halflings-regular.eot?#iefix
+[ 2018-12-06 15:34:16 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/../fonts/glyphicons-halflings-regular.eot
+[ 2018-12-06 15:34:16 ] file url 1 = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.eot?#iefix
+[ 2018-12-06 15:34:16 ] scrape_it = 1
+[ 2018-12-06 15:34:16 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:16 ] file url = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/../fonts/glyphicons-halflings-regular.woff
+[ 2018-12-06 15:34:16 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/../fonts/glyphicons-halflings-regular.woff
+[ 2018-12-06 15:34:16 ] file url 1 = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.woff
+[ 2018-12-06 15:34:16 ] scrape_it = 1
+[ 2018-12-06 15:34:16 ] ---------------------------------------
+[ 2018-12-06 15:34:16 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:16 ] ---------------------------------------
+[ 2018-12-06 15:34:16 ] TEST 1
+[ 2018-12-06 15:34:16 ] URL = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.woff
+[ 2018-12-06 15:34:16 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:16 ] useragent = Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; ko-kr) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2018-12-06 15:34:16 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/../fonts/glyphicons-halflings-regular.woff --> File Created !!!
+[ 2018-12-06 15:34:16 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:16 ] file url = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/../fonts/glyphicons-halflings-regular.ttf
+[ 2018-12-06 15:34:16 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/../fonts/glyphicons-halflings-regular.ttf
+[ 2018-12-06 15:34:16 ] file url 1 = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.ttf
+[ 2018-12-06 15:34:16 ] scrape_it = 1
+[ 2018-12-06 15:34:16 ] ---------------------------------------
+[ 2018-12-06 15:34:16 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:16 ] ---------------------------------------
+[ 2018-12-06 15:34:16 ] TEST 1
+[ 2018-12-06 15:34:16 ] URL = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.ttf
+[ 2018-12-06 15:34:16 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:16 ] useragent = Mozilla/5.0 (Windows NT 5.1; rv:21.0) Gecko/20100101 Firefox/21.0
+[ 2018-12-06 15:34:16 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/../fonts/glyphicons-halflings-regular.ttf --> File Created !!!
+[ 2018-12-06 15:34:16 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:16 ] file url = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular
+[ 2018-12-06 15:34:16 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/../fonts/glyphicons-halflings-regular.svg
+[ 2018-12-06 15:34:16 ] file url 1 = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular
+[ 2018-12-06 15:34:16 ] scrape_it = 1
+[ 2018-12-06 15:34:16 ] ---------------------------------------
+[ 2018-12-06 15:34:16 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:16 ] ---------------------------------------
+[ 2018-12-06 15:34:16 ] TEST 1
+[ 2018-12-06 15:34:16 ] URL = https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular
+[ 2018-12-06 15:34:16 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:16 ] useragent = Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; de-de) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2018-12-06 15:34:16 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/../fonts/glyphicons-halflings-regular.svg --> File Created !!!
+[ 2018-12-06 15:34:16 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:16 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:16 ] 
+[ 2018-12-06 15:34:16 ] 
+[ 2018-12-06 15:34:16 ] 
+[ 2018-12-06 15:34:16 ] /**************************************************************/
+[ 2018-12-06 15:34:16 ] /*******		Extract background_images files		**********/
+[ 2018-12-06 15:34:16 ] /**************************************************************/
+[ 2018-12-06 15:34:16 ] /*******		End : Extract background_images files		**********/
+[ 2018-12-06 15:34:16 ] 
+[ 2018-12-06 15:34:16 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css --> File Created !!!
+[ 2018-12-06 15:34:16 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:16 ] file url = https://goodbadbetween.com/static/assets/css/style.css
+[ 2018-12-06 15:34:16 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/style.css
+[ 2018-12-06 15:34:16 ] file url 1 = https://goodbadbetween.com/static/assets/css/style.css
+[ 2018-12-06 15:34:16 ] scrape_it = 1
+[ 2018-12-06 15:34:16 ] ---------------------------------------
+[ 2018-12-06 15:34:16 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:16 ] ---------------------------------------
+[ 2018-12-06 15:34:16 ] TEST 1
+[ 2018-12-06 15:34:16 ] URL = https://goodbadbetween.com/static/assets/css/style.css
+[ 2018-12-06 15:34:16 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:17 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; yie8)
+[ 2018-12-06 15:34:17 ] 
+[ 2018-12-06 15:34:17 ] 
+[ 2018-12-06 15:34:17 ] /**************************************************************/
+[ 2018-12-06 15:34:17 ] /*******		Extract css_from_import files		**********/
+[ 2018-12-06 15:34:17 ] /**************************************************************/
+[ 2018-12-06 15:34:17 ] file url = https://goodbadbetween.com/static/assets/css/bootstrap.min.css
+[ 2018-12-06 15:34:17 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/bootstrap.min.css
+[ 2018-12-06 15:34:17 ] file url 1 = https://goodbadbetween.com/static/assets/css/bootstrap.min.css
+[ 2018-12-06 15:34:17 ] scrape_it = 1
+[ 2018-12-06 15:34:17 ] ---------------------------------------
+[ 2018-12-06 15:34:17 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:17 ] ---------------------------------------
+[ 2018-12-06 15:34:17 ] TEST 1
+[ 2018-12-06 15:34:17 ] URL = https://goodbadbetween.com/static/assets/css/bootstrap.min.css
+[ 2018-12-06 15:34:17 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:19 ] useragent = Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[ 2018-12-06 15:34:19 ] 
+[ 2018-12-06 15:34:19 ] 
+[ 2018-12-06 15:34:19 ] /**************************************************************/
+[ 2018-12-06 15:34:19 ] /*******		Extract css_from_import files		**********/
+[ 2018-12-06 15:34:19 ] /**************************************************************/
+[ 2018-12-06 15:34:19 ] file url = https://goodbadbetween.com/static/assets/css/before{content:
+[ 2018-12-06 15:34:19 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/before{content_.css
+[ 2018-12-06 15:34:19 ] file url 1 = https://goodbadbetween.com/static/assets/css/before{content:
+[ 2018-12-06 15:34:19 ] scrape_it = 1
+[ 2018-12-06 15:34:19 ] ---------------------------------------
+[ 2018-12-06 15:34:19 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:19 ] ---------------------------------------
+[ 2018-12-06 15:34:19 ] TEST 1
+[ 2018-12-06 15:34:19 ] URL = https://goodbadbetween.com/static/assets/css/before{content:
+[ 2018-12-06 15:34:19 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:20 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0; InfoPath.3; MS-RTC LM 8; .NET4.0C; .NET4.0E)
+[ 2018-12-06 15:34:20 ] Code = 404
+[ 2018-12-06 15:34:20 ] HTML found = Yes
+[ 2018-12-06 15:34:20 ]     No sleep!
+[ 2018-12-06 15:34:20 ] ----
+[ 2018-12-06 15:34:20 ] TEST 2
+[ 2018-12-06 15:34:20 ] URL = http://goodbadbetween.com/static/assets/css/before{content:  --> Switch protocol ( Try 'http' )
+[ 2018-12-06 15:34:20 ] no proxy used ( Test nbr 2/5 )
+[ 2018-12-06 15:34:21 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/4.0; GTB7.4; InfoPath.3; SV1; .NET CLR 3.1.76908; WOW64; en-US)
+[ 2018-12-06 15:34:21 ] Code = 404
+[ 2018-12-06 15:34:21 ] HTML found = Yes
+[ 2018-12-06 15:34:21 ]     No sleep!
+[ 2018-12-06 15:34:21 ] ----
+[ 2018-12-06 15:34:21 ] TEST 3
+[ 2018-12-06 15:34:21 ] URL = https://goodbadbetween.com/static/assets/css/before{content:
+[ 2018-12-06 15:34:21 ] no proxy used ( Test nbr 3/5 )
+[ 2018-12-06 15:34:21 ] useragent = Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[ 2018-12-06 15:34:21 ] Code = 404
+[ 2018-12-06 15:34:21 ] HTML found = Yes
+[ 2018-12-06 15:34:21 ]     No sleep!
+[ 2018-12-06 15:34:21 ] ----
+[ 2018-12-06 15:34:21 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:21 ] /*******		End : Extract css_from_import files		**********/
+[ 2018-12-06 15:34:21 ] 
+[ 2018-12-06 15:34:21 ] 
+[ 2018-12-06 15:34:21 ] 
+[ 2018-12-06 15:34:21 ] /**************************************************************/
+[ 2018-12-06 15:34:21 ] /*******		Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:21 ] /**************************************************************/
+[ 2018-12-06 15:34:21 ] file url = https://goodbadbetween.com/static/assets/css/../fonts/glyphicons-halflings-regular.eot
+[ 2018-12-06 15:34:21 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/../fonts/glyphicons-halflings-regular.eot
+[ 2018-12-06 15:34:21 ] file url 1 = https://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.eot
+[ 2018-12-06 15:34:21 ] scrape_it = 1
+[ 2018-12-06 15:34:21 ] ---------------------------------------
+[ 2018-12-06 15:34:21 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:21 ] ---------------------------------------
+[ 2018-12-06 15:34:21 ] TEST 1
+[ 2018-12-06 15:34:21 ] URL = https://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.eot
+[ 2018-12-06 15:34:21 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:22 ] useragent = Mozilla/5.0 (compatible; MSIE 10.6; Windows NT 6.1; Trident/5.0; InfoPath.2; SLCC1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727) 3gpp-gba UNTRUSTED/1.0
+[ 2018-12-06 15:34:22 ] Code = 404
+[ 2018-12-06 15:34:22 ] HTML found = Yes
+[ 2018-12-06 15:34:22 ]     No sleep!
+[ 2018-12-06 15:34:22 ] ----
+[ 2018-12-06 15:34:22 ] TEST 2
+[ 2018-12-06 15:34:22 ] URL = http://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.eot  --> Switch protocol ( Try 'http' )
+[ 2018-12-06 15:34:22 ] no proxy used ( Test nbr 2/5 )
+[ 2018-12-06 15:34:22 ] useragent = Mozilla/5.0 (compatible, MSIE 11, Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[ 2018-12-06 15:34:22 ] Code = 403
+[ 2018-12-06 15:34:22 ] HTML found = Yes
+[ 2018-12-06 15:34:22 ]     No sleep!
+[ 2018-12-06 15:34:22 ] ----
+[ 2018-12-06 15:34:22 ] TEST 3
+[ 2018-12-06 15:34:22 ] URL = https://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.eot
+[ 2018-12-06 15:34:22 ] no proxy used ( Test nbr 3/5 )
+[ 2018-12-06 15:34:22 ] useragent = Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))
+[ 2018-12-06 15:34:22 ] Code = 404
+[ 2018-12-06 15:34:22 ] HTML found = Yes
+[ 2018-12-06 15:34:22 ]     No sleep!
+[ 2018-12-06 15:34:22 ] ----
+[ 2018-12-06 15:34:22 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:22 ] file url = https://goodbadbetween.com/static/assets/css/../fonts/glyphicons-halflings-regular.eot?#iefix
+[ 2018-12-06 15:34:22 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/../fonts/glyphicons-halflings-regular.eot
+[ 2018-12-06 15:34:22 ] file url 1 = https://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.eot?#iefix
+[ 2018-12-06 15:34:22 ] scrape_it = 1
+[ 2018-12-06 15:34:22 ] ---------------------------------------
+[ 2018-12-06 15:34:22 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:22 ] ---------------------------------------
+[ 2018-12-06 15:34:22 ] TEST 1
+[ 2018-12-06 15:34:22 ] URL = https://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.eot?#iefix
+[ 2018-12-06 15:34:22 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:22 ] useragent = Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:23.0) Gecko/20131011 Firefox/23.0
+[ 2018-12-06 15:34:22 ] Code = 404
+[ 2018-12-06 15:34:22 ] HTML found = Yes
+[ 2018-12-06 15:34:22 ]     No sleep!
+[ 2018-12-06 15:34:22 ] ----
+[ 2018-12-06 15:34:22 ] TEST 2
+[ 2018-12-06 15:34:22 ] URL = http://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.eot?#iefix  --> Switch protocol ( Try 'http' )
+[ 2018-12-06 15:34:22 ] no proxy used ( Test nbr 2/5 )
+[ 2018-12-06 15:34:22 ] useragent = Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2018-12-06 15:34:22 ] Code = 404
+[ 2018-12-06 15:34:22 ] HTML found = Yes
+[ 2018-12-06 15:34:22 ]     No sleep!
+[ 2018-12-06 15:34:22 ] ----
+[ 2018-12-06 15:34:22 ] TEST 3
+[ 2018-12-06 15:34:22 ] URL = https://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.eot?#iefix
+[ 2018-12-06 15:34:22 ] no proxy used ( Test nbr 3/5 )
+[ 2018-12-06 15:34:22 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:25.0) Gecko/20100101 Firefox/25.0
+[ 2018-12-06 15:34:22 ] Code = 404
+[ 2018-12-06 15:34:22 ] HTML found = Yes
+[ 2018-12-06 15:34:22 ]     No sleep!
+[ 2018-12-06 15:34:22 ] ----
+[ 2018-12-06 15:34:22 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:22 ] file url = https://goodbadbetween.com/static/assets/css/../fonts/glyphicons-halflings-regular.woff2
+[ 2018-12-06 15:34:22 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/../fonts/glyphicons-halflings-regular.woff2
+[ 2018-12-06 15:34:22 ] file url 1 = https://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.woff2
+[ 2018-12-06 15:34:22 ] scrape_it = 1
+[ 2018-12-06 15:34:22 ] ---------------------------------------
+[ 2018-12-06 15:34:22 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:22 ] ---------------------------------------
+[ 2018-12-06 15:34:22 ] TEST 1
+[ 2018-12-06 15:34:22 ] URL = https://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.woff2
+[ 2018-12-06 15:34:22 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:23 ] useragent = Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.2117.157 Safari/537.36
+[ 2018-12-06 15:34:23 ] Code = 404
+[ 2018-12-06 15:34:23 ] HTML found = Yes
+[ 2018-12-06 15:34:23 ]     No sleep!
+[ 2018-12-06 15:34:23 ] ----
+[ 2018-12-06 15:34:23 ] TEST 2
+[ 2018-12-06 15:34:23 ] URL = http://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.woff2  --> Switch protocol ( Try 'http' )
+[ 2018-12-06 15:34:23 ] no proxy used ( Test nbr 2/5 )
+[ 2018-12-06 15:34:23 ] useragent = Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; zh-cn) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2018-12-06 15:34:23 ] Code = 404
+[ 2018-12-06 15:34:23 ] HTML found = Yes
+[ 2018-12-06 15:34:23 ]     No sleep!
+[ 2018-12-06 15:34:23 ] ----
+[ 2018-12-06 15:34:23 ] TEST 3
+[ 2018-12-06 15:34:23 ] URL = https://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.woff2
+[ 2018-12-06 15:34:23 ] no proxy used ( Test nbr 3/5 )
+[ 2018-12-06 15:34:23 ] useragent = Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; de-at) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1
+[ 2018-12-06 15:34:23 ] Code = 404
+[ 2018-12-06 15:34:23 ] HTML found = Yes
+[ 2018-12-06 15:34:23 ]     No sleep!
+[ 2018-12-06 15:34:23 ] ----
+[ 2018-12-06 15:34:23 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:23 ] file url = https://goodbadbetween.com/static/assets/css/../fonts/glyphicons-halflings-regular.woff
+[ 2018-12-06 15:34:23 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/../fonts/glyphicons-halflings-regular.woff
+[ 2018-12-06 15:34:23 ] file url 1 = https://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.woff
+[ 2018-12-06 15:34:23 ] scrape_it = 1
+[ 2018-12-06 15:34:23 ] ---------------------------------------
+[ 2018-12-06 15:34:23 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:23 ] ---------------------------------------
+[ 2018-12-06 15:34:23 ] TEST 1
+[ 2018-12-06 15:34:23 ] URL = https://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.woff
+[ 2018-12-06 15:34:23 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:23 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 2.0.50727; Media Center PC 6.0)
+[ 2018-12-06 15:34:23 ] Code = 404
+[ 2018-12-06 15:34:23 ] HTML found = Yes
+[ 2018-12-06 15:34:23 ]     No sleep!
+[ 2018-12-06 15:34:23 ] ----
+[ 2018-12-06 15:34:23 ] TEST 2
+[ 2018-12-06 15:34:23 ] URL = http://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.woff  --> Switch protocol ( Try 'http' )
+[ 2018-12-06 15:34:23 ] no proxy used ( Test nbr 2/5 )
+[ 2018-12-06 15:34:23 ] useragent = Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:23.0) Gecko/20131011 Firefox/23.0
+[ 2018-12-06 15:34:23 ] Code = 404
+[ 2018-12-06 15:34:23 ] HTML found = Yes
+[ 2018-12-06 15:34:23 ]     No sleep!
+[ 2018-12-06 15:34:23 ] ----
+[ 2018-12-06 15:34:23 ] TEST 3
+[ 2018-12-06 15:34:23 ] URL = https://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.woff
+[ 2018-12-06 15:34:23 ] no proxy used ( Test nbr 3/5 )
+[ 2018-12-06 15:34:23 ] useragent = Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36
+[ 2018-12-06 15:34:23 ] Code = 404
+[ 2018-12-06 15:34:23 ] HTML found = Yes
+[ 2018-12-06 15:34:23 ]     No sleep!
+[ 2018-12-06 15:34:23 ] ----
+[ 2018-12-06 15:34:23 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:23 ] file url = https://goodbadbetween.com/static/assets/css/../fonts/glyphicons-halflings-regular.ttf
+[ 2018-12-06 15:34:23 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/../fonts/glyphicons-halflings-regular.ttf
+[ 2018-12-06 15:34:23 ] file url 1 = https://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.ttf
+[ 2018-12-06 15:34:23 ] scrape_it = 1
+[ 2018-12-06 15:34:23 ] ---------------------------------------
+[ 2018-12-06 15:34:23 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:23 ] ---------------------------------------
+[ 2018-12-06 15:34:23 ] TEST 1
+[ 2018-12-06 15:34:23 ] URL = https://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.ttf
+[ 2018-12-06 15:34:23 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:24 ] useragent = Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/4.0; InfoPath.2; SV1; .NET CLR 2.0.50727; WOW64)
+[ 2018-12-06 15:34:24 ] Code = 404
+[ 2018-12-06 15:34:24 ] HTML found = Yes
+[ 2018-12-06 15:34:24 ]     No sleep!
+[ 2018-12-06 15:34:24 ] ----
+[ 2018-12-06 15:34:24 ] TEST 2
+[ 2018-12-06 15:34:24 ] URL = http://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.ttf  --> Switch protocol ( Try 'http' )
+[ 2018-12-06 15:34:24 ] no proxy used ( Test nbr 2/5 )
+[ 2018-12-06 15:34:24 ] useragent = Mozilla/5.0 (X11; OpenBSD amd64; rv:28.0) Gecko/20100101 Firefox/28.0
+[ 2018-12-06 15:34:24 ] Code = 404
+[ 2018-12-06 15:34:24 ] HTML found = Yes
+[ 2018-12-06 15:34:24 ]     No sleep!
+[ 2018-12-06 15:34:24 ] ----
+[ 2018-12-06 15:34:24 ] TEST 3
+[ 2018-12-06 15:34:24 ] URL = https://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.ttf
+[ 2018-12-06 15:34:24 ] no proxy used ( Test nbr 3/5 )
+[ 2018-12-06 15:34:24 ] useragent = Mozilla/4.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/5.0)
+[ 2018-12-06 15:34:24 ] Code = 404
+[ 2018-12-06 15:34:24 ] HTML found = Yes
+[ 2018-12-06 15:34:24 ]     No sleep!
+[ 2018-12-06 15:34:24 ] ----
+[ 2018-12-06 15:34:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:24 ] file url = https://goodbadbetween.com/static/assets/css/../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular
+[ 2018-12-06 15:34:24 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/../fonts/glyphicons-halflings-regular.svg
+[ 2018-12-06 15:34:24 ] file url 1 = https://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular
+[ 2018-12-06 15:34:24 ] scrape_it = 1
+[ 2018-12-06 15:34:24 ] ---------------------------------------
+[ 2018-12-06 15:34:24 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:24 ] ---------------------------------------
+[ 2018-12-06 15:34:24 ] TEST 1
+[ 2018-12-06 15:34:24 ] URL = https://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular
+[ 2018-12-06 15:34:24 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:25 ] useragent = Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/4E423F
+[ 2018-12-06 15:34:25 ] Code = 404
+[ 2018-12-06 15:34:25 ] HTML found = Yes
+[ 2018-12-06 15:34:25 ]     No sleep!
+[ 2018-12-06 15:34:25 ] ----
+[ 2018-12-06 15:34:25 ] TEST 2
+[ 2018-12-06 15:34:25 ] URL = http://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular  --> Switch protocol ( Try 'http' )
+[ 2018-12-06 15:34:25 ] no proxy used ( Test nbr 2/5 )
+[ 2018-12-06 15:34:25 ] useragent = Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:21.0.0) Gecko/20121011 Firefox/21.0.0
+[ 2018-12-06 15:34:25 ] Code = 404
+[ 2018-12-06 15:34:25 ] HTML found = Yes
+[ 2018-12-06 15:34:25 ]     No sleep!
+[ 2018-12-06 15:34:25 ] ----
+[ 2018-12-06 15:34:25 ] TEST 3
+[ 2018-12-06 15:34:25 ] URL = https://goodbadbetween.com/static/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular
+[ 2018-12-06 15:34:25 ] no proxy used ( Test nbr 3/5 )
+[ 2018-12-06 15:34:25 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0; InfoPath.3; MS-RTC LM 8; .NET4.0C; .NET4.0E)
+[ 2018-12-06 15:34:25 ] Code = 404
+[ 2018-12-06 15:34:25 ] HTML found = Yes
+[ 2018-12-06 15:34:25 ]     No sleep!
+[ 2018-12-06 15:34:25 ] ----
+[ 2018-12-06 15:34:25 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:25 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:25 ] 
+[ 2018-12-06 15:34:25 ] 
+[ 2018-12-06 15:34:25 ] 
+[ 2018-12-06 15:34:25 ] /**************************************************************/
+[ 2018-12-06 15:34:25 ] /*******		Extract background_images files		**********/
+[ 2018-12-06 15:34:25 ] /**************************************************************/
+[ 2018-12-06 15:34:25 ] /*******		End : Extract background_images files		**********/
+[ 2018-12-06 15:34:25 ] 
+[ 2018-12-06 15:34:25 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/bootstrap.min.css --> File Created !!!
+[ 2018-12-06 15:34:25 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:25 ] file url = https://goodbadbetween.com/static/assets/css/animate.min.css
+[ 2018-12-06 15:34:25 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/animate.min.css
+[ 2018-12-06 15:34:25 ] file url 1 = https://goodbadbetween.com/static/assets/css/animate.min.css
+[ 2018-12-06 15:34:25 ] scrape_it = 1
+[ 2018-12-06 15:34:25 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:25 ] file url = https://goodbadbetween.com/static/assets/css/font-awesome.min.css
+[ 2018-12-06 15:34:25 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/font-awesome.min.css
+[ 2018-12-06 15:34:25 ] file url 1 = https://goodbadbetween.com/static/assets/css/font-awesome.min.css
+[ 2018-12-06 15:34:25 ] scrape_it = 1
+[ 2018-12-06 15:34:25 ] ---------------------------------------
+[ 2018-12-06 15:34:25 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:25 ] ---------------------------------------
+[ 2018-12-06 15:34:25 ] TEST 1
+[ 2018-12-06 15:34:25 ] URL = https://goodbadbetween.com/static/assets/css/font-awesome.min.css
+[ 2018-12-06 15:34:25 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:26 ] useragent = Mozilla/5.0 (Windows NT 5.1; rv:21.0) Gecko/20130331 Firefox/21.0
+[ 2018-12-06 15:34:26 ] 
+[ 2018-12-06 15:34:26 ] 
+[ 2018-12-06 15:34:26 ] /**************************************************************/
+[ 2018-12-06 15:34:26 ] /*******		Extract css_from_import files		**********/
+[ 2018-12-06 15:34:26 ] /**************************************************************/
+[ 2018-12-06 15:34:26 ] /*******		End : Extract css_from_import files		**********/
+[ 2018-12-06 15:34:26 ] 
+[ 2018-12-06 15:34:26 ] 
+[ 2018-12-06 15:34:26 ] 
+[ 2018-12-06 15:34:26 ] /**************************************************************/
+[ 2018-12-06 15:34:26 ] /*******		Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:26 ] /**************************************************************/
+[ 2018-12-06 15:34:26 ] file url = https://goodbadbetween.com/static/assets/css/../fonts/fontawesome-webfont.eot?v=4.6.3
+[ 2018-12-06 15:34:26 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/../fonts/fontawesome-webfont.eot
+[ 2018-12-06 15:34:26 ] file url 1 = https://goodbadbetween.com/static/assets/fonts/fontawesome-webfont.eot?v=4.6.3
+[ 2018-12-06 15:34:26 ] scrape_it = 1
+[ 2018-12-06 15:34:26 ] ---------------------------------------
+[ 2018-12-06 15:34:26 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:26 ] ---------------------------------------
+[ 2018-12-06 15:34:26 ] TEST 1
+[ 2018-12-06 15:34:26 ] URL = https://goodbadbetween.com/static/assets/fonts/fontawesome-webfont.eot?v=4.6.3
+[ 2018-12-06 15:34:26 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:27 ] useragent = Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:23.0) Gecko/20131011 Firefox/23.0
+[ 2018-12-06 15:34:27 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/../fonts/fontawesome-webfont.eot --> File Created !!!
+[ 2018-12-06 15:34:27 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:27 ] file url = https://goodbadbetween.com/static/assets/css/../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3
+[ 2018-12-06 15:34:27 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/../fonts/fontawesome-webfont.eot
+[ 2018-12-06 15:34:27 ] file url 1 = https://goodbadbetween.com/static/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.6.3
+[ 2018-12-06 15:34:27 ] scrape_it = 1
+[ 2018-12-06 15:34:27 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:27 ] file url = https://goodbadbetween.com/static/assets/css/../fonts/fontawesome-webfont.woff2?v=4.6.3
+[ 2018-12-06 15:34:27 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/../fonts/fontawesome-webfont.woff2_v_4.6.3
+[ 2018-12-06 15:34:27 ] file url 1 = https://goodbadbetween.com/static/assets/fonts/fontawesome-webfont.woff2?v=4.6.3
+[ 2018-12-06 15:34:27 ] scrape_it = 1
+[ 2018-12-06 15:34:27 ] ---------------------------------------
+[ 2018-12-06 15:34:27 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:27 ] ---------------------------------------
+[ 2018-12-06 15:34:27 ] TEST 1
+[ 2018-12-06 15:34:27 ] URL = https://goodbadbetween.com/static/assets/fonts/fontawesome-webfont.woff2?v=4.6.3
+[ 2018-12-06 15:34:27 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:28 ] useragent = Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1
+[ 2018-12-06 15:34:28 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/../fonts/fontawesome-webfont.woff2_v_4.6.3 --> File Created !!!
+[ 2018-12-06 15:34:28 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:28 ] file url = https://goodbadbetween.com/static/assets/css/../fonts/fontawesome-webfont.woff?v=4.6.3
+[ 2018-12-06 15:34:28 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/../fonts/fontawesome-webfont.woff
+[ 2018-12-06 15:34:28 ] file url 1 = https://goodbadbetween.com/static/assets/fonts/fontawesome-webfont.woff?v=4.6.3
+[ 2018-12-06 15:34:28 ] scrape_it = 1
+[ 2018-12-06 15:34:28 ] ---------------------------------------
+[ 2018-12-06 15:34:28 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:28 ] ---------------------------------------
+[ 2018-12-06 15:34:28 ] TEST 1
+[ 2018-12-06 15:34:28 ] URL = https://goodbadbetween.com/static/assets/fonts/fontawesome-webfont.woff?v=4.6.3
+[ 2018-12-06 15:34:28 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:29 ] useragent = Mozilla/5.0 (X11; Linux x86_64; rv:17.0) Gecko/20121202 Firefox/17.0 Iceweasel/17.0.1
+[ 2018-12-06 15:34:29 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/../fonts/fontawesome-webfont.woff --> File Created !!!
+[ 2018-12-06 15:34:29 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:29 ] file url = https://goodbadbetween.com/static/assets/css/../fonts/fontawesome-webfont.ttf?v=4.6.3
+[ 2018-12-06 15:34:29 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/../fonts/fontawesome-webfont.ttf
+[ 2018-12-06 15:34:29 ] file url 1 = https://goodbadbetween.com/static/assets/fonts/fontawesome-webfont.ttf?v=4.6.3
+[ 2018-12-06 15:34:29 ] scrape_it = 1
+[ 2018-12-06 15:34:29 ] ---------------------------------------
+[ 2018-12-06 15:34:29 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:29 ] ---------------------------------------
+[ 2018-12-06 15:34:29 ] TEST 1
+[ 2018-12-06 15:34:29 ] URL = https://goodbadbetween.com/static/assets/fonts/fontawesome-webfont.ttf?v=4.6.3
+[ 2018-12-06 15:34:29 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:31 ] useragent = Mozilla/5.0 (Windows; U; Windows NT 6.1; ko-KR) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2018-12-06 15:34:31 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/../fonts/fontawesome-webfont.ttf --> File Created !!!
+[ 2018-12-06 15:34:31 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:31 ] file url = https://goodbadbetween.com/static/assets/css/../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular
+[ 2018-12-06 15:34:31 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/../fonts/fontawesome-webfont.svg
+[ 2018-12-06 15:34:31 ] file url 1 = https://goodbadbetween.com/static/assets/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular
+[ 2018-12-06 15:34:31 ] scrape_it = 1
+[ 2018-12-06 15:34:31 ] ---------------------------------------
+[ 2018-12-06 15:34:31 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:31 ] ---------------------------------------
+[ 2018-12-06 15:34:31 ] TEST 1
+[ 2018-12-06 15:34:31 ] URL = https://goodbadbetween.com/static/assets/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular
+[ 2018-12-06 15:34:31 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:32 ] useragent = Mozilla/4.0 (Compatible; MSIE 8.0; Windows NT 5.2; Trident/6.0)
+[ 2018-12-06 15:34:32 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/../fonts/fontawesome-webfont.svg --> File Created !!!
+[ 2018-12-06 15:34:32 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:32 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:32 ] 
+[ 2018-12-06 15:34:32 ] 
+[ 2018-12-06 15:34:32 ] 
+[ 2018-12-06 15:34:32 ] /**************************************************************/
+[ 2018-12-06 15:34:32 ] /*******		Extract background_images files		**********/
+[ 2018-12-06 15:34:32 ] /**************************************************************/
+[ 2018-12-06 15:34:32 ] /*******		End : Extract background_images files		**********/
+[ 2018-12-06 15:34:32 ] 
+[ 2018-12-06 15:34:32 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/font-awesome.min.css --> File Created !!!
+[ 2018-12-06 15:34:32 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:32 ] file url = https://goodbadbetween.com/static/assets/css/magnific-popup.css
+[ 2018-12-06 15:34:32 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/magnific-popup.css
+[ 2018-12-06 15:34:32 ] file url 1 = https://goodbadbetween.com/static/assets/css/magnific-popup.css
+[ 2018-12-06 15:34:32 ] scrape_it = 1
+[ 2018-12-06 15:34:32 ] ---------------------------------------
+[ 2018-12-06 15:34:32 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:32 ] ---------------------------------------
+[ 2018-12-06 15:34:32 ] TEST 1
+[ 2018-12-06 15:34:32 ] URL = https://goodbadbetween.com/static/assets/css/magnific-popup.css
+[ 2018-12-06 15:34:32 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:33 ] useragent = Mozilla/5.0 (X11; OpenBSD amd64; rv:28.0) Gecko/20100101 Firefox/28.0
+[ 2018-12-06 15:34:33 ] 
+[ 2018-12-06 15:34:33 ] 
+[ 2018-12-06 15:34:33 ] /**************************************************************/
+[ 2018-12-06 15:34:33 ] /*******		Extract css_from_import files		**********/
+[ 2018-12-06 15:34:33 ] /**************************************************************/
+[ 2018-12-06 15:34:33 ] /*******		End : Extract css_from_import files		**********/
+[ 2018-12-06 15:34:33 ] 
+[ 2018-12-06 15:34:33 ] 
+[ 2018-12-06 15:34:33 ] 
+[ 2018-12-06 15:34:33 ] /**************************************************************/
+[ 2018-12-06 15:34:33 ] /*******		Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:33 ] /**************************************************************/
+[ 2018-12-06 15:34:33 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:33 ] 
+[ 2018-12-06 15:34:33 ] 
+[ 2018-12-06 15:34:33 ] 
+[ 2018-12-06 15:34:33 ] /**************************************************************/
+[ 2018-12-06 15:34:33 ] /*******		Extract background_images files		**********/
+[ 2018-12-06 15:34:33 ] /**************************************************************/
+[ 2018-12-06 15:34:33 ] /*******		End : Extract background_images files		**********/
+[ 2018-12-06 15:34:33 ] 
+[ 2018-12-06 15:34:33 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/magnific-popup.css --> File Created !!!
+[ 2018-12-06 15:34:33 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:33 ] file url = https://goodbadbetween.com/static/assets/css/owl.carousel.min.css
+[ 2018-12-06 15:34:33 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/owl.carousel.min.css
+[ 2018-12-06 15:34:33 ] file url 1 = https://goodbadbetween.com/static/assets/css/owl.carousel.min.css
+[ 2018-12-06 15:34:33 ] scrape_it = 1
+[ 2018-12-06 15:34:33 ] ---------------------------------------
+[ 2018-12-06 15:34:33 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:33 ] ---------------------------------------
+[ 2018-12-06 15:34:33 ] TEST 1
+[ 2018-12-06 15:34:33 ] URL = https://goodbadbetween.com/static/assets/css/owl.carousel.min.css
+[ 2018-12-06 15:34:33 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:33 ] useragent = Mozilla/5.0 (X11; Linux i686; rv:21.0) Gecko/20100101 Firefox/21.0
+[ 2018-12-06 15:34:33 ] 
+[ 2018-12-06 15:34:33 ] 
+[ 2018-12-06 15:34:33 ] /**************************************************************/
+[ 2018-12-06 15:34:33 ] /*******		Extract css_from_import files		**********/
+[ 2018-12-06 15:34:33 ] /**************************************************************/
+[ 2018-12-06 15:34:33 ] /*******		End : Extract css_from_import files		**********/
+[ 2018-12-06 15:34:33 ] 
+[ 2018-12-06 15:34:33 ] 
+[ 2018-12-06 15:34:33 ] 
+[ 2018-12-06 15:34:33 ] /**************************************************************/
+[ 2018-12-06 15:34:33 ] /*******		Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:33 ] /**************************************************************/
+[ 2018-12-06 15:34:33 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:33 ] 
+[ 2018-12-06 15:34:33 ] 
+[ 2018-12-06 15:34:33 ] 
+[ 2018-12-06 15:34:33 ] /**************************************************************/
+[ 2018-12-06 15:34:33 ] /*******		Extract background_images files		**********/
+[ 2018-12-06 15:34:33 ] /**************************************************************/
+[ 2018-12-06 15:34:33 ] file url = https://goodbadbetween.com/static/assets/css/owl.video.play.png
+[ 2018-12-06 15:34:33 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/img/owl.video.play.png
+[ 2018-12-06 15:34:33 ] file url 1 = https://goodbadbetween.com/static/assets/css/owl.video.play.png
+[ 2018-12-06 15:34:33 ] scrape_it = 1
+[ 2018-12-06 15:34:33 ] ---------------------------------------
+[ 2018-12-06 15:34:33 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:33 ] ---------------------------------------
+[ 2018-12-06 15:34:33 ] TEST 1
+[ 2018-12-06 15:34:33 ] URL = https://goodbadbetween.com/static/assets/css/owl.video.play.png
+[ 2018-12-06 15:34:33 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:34 ] useragent = Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1
+[ 2018-12-06 15:34:34 ] Code = 404
+[ 2018-12-06 15:34:34 ] HTML found = Yes
+[ 2018-12-06 15:34:34 ]     No sleep!
+[ 2018-12-06 15:34:34 ] ----
+[ 2018-12-06 15:34:34 ] TEST 2
+[ 2018-12-06 15:34:34 ] URL = http://goodbadbetween.com/static/assets/css/owl.video.play.png  --> Switch protocol ( Try 'http' )
+[ 2018-12-06 15:34:34 ] no proxy used ( Test nbr 2/5 )
+[ 2018-12-06 15:34:34 ] useragent = Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+[ 2018-12-06 15:34:34 ] Code = 404
+[ 2018-12-06 15:34:34 ] HTML found = Yes
+[ 2018-12-06 15:34:34 ]     No sleep!
+[ 2018-12-06 15:34:34 ] ----
+[ 2018-12-06 15:34:34 ] TEST 3
+[ 2018-12-06 15:34:34 ] URL = https://goodbadbetween.com/static/assets/css/owl.video.play.png
+[ 2018-12-06 15:34:34 ] no proxy used ( Test nbr 3/5 )
+[ 2018-12-06 15:34:34 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0
+[ 2018-12-06 15:34:34 ] Code = 404
+[ 2018-12-06 15:34:34 ] HTML found = Yes
+[ 2018-12-06 15:34:34 ]     No sleep!
+[ 2018-12-06 15:34:34 ] ----
+[ 2018-12-06 15:34:34 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:34 ] /*******		End : Extract background_images files		**********/
+[ 2018-12-06 15:34:34 ] 
+[ 2018-12-06 15:34:34 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/owl.carousel.min.css --> File Created !!!
+[ 2018-12-06 15:34:34 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:34 ] file url = https://goodbadbetween.com/static/assets/css/owl.theme.default.min.css
+[ 2018-12-06 15:34:34 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/owl.theme.default.min.css
+[ 2018-12-06 15:34:34 ] file url 1 = https://goodbadbetween.com/static/assets/css/owl.theme.default.min.css
+[ 2018-12-06 15:34:34 ] scrape_it = 1
+[ 2018-12-06 15:34:34 ] ---------------------------------------
+[ 2018-12-06 15:34:34 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:34 ] ---------------------------------------
+[ 2018-12-06 15:34:34 ] TEST 1
+[ 2018-12-06 15:34:34 ] URL = https://goodbadbetween.com/static/assets/css/owl.theme.default.min.css
+[ 2018-12-06 15:34:34 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:35 ] useragent = Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/5.0)
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] /**************************************************************/
+[ 2018-12-06 15:34:35 ] /*******		Extract css_from_import files		**********/
+[ 2018-12-06 15:34:35 ] /**************************************************************/
+[ 2018-12-06 15:34:35 ] /*******		End : Extract css_from_import files		**********/
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] /**************************************************************/
+[ 2018-12-06 15:34:35 ] /*******		Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:35 ] /**************************************************************/
+[ 2018-12-06 15:34:35 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] /**************************************************************/
+[ 2018-12-06 15:34:35 ] /*******		Extract background_images files		**********/
+[ 2018-12-06 15:34:35 ] /**************************************************************/
+[ 2018-12-06 15:34:35 ] /*******		End : Extract background_images files		**********/
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/owl.theme.default.min.css --> File Created !!!
+[ 2018-12-06 15:34:35 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:35 ] file url = https://goodbadbetween.com/static/assets/css/swiper.min.css
+[ 2018-12-06 15:34:35 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/swiper.min.css
+[ 2018-12-06 15:34:35 ] file url 1 = https://goodbadbetween.com/static/assets/css/swiper.min.css
+[ 2018-12-06 15:34:35 ] scrape_it = 1
+[ 2018-12-06 15:34:35 ] ---------------------------------------
+[ 2018-12-06 15:34:35 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:35 ] ---------------------------------------
+[ 2018-12-06 15:34:35 ] TEST 1
+[ 2018-12-06 15:34:35 ] URL = https://goodbadbetween.com/static/assets/css/swiper.min.css
+[ 2018-12-06 15:34:35 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:35 ] useragent = Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] /**************************************************************/
+[ 2018-12-06 15:34:35 ] /*******		Extract css_from_import files		**********/
+[ 2018-12-06 15:34:35 ] /**************************************************************/
+[ 2018-12-06 15:34:35 ] /*******		End : Extract css_from_import files		**********/
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] /**************************************************************/
+[ 2018-12-06 15:34:35 ] /*******		Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:35 ] /**************************************************************/
+[ 2018-12-06 15:34:35 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] /**************************************************************/
+[ 2018-12-06 15:34:35 ] /*******		Extract background_images files		**********/
+[ 2018-12-06 15:34:35 ] /**************************************************************/
+[ 2018-12-06 15:34:35 ] /*******		End : Extract background_images files		**********/
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/swiper.min.css --> File Created !!!
+[ 2018-12-06 15:34:35 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:35 ] /*******		End : Extract css_from_import files		**********/
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] /**************************************************************/
+[ 2018-12-06 15:34:35 ] /*******		Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:35 ] /**************************************************************/
+[ 2018-12-06 15:34:35 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] /**************************************************************/
+[ 2018-12-06 15:34:35 ] /*******		Extract background_images files		**********/
+[ 2018-12-06 15:34:35 ] /**************************************************************/
+[ 2018-12-06 15:34:35 ] /*******		End : Extract background_images files		**********/
+[ 2018-12-06 15:34:35 ] 
+[ 2018-12-06 15:34:35 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/style.css --> File Created !!!
+[ 2018-12-06 15:34:35 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:35 ] file url = https://goodbadbetween.com/static/assets/css/responsive.css
+[ 2018-12-06 15:34:35 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/responsive.css
+[ 2018-12-06 15:34:35 ] file url 1 = https://goodbadbetween.com/static/assets/css/responsive.css
+[ 2018-12-06 15:34:35 ] scrape_it = 1
+[ 2018-12-06 15:34:35 ] ---------------------------------------
+[ 2018-12-06 15:34:35 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:35 ] ---------------------------------------
+[ 2018-12-06 15:34:35 ] TEST 1
+[ 2018-12-06 15:34:35 ] URL = https://goodbadbetween.com/static/assets/css/responsive.css
+[ 2018-12-06 15:34:35 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:36 ] useragent = Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0
+[ 2018-12-06 15:34:36 ] 
+[ 2018-12-06 15:34:36 ] 
+[ 2018-12-06 15:34:36 ] /**************************************************************/
+[ 2018-12-06 15:34:36 ] /*******		Extract css_from_import files		**********/
+[ 2018-12-06 15:34:36 ] /**************************************************************/
+[ 2018-12-06 15:34:36 ] /*******		End : Extract css_from_import files		**********/
+[ 2018-12-06 15:34:36 ] 
+[ 2018-12-06 15:34:36 ] 
+[ 2018-12-06 15:34:36 ] 
+[ 2018-12-06 15:34:36 ] /**************************************************************/
+[ 2018-12-06 15:34:36 ] /*******		Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:36 ] /**************************************************************/
+[ 2018-12-06 15:34:36 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:36 ] 
+[ 2018-12-06 15:34:36 ] 
+[ 2018-12-06 15:34:36 ] 
+[ 2018-12-06 15:34:36 ] /**************************************************************/
+[ 2018-12-06 15:34:36 ] /*******		Extract background_images files		**********/
+[ 2018-12-06 15:34:36 ] /**************************************************************/
+[ 2018-12-06 15:34:36 ] file url = https://goodbadbetween.com/static/assets/css/../img/headerimg.png
+[ 2018-12-06 15:34:36 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/img/headerimg.png
+[ 2018-12-06 15:34:36 ] file url 1 = https://goodbadbetween.com/static/assets/img/headerimg.png
+[ 2018-12-06 15:34:36 ] scrape_it = 1
+[ 2018-12-06 15:34:36 ] ---------------------------------------
+[ 2018-12-06 15:34:36 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:36 ] ---------------------------------------
+[ 2018-12-06 15:34:36 ] TEST 1
+[ 2018-12-06 15:34:36 ] URL = https://goodbadbetween.com/static/assets/img/headerimg.png
+[ 2018-12-06 15:34:36 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:37 ] useragent = Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36
+[ 2018-12-06 15:34:37 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/img/headerimg.png --> File Created !!!
+[ 2018-12-06 15:34:37 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:37 ] /*******		End : Extract background_images files		**********/
+[ 2018-12-06 15:34:37 ] 
+[ 2018-12-06 15:34:37 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/responsive.css --> File Created !!!
+[ 2018-12-06 15:34:37 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:37 ] file url = https://goodbadbetween.com/static/assets/css/card.css
+[ 2018-12-06 15:34:37 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/card.css
+[ 2018-12-06 15:34:37 ] file url 1 = https://goodbadbetween.com/static/assets/css/card.css
+[ 2018-12-06 15:34:37 ] scrape_it = 1
+[ 2018-12-06 15:34:37 ] ---------------------------------------
+[ 2018-12-06 15:34:37 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:37 ] ---------------------------------------
+[ 2018-12-06 15:34:37 ] TEST 1
+[ 2018-12-06 15:34:37 ] URL = https://goodbadbetween.com/static/assets/css/card.css
+[ 2018-12-06 15:34:37 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:37 ] useragent = Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+[ 2018-12-06 15:34:37 ] 
+[ 2018-12-06 15:34:37 ] 
+[ 2018-12-06 15:34:37 ] /**************************************************************/
+[ 2018-12-06 15:34:37 ] /*******		Extract css_from_import files		**********/
+[ 2018-12-06 15:34:37 ] /**************************************************************/
+[ 2018-12-06 15:34:37 ] /*******		End : Extract css_from_import files		**********/
+[ 2018-12-06 15:34:37 ] 
+[ 2018-12-06 15:34:37 ] 
+[ 2018-12-06 15:34:37 ] 
+[ 2018-12-06 15:34:37 ] /**************************************************************/
+[ 2018-12-06 15:34:37 ] /*******		Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:37 ] /**************************************************************/
+[ 2018-12-06 15:34:37 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:37 ] 
+[ 2018-12-06 15:34:37 ] 
+[ 2018-12-06 15:34:37 ] 
+[ 2018-12-06 15:34:37 ] /**************************************************************/
+[ 2018-12-06 15:34:37 ] /*******		Extract background_images files		**********/
+[ 2018-12-06 15:34:37 ] /**************************************************************/
+[ 2018-12-06 15:34:37 ] file url = http://felipemartinin.com/wp-content/themes/FelipeMartinin/img/card-header.jpg
+[ 2018-12-06 15:34:37 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/img/card-header.jpg
+[ 2018-12-06 15:34:37 ] file url 1 = http://felipemartinin.com/wp-content/themes/FelipeMartinin/img/card-header.jpg
+[ 2018-12-06 15:34:37 ] scrape_it = 1
+[ 2018-12-06 15:34:37 ] ---------------------------------------
+[ 2018-12-06 15:34:37 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:37 ] ---------------------------------------
+[ 2018-12-06 15:34:37 ] TEST 1
+[ 2018-12-06 15:34:37 ] URL = http://felipemartinin.com/wp-content/themes/FelipeMartinin/img/card-header.jpg
+[ 2018-12-06 15:34:37 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:38 ] useragent = Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+[ 2018-12-06 15:34:38 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/img/card-header.jpg --> File Created !!!
+[ 2018-12-06 15:34:38 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:38 ] file url = https://www.corujalivraria.com.br/assets/twitter-icon-a7d78a313aebc7b78923dc06b614c30d.png
+[ 2018-12-06 15:34:38 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/img/twitter-icon-a7d78a313aebc7b78923dc06b614c30d.png
+[ 2018-12-06 15:34:38 ] file url 1 = https://www.corujalivraria.com.br/assets/twitter-icon-a7d78a313aebc7b78923dc06b614c30d.png
+[ 2018-12-06 15:34:38 ] scrape_it = 1
+[ 2018-12-06 15:34:38 ] ---------------------------------------
+[ 2018-12-06 15:34:38 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:38 ] ---------------------------------------
+[ 2018-12-06 15:34:38 ] TEST 1
+[ 2018-12-06 15:34:38 ] URL = https://www.corujalivraria.com.br/assets/twitter-icon-a7d78a313aebc7b78923dc06b614c30d.png
+[ 2018-12-06 15:34:38 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:38 ] useragent = Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2018-12-06 15:34:38 ] Code = 0
+[ 2018-12-06 15:34:38 ] HTML found = No
+[ 2018-12-06 15:34:38 ]     No sleep!
+[ 2018-12-06 15:34:38 ] ----
+[ 2018-12-06 15:34:38 ] TEST 2
+[ 2018-12-06 15:34:38 ] URL = http://www.corujalivraria.com.br/assets/twitter-icon-a7d78a313aebc7b78923dc06b614c30d.png  --> Switch protocol ( Try 'http' )
+[ 2018-12-06 15:34:38 ] no proxy used ( Test nbr 2/5 )
+[ 2018-12-06 15:34:41 ] useragent = Mozilla/5.0 (X11; Linux x86_64; rv:15.0) Gecko/20100101 Firefox/15.0 Iceweasel/15.0
+[ 2018-12-06 15:34:41 ] Code = 200
+[ 2018-12-06 15:34:41 ] HTML found = No
+[ 2018-12-06 15:34:41 ]     No sleep!
+[ 2018-12-06 15:34:41 ] ----
+[ 2018-12-06 15:34:41 ] TEST 3
+[ 2018-12-06 15:34:41 ] URL = https://www.corujalivraria.com.br/assets/twitter-icon-a7d78a313aebc7b78923dc06b614c30d.png
+[ 2018-12-06 15:34:41 ] no proxy used ( Test nbr 3/5 )
+[ 2018-12-06 15:34:41 ] useragent = Mozilla/5.0 (Windows; U; Windows NT 6.1; cs-CZ) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2018-12-06 15:34:41 ] proxy_ip = http://163.172.110.165:1315
+[ 2018-12-06 15:34:41 ] Code = 0
+[ 2018-12-06 15:34:41 ] HTML found = No
+[ 2018-12-06 15:34:41 ]     No sleep!
+[ 2018-12-06 15:34:41 ] ----
+[ 2018-12-06 15:34:41 ] TEST 4
+[ 2018-12-06 15:34:41 ] URL = https://www.corujalivraria.com.br/assets/twitter-icon-a7d78a313aebc7b78923dc06b614c30d.png
+[ 2018-12-06 15:34:41 ] proxy_ip = http://163.172.110.165:1315 ( Test nbr 4/5 )
+[ 2018-12-06 15:34:44 ] useragent = Mozilla/5.0 (Windows; U; Windows NT 6.0; ja-JP) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2018-12-06 15:34:44 ] proxy_ip = http://163.172.110.165:1316
+[ 2018-12-06 15:34:44 ] Code = 0
+[ 2018-12-06 15:34:44 ] HTML found = No
+[ 2018-12-06 15:34:44 ]     No sleep!
+[ 2018-12-06 15:34:44 ] ----
+[ 2018-12-06 15:34:44 ] TEST 5
+[ 2018-12-06 15:34:44 ] URL = https://www.corujalivraria.com.br/assets/twitter-icon-a7d78a313aebc7b78923dc06b614c30d.png
+[ 2018-12-06 15:34:44 ] proxy_ip = http://163.172.110.165:1316 ( Test nbr 5/5 )
+[ 2018-12-06 15:34:44 ] useragent = Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.2309.372 Safari/537.36
+[ 2018-12-06 15:34:44 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:44 ] file url = https://felipemartinin.com/wp-content/themes/FelipeMartinin/img/card-header.jpg
+[ 2018-12-06 15:34:44 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/img/card-header.jpg
+[ 2018-12-06 15:34:44 ] file url 1 = https://felipemartinin.com/wp-content/themes/FelipeMartinin/img/card-header.jpg
+[ 2018-12-06 15:34:44 ] scrape_it = 1
+[ 2018-12-06 15:34:44 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:44 ] /*******		End : Extract background_images files		**********/
+[ 2018-12-06 15:34:44 ] 
+[ 2018-12-06 15:34:44 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/css/card.css --> File Created !!!
+[ 2018-12-06 15:34:44 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:44 ] file url = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+[ 2018-12-06 15:34:44 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+[ 2018-12-06 15:34:44 ] file url 1 = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+[ 2018-12-06 15:34:44 ] scrape_it = 1
+[ 2018-12-06 15:34:44 ] ---------------------------------------
+[ 2018-12-06 15:34:44 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:44 ] ---------------------------------------
+[ 2018-12-06 15:34:44 ] TEST 1
+[ 2018-12-06 15:34:44 ] URL = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+[ 2018-12-06 15:34:44 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:45 ] useragent = Mozilla/5.0 (compatible; MSIE 10.0; Macintosh; Intel Mac OS X 10_7_3; Trident/6.0)
+[ 2018-12-06 15:34:45 ] 
+[ 2018-12-06 15:34:45 ] 
+[ 2018-12-06 15:34:45 ] /**************************************************************/
+[ 2018-12-06 15:34:45 ] /*******		Extract css_from_import files		**********/
+[ 2018-12-06 15:34:45 ] /**************************************************************/
+[ 2018-12-06 15:34:45 ] /*******		End : Extract css_from_import files		**********/
+[ 2018-12-06 15:34:45 ] 
+[ 2018-12-06 15:34:45 ] 
+[ 2018-12-06 15:34:45 ] 
+[ 2018-12-06 15:34:45 ] /**************************************************************/
+[ 2018-12-06 15:34:45 ] /*******		Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:45 ] /**************************************************************/
+[ 2018-12-06 15:34:45 ] file url = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/../fonts/fontawesome-webfont.eot?v=4.7.0
+[ 2018-12-06 15:34:45 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/../fonts/fontawesome-webfont.eot
+[ 2018-12-06 15:34:45 ] file url 1 = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0
+[ 2018-12-06 15:34:45 ] scrape_it = 1
+[ 2018-12-06 15:34:45 ] ---------------------------------------
+[ 2018-12-06 15:34:45 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:45 ] ---------------------------------------
+[ 2018-12-06 15:34:45 ] TEST 1
+[ 2018-12-06 15:34:45 ] URL = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0
+[ 2018-12-06 15:34:45 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:45 ] useragent = Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+[ 2018-12-06 15:34:45 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/../fonts/fontawesome-webfont.eot --> File Created !!!
+[ 2018-12-06 15:34:45 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:45 ] file url = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0
+[ 2018-12-06 15:34:45 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/../fonts/fontawesome-webfont.eot
+[ 2018-12-06 15:34:45 ] file url 1 = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0
+[ 2018-12-06 15:34:45 ] scrape_it = 1
+[ 2018-12-06 15:34:45 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:45 ] file url = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/../fonts/fontawesome-webfont.woff2?v=4.7.0
+[ 2018-12-06 15:34:45 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/../fonts/fontawesome-webfont.woff2_v_4.7.0
+[ 2018-12-06 15:34:45 ] file url 1 = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0
+[ 2018-12-06 15:34:45 ] scrape_it = 1
+[ 2018-12-06 15:34:45 ] ---------------------------------------
+[ 2018-12-06 15:34:45 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:45 ] ---------------------------------------
+[ 2018-12-06 15:34:45 ] TEST 1
+[ 2018-12-06 15:34:45 ] URL = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0
+[ 2018-12-06 15:34:45 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:45 ] useragent = Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:27.0) Gecko/20121011 Firefox/27.0Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0
+[ 2018-12-06 15:34:45 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/../fonts/fontawesome-webfont.woff2_v_4.7.0 --> File Created !!!
+[ 2018-12-06 15:34:45 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:45 ] file url = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/../fonts/fontawesome-webfont.woff?v=4.7.0
+[ 2018-12-06 15:34:45 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/../fonts/fontawesome-webfont.woff
+[ 2018-12-06 15:34:45 ] file url 1 = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0
+[ 2018-12-06 15:34:45 ] scrape_it = 1
+[ 2018-12-06 15:34:45 ] ---------------------------------------
+[ 2018-12-06 15:34:45 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:45 ] ---------------------------------------
+[ 2018-12-06 15:34:45 ] TEST 1
+[ 2018-12-06 15:34:45 ] URL = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0
+[ 2018-12-06 15:34:45 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:45 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; .NET CLR 1.1.4322; .NET4.0C; Tablet PC 2.0)
+[ 2018-12-06 15:34:45 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/../fonts/fontawesome-webfont.woff --> File Created !!!
+[ 2018-12-06 15:34:45 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:45 ] file url = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/../fonts/fontawesome-webfont.ttf?v=4.7.0
+[ 2018-12-06 15:34:45 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/../fonts/fontawesome-webfont.ttf
+[ 2018-12-06 15:34:45 ] file url 1 = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0
+[ 2018-12-06 15:34:45 ] scrape_it = 1
+[ 2018-12-06 15:34:45 ] ---------------------------------------
+[ 2018-12-06 15:34:45 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:45 ] ---------------------------------------
+[ 2018-12-06 15:34:45 ] TEST 1
+[ 2018-12-06 15:34:45 ] URL = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0
+[ 2018-12-06 15:34:45 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:45 ] useragent = Mozilla/5.0 (Windows NT 6.1; rv:21.0) Gecko/20130328 Firefox/21.0
+[ 2018-12-06 15:34:45 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/../fonts/fontawesome-webfont.ttf --> File Created !!!
+[ 2018-12-06 15:34:45 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:45 ] file url = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular
+[ 2018-12-06 15:34:45 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/../fonts/fontawesome-webfont.svg
+[ 2018-12-06 15:34:45 ] file url 1 = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular
+[ 2018-12-06 15:34:45 ] scrape_it = 1
+[ 2018-12-06 15:34:45 ] ---------------------------------------
+[ 2018-12-06 15:34:45 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:45 ] ---------------------------------------
+[ 2018-12-06 15:34:45 ] TEST 1
+[ 2018-12-06 15:34:45 ] URL = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular
+[ 2018-12-06 15:34:45 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:46 ] useragent = Mozilla/5.0 (Windows NT 6.2; rv:22.0) Gecko/20130405 Firefox/22.0
+[ 2018-12-06 15:34:46 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/../fonts/fontawesome-webfont.svg --> File Created !!!
+[ 2018-12-06 15:34:46 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:46 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] /**************************************************************/
+[ 2018-12-06 15:34:46 ] /*******		Extract background_images files		**********/
+[ 2018-12-06 15:34:46 ] /**************************************************************/
+[ 2018-12-06 15:34:46 ] /*******		End : Extract background_images files		**********/
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css --> File Created !!!
+[ 2018-12-06 15:34:46 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:46 ] file url = https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.min.css
+[ 2018-12-06 15:34:46 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.min.css
+[ 2018-12-06 15:34:46 ] file url 1 = https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.min.css
+[ 2018-12-06 15:34:46 ] scrape_it = 1
+[ 2018-12-06 15:34:46 ] ---------------------------------------
+[ 2018-12-06 15:34:46 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:46 ] ---------------------------------------
+[ 2018-12-06 15:34:46 ] TEST 1
+[ 2018-12-06 15:34:46 ] URL = https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.min.css
+[ 2018-12-06 15:34:46 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:46 ] useragent = Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] /**************************************************************/
+[ 2018-12-06 15:34:46 ] /*******		Extract css_from_import files		**********/
+[ 2018-12-06 15:34:46 ] /**************************************************************/
+[ 2018-12-06 15:34:46 ] /*******		End : Extract css_from_import files		**********/
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] /**************************************************************/
+[ 2018-12-06 15:34:46 ] /*******		Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:46 ] /**************************************************************/
+[ 2018-12-06 15:34:46 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] /**************************************************************/
+[ 2018-12-06 15:34:46 ] /*******		Extract background_images files		**********/
+[ 2018-12-06 15:34:46 ] /**************************************************************/
+[ 2018-12-06 15:34:46 ] /*******		End : Extract background_images files		**********/
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.min.css --> File Created !!!
+[ 2018-12-06 15:34:46 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:46 ] /*******		End : Extract css files		**********/
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] /**************************************************************/
+[ 2018-12-06 15:34:46 ] /*******		Extract fonts_from_html files		**********/
+[ 2018-12-06 15:34:46 ] /**************************************************************/
+[ 2018-12-06 15:34:46 ] /*******		End : Extract fonts_from_html files		**********/
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] /**************************************************************/
+[ 2018-12-06 15:34:46 ] /*******		Extract xml files		**********/
+[ 2018-12-06 15:34:46 ] /**************************************************************/
+[ 2018-12-06 15:34:46 ] /*******		End : Extract xml files		**********/
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] /**************************************************************/
+[ 2018-12-06 15:34:46 ] /*******		Extract txt files		**********/
+[ 2018-12-06 15:34:46 ] /**************************************************************/
+[ 2018-12-06 15:34:46 ] /*******		End : Extract txt files		**********/
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] 
+[ 2018-12-06 15:34:46 ] /**************************************************************/
+[ 2018-12-06 15:34:46 ] /*******		Extract script files		**********/
+[ 2018-12-06 15:34:46 ] /**************************************************************/
+[ 2018-12-06 15:34:46 ] file url = https://cdn.rawgit.com/oauth-io/oauth-js/c5af4519/dist/oauth.js
+[ 2018-12-06 15:34:46 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn.rawgit.com/oauth-io/oauth-js/c5af4519/dist/oauth.js
+[ 2018-12-06 15:34:46 ] file url 1 = https://cdn.rawgit.com/oauth-io/oauth-js/c5af4519/dist/oauth.js
+[ 2018-12-06 15:34:46 ] scrape_it = 1
+[ 2018-12-06 15:34:46 ] ---------------------------------------
+[ 2018-12-06 15:34:46 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:46 ] ---------------------------------------
+[ 2018-12-06 15:34:46 ] TEST 1
+[ 2018-12-06 15:34:46 ] URL = https://cdn.rawgit.com/oauth-io/oauth-js/c5af4519/dist/oauth.js
+[ 2018-12-06 15:34:46 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:46 ] useragent = Mozilla/5.0 (Windows NT 6.1; rv:21.0) Gecko/20100101 Firefox/21.0
+[ 2018-12-06 15:34:46 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn.rawgit.com/oauth-io/oauth-js/c5af4519/dist/oauth.js --> File Created !!!
+[ 2018-12-06 15:34:46 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:46 ] file url = https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
+[ 2018-12-06 15:34:46 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
+[ 2018-12-06 15:34:46 ] file url 1 = https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
+[ 2018-12-06 15:34:46 ] scrape_it = 1
+[ 2018-12-06 15:34:46 ] ---------------------------------------
+[ 2018-12-06 15:34:46 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:46 ] ---------------------------------------
+[ 2018-12-06 15:34:46 ] TEST 1
+[ 2018-12-06 15:34:46 ] URL = https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
+[ 2018-12-06 15:34:46 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:46 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; chromeframe/13.0.782.215)
+[ 2018-12-06 15:34:46 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js --> File Created !!!
+[ 2018-12-06 15:34:46 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:46 ] file url = https://goodbadbetween.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+[ 2018-12-06 15:34:46 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+[ 2018-12-06 15:34:46 ] file url 1 = https://goodbadbetween.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+[ 2018-12-06 15:34:46 ] scrape_it = 1
+[ 2018-12-06 15:34:46 ] ---------------------------------------
+[ 2018-12-06 15:34:46 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:46 ] ---------------------------------------
+[ 2018-12-06 15:34:46 ] TEST 1
+[ 2018-12-06 15:34:46 ] URL = https://goodbadbetween.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+[ 2018-12-06 15:34:46 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:46 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:21.0) Gecko/20100101 Firefox/21.0
+[ 2018-12-06 15:34:46 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js --> File Created !!!
+[ 2018-12-06 15:34:46 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:46 ] file url = https://goodbadbetween.com/static/assets/js/vendor/jquery-3.2.1.min.js
+[ 2018-12-06 15:34:46 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/js/vendor/jquery-3.2.1.min.js
+[ 2018-12-06 15:34:46 ] file url 1 = https://goodbadbetween.com/static/assets/js/vendor/jquery-3.2.1.min.js
+[ 2018-12-06 15:34:46 ] scrape_it = 1
+[ 2018-12-06 15:34:46 ] ---------------------------------------
+[ 2018-12-06 15:34:46 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:46 ] ---------------------------------------
+[ 2018-12-06 15:34:46 ] TEST 1
+[ 2018-12-06 15:34:46 ] URL = https://goodbadbetween.com/static/assets/js/vendor/jquery-3.2.1.min.js
+[ 2018-12-06 15:34:46 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:47 ] useragent = Mozilla/5.0 (Windows NT 5.1; rv:21.0) Gecko/20130401 Firefox/21.0
+[ 2018-12-06 15:34:47 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/js/vendor/jquery-3.2.1.min.js --> File Created !!!
+[ 2018-12-06 15:34:47 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:47 ] file url = https://goodbadbetween.com/static/assets/js/elemets.js
+[ 2018-12-06 15:34:47 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/js/elemets.js
+[ 2018-12-06 15:34:47 ] file url 1 = https://goodbadbetween.com/static/assets/js/elemets.js
+[ 2018-12-06 15:34:47 ] scrape_it = 1
+[ 2018-12-06 15:34:47 ] ---------------------------------------
+[ 2018-12-06 15:34:47 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:47 ] ---------------------------------------
+[ 2018-12-06 15:34:47 ] TEST 1
+[ 2018-12-06 15:34:47 ] URL = https://goodbadbetween.com/static/assets/js/elemets.js
+[ 2018-12-06 15:34:47 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:49 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 2.0.50727; Media Center PC 6.0)
+[ 2018-12-06 15:34:49 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/js/elemets.js --> File Created !!!
+[ 2018-12-06 15:34:49 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:49 ] file url = https://goodbadbetween.com/static/assets/js/swiper.js
+[ 2018-12-06 15:34:49 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/js/swiper.js
+[ 2018-12-06 15:34:49 ] file url 1 = https://goodbadbetween.com/static/assets/js/swiper.js
+[ 2018-12-06 15:34:49 ] scrape_it = 1
+[ 2018-12-06 15:34:49 ] ---------------------------------------
+[ 2018-12-06 15:34:49 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:49 ] ---------------------------------------
+[ 2018-12-06 15:34:49 ] TEST 1
+[ 2018-12-06 15:34:49 ] URL = https://goodbadbetween.com/static/assets/js/swiper.js
+[ 2018-12-06 15:34:49 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:50 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36
+[ 2018-12-06 15:34:50 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/js/swiper.js --> File Created !!!
+[ 2018-12-06 15:34:50 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:50 ] file url = https://maps.googleapis.com/maps/api/js?key=AIzaSyAqoWGSQYygV-G1P5tVrj-dM2rVHR5wOGY
+[ 2018-12-06 15:34:50 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maps.googleapis.com/maps/api/js_key_AIzaSyAqoWGSQYygV-G1P5tVrj-dM2rVHR5wOGY.js
+[ 2018-12-06 15:34:50 ] file url 1 = https://maps.googleapis.com/maps/api/js?key=AIzaSyAqoWGSQYygV-G1P5tVrj-dM2rVHR5wOGY
+[ 2018-12-06 15:34:50 ] scrape_it = 1
+[ 2018-12-06 15:34:50 ] ---------------------------------------
+[ 2018-12-06 15:34:50 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:50 ] ---------------------------------------
+[ 2018-12-06 15:34:50 ] TEST 1
+[ 2018-12-06 15:34:50 ] URL = https://maps.googleapis.com/maps/api/js?key=AIzaSyAqoWGSQYygV-G1P5tVrj-dM2rVHR5wOGY
+[ 2018-12-06 15:34:50 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:50 ] useragent = Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) like Gecko
+[ 2018-12-06 15:34:50 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/maps.googleapis.com/maps/api/js_key_AIzaSyAqoWGSQYygV-G1P5tVrj-dM2rVHR5wOGY.js --> File Created !!!
+[ 2018-12-06 15:34:50 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:50 ] file url = https://goodbadbetween.com/static/assets/js/map-script.js
+[ 2018-12-06 15:34:50 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/js/map-script.js
+[ 2018-12-06 15:34:50 ] file url 1 = https://goodbadbetween.com/static/assets/js/map-script.js
+[ 2018-12-06 15:34:50 ] scrape_it = 1
+[ 2018-12-06 15:34:50 ] ---------------------------------------
+[ 2018-12-06 15:34:50 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:50 ] ---------------------------------------
+[ 2018-12-06 15:34:50 ] TEST 1
+[ 2018-12-06 15:34:50 ] URL = https://goodbadbetween.com/static/assets/js/map-script.js
+[ 2018-12-06 15:34:50 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:51 ] useragent = Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; de-de) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2018-12-06 15:34:51 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/js/map-script.js --> File Created !!!
+[ 2018-12-06 15:34:51 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:51 ] file url = https://goodbadbetween.com/static/assets/js/custom.js
+[ 2018-12-06 15:34:51 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/js/custom.js
+[ 2018-12-06 15:34:51 ] file url 1 = https://goodbadbetween.com/static/assets/js/custom.js
+[ 2018-12-06 15:34:51 ] scrape_it = 1
+[ 2018-12-06 15:34:51 ] ---------------------------------------
+[ 2018-12-06 15:34:51 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:51 ] ---------------------------------------
+[ 2018-12-06 15:34:51 ] TEST 1
+[ 2018-12-06 15:34:51 ] URL = https://goodbadbetween.com/static/assets/js/custom.js
+[ 2018-12-06 15:34:51 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:52 ] useragent = Mozilla/5.0 (Windows; U; Windows NT 6.1; cs-CZ) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2018-12-06 15:34:52 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/js/custom.js --> File Created !!!
+[ 2018-12-06 15:34:52 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:52 ] file url = https://www.googletagmanager.com/gtag/js?id=UA-125822081-1
+[ 2018-12-06 15:34:52 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/www.googletagmanager.com/gtag/js_id_UA-125822081-1.js
+[ 2018-12-06 15:34:52 ] file url 1 = https://www.googletagmanager.com/gtag/js?id=UA-125822081-1
+[ 2018-12-06 15:34:52 ] scrape_it = 1
+[ 2018-12-06 15:34:52 ] ---------------------------------------
+[ 2018-12-06 15:34:52 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:52 ] ---------------------------------------
+[ 2018-12-06 15:34:52 ] TEST 1
+[ 2018-12-06 15:34:52 ] URL = https://www.googletagmanager.com/gtag/js?id=UA-125822081-1
+[ 2018-12-06 15:34:52 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:52 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 2.0.50727; Media Center PC 6.0)
+[ 2018-12-06 15:34:52 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/www.googletagmanager.com/gtag/js_id_UA-125822081-1.js --> File Created !!!
+[ 2018-12-06 15:34:52 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:52 ] /*******		End : Extract script files		**********/
+[ 2018-12-06 15:34:52 ] 
+[ 2018-12-06 15:34:52 ] 
+[ 2018-12-06 15:34:52 ] 
+[ 2018-12-06 15:34:52 ] /**************************************************************/
+[ 2018-12-06 15:34:52 ] /*******		Extract img files		**********/
+[ 2018-12-06 15:34:52 ] /**************************************************************/
+[ 2018-12-06 15:34:52 ] file url = https://goodbadbetween.com/static/assets/img/logo.png
+[ 2018-12-06 15:34:52 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/img/logo.png
+[ 2018-12-06 15:34:52 ] file url 1 = https://goodbadbetween.com/static/assets/img/logo.png
+[ 2018-12-06 15:34:52 ] scrape_it = 1
+[ 2018-12-06 15:34:52 ] ---------------------------------------
+[ 2018-12-06 15:34:52 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:52 ] ---------------------------------------
+[ 2018-12-06 15:34:52 ] TEST 1
+[ 2018-12-06 15:34:52 ] URL = https://goodbadbetween.com/static/assets/img/logo.png
+[ 2018-12-06 15:34:52 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:52 ] useragent = Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0
+[ 2018-12-06 15:34:52 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/img/logo.png --> File Created !!!
+[ 2018-12-06 15:34:52 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:52 ] file url = https://goodbadbetween.com/static/assets/img/favicon.ico
+[ 2018-12-06 15:34:52 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/img/favicon.ico
+[ 2018-12-06 15:34:52 ] file url 1 = https://goodbadbetween.com/static/assets/img/favicon.ico
+[ 2018-12-06 15:34:52 ] scrape_it = 1
+[ 2018-12-06 15:34:52 ] ---------------------------------------
+[ 2018-12-06 15:34:52 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:52 ] ---------------------------------------
+[ 2018-12-06 15:34:52 ] TEST 1
+[ 2018-12-06 15:34:52 ] URL = https://goodbadbetween.com/static/assets/img/favicon.ico
+[ 2018-12-06 15:34:52 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:53 ] useragent = Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+[ 2018-12-06 15:34:53 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/static/assets/img/favicon.ico --> File Created !!!
+[ 2018-12-06 15:34:53 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:34:53 ] /*******		End : Extract img files		**********/
+[ 2018-12-06 15:34:53 ] 
+[ 2018-12-06 15:34:53 ] 
+[ 2018-12-06 15:34:53 ] 
+[ 2018-12-06 15:34:53 ] /**************************************************************/
+[ 2018-12-06 15:34:53 ] /*******		Extract background_images files		**********/
+[ 2018-12-06 15:34:53 ] /**************************************************************/
+[ 2018-12-06 15:34:53 ] /*******		End : Extract background_images files		**********/
+[ 2018-12-06 15:34:53 ] 
+[ 2018-12-06 15:34:53 ] 
+[ 2018-12-06 15:34:53 ] 
+[ 2018-12-06 15:34:53 ] /**************************************************************/
+[ 2018-12-06 15:34:53 ] /*******		Extract background_images_in_html files		**********/
+[ 2018-12-06 15:34:53 ] /**************************************************************/
+[ 2018-12-06 15:34:53 ] /*******		End : Extract background_images_in_html files		**********/
+[ 2018-12-06 15:34:53 ] 
+[ 2018-12-06 15:34:53 ] 
+[ 2018-12-06 15:34:53 ] 
+[ 2018-12-06 15:34:53 ] /**************************************************************/
+[ 2018-12-06 15:34:53 ] /*******		Extract swf files		**********/
+[ 2018-12-06 15:34:53 ] /**************************************************************/
+[ 2018-12-06 15:34:53 ] /*******		End : Extract swf files		**********/
+[ 2018-12-06 15:34:53 ] 
+[ 2018-12-06 15:34:53 ] Original url : https://goodbadbetween.com/cdn-cgi/l/email-protection - 2/11
+[ 2018-12-06 15:34:53 ] ---------------------------------------
+[ 2018-12-06 15:34:53 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:53 ] ---------------------------------------
+[ 2018-12-06 15:34:53 ] TEST 1
+[ 2018-12-06 15:34:53 ] URL = https://goodbadbetween.com/cdn-cgi/l/email-protection
+[ 2018-12-06 15:34:53 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:53 ] useragent = Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) like Gecko
+[ 2018-12-06 15:34:53 ] Final url : https://goodbadbetween.com/cdn-cgi/l/email-protection( code=200 )
+[ 2018-12-06 15:34:53 ] Original url : https://goodbadbetween.com/policy - 7/11
+[ 2018-12-06 15:34:53 ] ---------------------------------------
+[ 2018-12-06 15:34:53 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:53 ] ---------------------------------------
+[ 2018-12-06 15:34:53 ] TEST 1
+[ 2018-12-06 15:34:53 ] URL = https://goodbadbetween.com/policy
+[ 2018-12-06 15:34:53 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:54 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 7.1; Trident/5.0)
+[ 2018-12-06 15:34:54 ] Final url : https://goodbadbetween.com/policy( code=200 )
+[ 2018-12-06 15:34:54 ] Original url : https://goodbadbetween.com/terms - 8/11
+[ 2018-12-06 15:34:54 ] ---------------------------------------
+[ 2018-12-06 15:34:54 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:54 ] ---------------------------------------
+[ 2018-12-06 15:34:54 ] TEST 1
+[ 2018-12-06 15:34:54 ] URL = https://goodbadbetween.com/terms
+[ 2018-12-06 15:34:54 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:54 ] useragent = Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20130401 Firefox/
+[ 2018-12-06 15:34:54 ] Final url : https://goodbadbetween.com/terms( code=200 )
+[ 2018-12-06 15:34:54 ] Original url : https://goodbadbetween.com/subscribe_the_user - 9/11
+[ 2018-12-06 15:34:54 ] ---------------------------------------
+[ 2018-12-06 15:34:54 ] get_curl_live() function : Start
+[ 2018-12-06 15:34:54 ] ---------------------------------------
+[ 2018-12-06 15:34:54 ] TEST 1
+[ 2018-12-06 15:34:54 ] URL = https://goodbadbetween.com/subscribe_the_user
+[ 2018-12-06 15:34:54 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:34:55 ] useragent = Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20130401 Firefox/
+[ 2018-12-06 15:34:55 ] Code = 405
+[ 2018-12-06 15:34:55 ] HTML found = Yes
+[ 2018-12-06 15:34:55 ]     No sleep!
+[ 2018-12-06 15:34:55 ] ----
+[ 2018-12-06 15:34:55 ] TEST 2
+[ 2018-12-06 15:34:55 ] URL = http://goodbadbetween.com/subscribe_the_user  --> Switch protocol ( Try 'http' )
+[ 2018-12-06 15:34:55 ] no proxy used ( Test nbr 2/5 )
+[ 2018-12-06 15:34:55 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10; rv:33.0) Gecko/20100101 Firefox/33.0
+[ 2018-12-06 15:34:55 ] Code = 405
+[ 2018-12-06 15:34:55 ] HTML found = Yes
+[ 2018-12-06 15:34:55 ]     No sleep!
+[ 2018-12-06 15:34:55 ] ----
+[ 2018-12-06 15:34:55 ] TEST 3
+[ 2018-12-06 15:34:55 ] URL = https://goodbadbetween.com/subscribe_the_user
+[ 2018-12-06 15:34:55 ] no proxy used ( Test nbr 3/5 )
+[ 2018-12-06 15:34:56 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 7.1; Trident/5.0)
+[ 2018-12-06 15:34:56 ] proxy_ip = http://163.172.110.165:1317
+[ 2018-12-06 15:34:56 ] Code = 405
+[ 2018-12-06 15:34:56 ] HTML found = Yes
+[ 2018-12-06 15:34:56 ]     No sleep!
+[ 2018-12-06 15:34:56 ] ----
+[ 2018-12-06 15:34:56 ] TEST 4
+[ 2018-12-06 15:34:56 ] URL = https://goodbadbetween.com/subscribe_the_user
+[ 2018-12-06 15:34:56 ] proxy_ip = http://163.172.110.165:1317 ( Test nbr 4/5 )
+[ 2018-12-06 15:35:00 ] useragent = Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-us) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2018-12-06 15:35:00 ] proxy_ip = http://163.172.110.165:1319
+[ 2018-12-06 15:35:00 ] Code = 405
+[ 2018-12-06 15:35:00 ] HTML found = Yes
+[ 2018-12-06 15:35:00 ]     No sleep!
+[ 2018-12-06 15:35:00 ] ----
+[ 2018-12-06 15:35:00 ] TEST 5
+[ 2018-12-06 15:35:00 ] URL = https://goodbadbetween.com/subscribe_the_user
+[ 2018-12-06 15:35:00 ] proxy_ip = http://163.172.110.165:1319 ( Test nbr 5/5 )
+[ 2018-12-06 15:35:03 ] useragent = Mozilla/5.0 (Windows NT 6.2; rv:21.0) Gecko/20130326 Firefox/21.0
+[ 2018-12-06 15:35:03 ] Final url : ( code=405 )
+[ 2018-12-06 15:35:03 ] Original url : https://goodbadbetween.com/send_email - 10/11
+[ 2018-12-06 15:35:03 ] ---------------------------------------
+[ 2018-12-06 15:35:03 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:03 ] ---------------------------------------
+[ 2018-12-06 15:35:03 ] TEST 1
+[ 2018-12-06 15:35:03 ] URL = https://goodbadbetween.com/send_email
+[ 2018-12-06 15:35:03 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:03 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0; InfoPath.3; MS-RTC LM 8; .NET4.0C; .NET4.0E)
+[ 2018-12-06 15:35:03 ] Code = 405
+[ 2018-12-06 15:35:03 ] HTML found = Yes
+[ 2018-12-06 15:35:03 ]     No sleep!
+[ 2018-12-06 15:35:03 ] ----
+[ 2018-12-06 15:35:03 ] TEST 2
+[ 2018-12-06 15:35:03 ] URL = http://goodbadbetween.com/send_email  --> Switch protocol ( Try 'http' )
+[ 2018-12-06 15:35:03 ] no proxy used ( Test nbr 2/5 )
+[ 2018-12-06 15:35:04 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; yie8)
+[ 2018-12-06 15:35:04 ] Code = 405
+[ 2018-12-06 15:35:04 ] HTML found = Yes
+[ 2018-12-06 15:35:04 ]     No sleep!
+[ 2018-12-06 15:35:04 ] ----
+[ 2018-12-06 15:35:04 ] TEST 3
+[ 2018-12-06 15:35:04 ] URL = https://goodbadbetween.com/send_email
+[ 2018-12-06 15:35:04 ] no proxy used ( Test nbr 3/5 )
+[ 2018-12-06 15:35:04 ] useragent = Mozilla/5.0 (Windows NT 6.1; rv:27.3) Gecko/20130101 Firefox/27.3
+[ 2018-12-06 15:35:04 ] proxy_ip = http://163.172.110.165:1321
+[ 2018-12-06 15:35:04 ] Code = 405
+[ 2018-12-06 15:35:04 ] HTML found = Yes
+[ 2018-12-06 15:35:04 ]     No sleep!
+[ 2018-12-06 15:35:04 ] ----
+[ 2018-12-06 15:35:04 ] TEST 4
+[ 2018-12-06 15:35:04 ] URL = https://goodbadbetween.com/send_email
+[ 2018-12-06 15:35:04 ] proxy_ip = http://163.172.110.165:1321 ( Test nbr 4/5 )
+[ 2018-12-06 15:35:07 ] useragent = Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; sv-se) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2018-12-06 15:35:07 ] proxy_ip = http://163.172.110.165:1322
+[ 2018-12-06 15:35:07 ] Code = 405
+[ 2018-12-06 15:35:07 ] HTML found = Yes
+[ 2018-12-06 15:35:07 ]     No sleep!
+[ 2018-12-06 15:35:07 ] ----
+[ 2018-12-06 15:35:07 ] TEST 5
+[ 2018-12-06 15:35:07 ] URL = https://goodbadbetween.com/send_email
+[ 2018-12-06 15:35:07 ] proxy_ip = http://163.172.110.165:1322 ( Test nbr 5/5 )
+[ 2018-12-06 15:35:22 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/534.55.3 (KHTML, like Gecko) Version/5.1.3 Safari/534.53.10
+[ 2018-12-06 15:35:22 ] Final url : ( code=0 )
+[ 2018-12-06 15:35:22 ] Removed external links total ( 0 / 5 )
+[ 2018-12-06 15:35:22 ] Partial Size : 3712
+[ 2018-12-06 15:35:22 ] size_limit_KO : 10000
+[ 2018-12-06 15:35:22 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/index.html --> HTML File Created !!!
+[ 2018-12-06 15:35:22 ] ----------------------------------------------------------------------
+[ 2018-12-06 15:35:22 ] ( 1 / 5 )  Done - 1 error pages fixed
+[ 2018-12-06 15:35:22 ] ------------------------------------------------------------------
+[ 2018-12-06 15:35:22 ] File name found in to_create_arr
+[ 2018-12-06 15:35:22 ] #####################################################################################################
+[ 2018-12-06 15:35:22 ] ###############https://goodbadbetween.com/cdn-cgi/l/email-protection ( Scraping  of 2 / 5 )  - 1 error pages fixed###############
+[ 2018-12-06 15:35:22 ] ###############Local URL = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/l/email-protection.html###############
+[ 2018-12-06 15:35:22 ] ###############Try number = 1###############
+[ 2018-12-06 15:35:22 ] #####################################################################################################
+[ 2018-12-06 15:35:22 ]  Main level =1
+[ 2018-12-06 15:35:22 ] ---------------------------------------
+[ 2018-12-06 15:35:22 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:22 ] ---------------------------------------
+[ 2018-12-06 15:35:22 ] TEST 1
+[ 2018-12-06 15:35:22 ] URL = https://goodbadbetween.com/cdn-cgi/l/email-protection
+[ 2018-12-06 15:35:22 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:22 ] useragent = Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/4E423F
+[ 2018-12-06 15:35:22 ] Original encoding = ASCII
+[ 2018-12-06 15:35:22 ] Final encoding = ASCII
+[ 2018-12-06 15:35:22 ] Language = N/A
+[ 2018-12-06 15:35:22 ] 
+[ 2018-12-06 15:35:22 ] 
+[ 2018-12-06 15:35:22 ] /**************************************************************/
+[ 2018-12-06 15:35:22 ] /*******		Extract css_from_import files		**********/
+[ 2018-12-06 15:35:22 ] /**************************************************************/
+[ 2018-12-06 15:35:22 ] /*******		End : Extract css_from_import files		**********/
+[ 2018-12-06 15:35:22 ] 
+[ 2018-12-06 15:35:22 ] 
+[ 2018-12-06 15:35:22 ] 
+[ 2018-12-06 15:35:22 ] /**************************************************************/
+[ 2018-12-06 15:35:22 ] /*******		Extract pdf files		**********/
+[ 2018-12-06 15:35:22 ] /**************************************************************/
+[ 2018-12-06 15:35:22 ] /*******		End : Extract pdf files		**********/
+[ 2018-12-06 15:35:22 ] 
+[ 2018-12-06 15:35:22 ] 
+[ 2018-12-06 15:35:22 ] 
+[ 2018-12-06 15:35:22 ] /**************************************************************/
+[ 2018-12-06 15:35:22 ] /*******		Extract css files		**********/
+[ 2018-12-06 15:35:22 ] /**************************************************************/
+[ 2018-12-06 15:35:22 ] file url = https://goodbadbetween.com/cdn-cgi/styles/cf.errors.css
+[ 2018-12-06 15:35:22 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/cf.errors.css
+[ 2018-12-06 15:35:22 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/cf.errors.css
+[ 2018-12-06 15:35:22 ] scrape_it = 1
+[ 2018-12-06 15:35:22 ] ---------------------------------------
+[ 2018-12-06 15:35:22 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:22 ] ---------------------------------------
+[ 2018-12-06 15:35:22 ] TEST 1
+[ 2018-12-06 15:35:22 ] URL = https://goodbadbetween.com/cdn-cgi/styles/cf.errors.css
+[ 2018-12-06 15:35:22 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:22 ] useragent = Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1866.237 Safari/537.36
+[ 2018-12-06 15:35:22 ] 
+[ 2018-12-06 15:35:22 ] 
+[ 2018-12-06 15:35:22 ] /**************************************************************/
+[ 2018-12-06 15:35:22 ] /*******		Extract css_from_import files		**********/
+[ 2018-12-06 15:35:22 ] /**************************************************************/
+[ 2018-12-06 15:35:22 ] /*******		End : Extract css_from_import files		**********/
+[ 2018-12-06 15:35:22 ] 
+[ 2018-12-06 15:35:22 ] 
+[ 2018-12-06 15:35:22 ] 
+[ 2018-12-06 15:35:22 ] /**************************************************************/
+[ 2018-12-06 15:35:22 ] /*******		Extract fonts_from_css files		**********/
+[ 2018-12-06 15:35:22 ] /**************************************************************/
+[ 2018-12-06 15:35:22 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300.eot
+[ 2018-12-06 15:35:22 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-300.eot
+[ 2018-12-06 15:35:22 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300.eot
+[ 2018-12-06 15:35:22 ] scrape_it = 1
+[ 2018-12-06 15:35:22 ] ---------------------------------------
+[ 2018-12-06 15:35:22 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:22 ] ---------------------------------------
+[ 2018-12-06 15:35:22 ] TEST 1
+[ 2018-12-06 15:35:22 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300.eot
+[ 2018-12-06 15:35:22 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:22 ] useragent = Mozilla/4.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/5.0)
+[ 2018-12-06 15:35:22 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-300.eot --> File Created !!!
+[ 2018-12-06 15:35:22 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:22 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300.eot?#iefix
+[ 2018-12-06 15:35:22 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-300.eot
+[ 2018-12-06 15:35:22 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300.eot?#iefix
+[ 2018-12-06 15:35:22 ] scrape_it = 1
+[ 2018-12-06 15:35:22 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:22 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300.woff
+[ 2018-12-06 15:35:22 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-300.woff
+[ 2018-12-06 15:35:22 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300.woff
+[ 2018-12-06 15:35:22 ] scrape_it = 1
+[ 2018-12-06 15:35:22 ] ---------------------------------------
+[ 2018-12-06 15:35:22 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:22 ] ---------------------------------------
+[ 2018-12-06 15:35:22 ] TEST 1
+[ 2018-12-06 15:35:22 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300.woff
+[ 2018-12-06 15:35:22 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:22 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/534.55.3 (KHTML, like Gecko) Version/5.1.3 Safari/534.53.10
+[ 2018-12-06 15:35:22 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-300.woff --> File Created !!!
+[ 2018-12-06 15:35:22 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:22 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300.ttf
+[ 2018-12-06 15:35:22 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-300.ttf
+[ 2018-12-06 15:35:22 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300.ttf
+[ 2018-12-06 15:35:22 ] scrape_it = 1
+[ 2018-12-06 15:35:22 ] ---------------------------------------
+[ 2018-12-06 15:35:22 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:22 ] ---------------------------------------
+[ 2018-12-06 15:35:22 ] TEST 1
+[ 2018-12-06 15:35:22 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300.ttf
+[ 2018-12-06 15:35:22 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:22 ] useragent = Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))
+[ 2018-12-06 15:35:22 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-300.ttf --> File Created !!!
+[ 2018-12-06 15:35:22 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:22 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300.svg#open_sanssemibold
+[ 2018-12-06 15:35:22 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-300.svg
+[ 2018-12-06 15:35:22 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300.svg#open_sanssemibold
+[ 2018-12-06 15:35:22 ] scrape_it = 1
+[ 2018-12-06 15:35:22 ] ---------------------------------------
+[ 2018-12-06 15:35:22 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:22 ] ---------------------------------------
+[ 2018-12-06 15:35:22 ] TEST 1
+[ 2018-12-06 15:35:22 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300.svg#open_sanssemibold
+[ 2018-12-06 15:35:22 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:22 ] useragent = Mozilla/5.0 (Windows NT 6.1; rv:22.0) Gecko/20130405 Firefox/22.0
+[ 2018-12-06 15:35:22 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-300.svg --> File Created !!!
+[ 2018-12-06 15:35:22 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:22 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400.eot
+[ 2018-12-06 15:35:22 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-400.eot
+[ 2018-12-06 15:35:22 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400.eot
+[ 2018-12-06 15:35:22 ] scrape_it = 1
+[ 2018-12-06 15:35:22 ] ---------------------------------------
+[ 2018-12-06 15:35:22 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:22 ] ---------------------------------------
+[ 2018-12-06 15:35:22 ] TEST 1
+[ 2018-12-06 15:35:22 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400.eot
+[ 2018-12-06 15:35:22 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:22 ] useragent = Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36
+[ 2018-12-06 15:35:22 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-400.eot --> File Created !!!
+[ 2018-12-06 15:35:22 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:22 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400.eot?#iefix
+[ 2018-12-06 15:35:22 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-400.eot
+[ 2018-12-06 15:35:22 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400.eot?#iefix
+[ 2018-12-06 15:35:22 ] scrape_it = 1
+[ 2018-12-06 15:35:22 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:22 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400.woff
+[ 2018-12-06 15:35:22 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-400.woff
+[ 2018-12-06 15:35:22 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400.woff
+[ 2018-12-06 15:35:22 ] scrape_it = 1
+[ 2018-12-06 15:35:22 ] ---------------------------------------
+[ 2018-12-06 15:35:22 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:22 ] ---------------------------------------
+[ 2018-12-06 15:35:22 ] TEST 1
+[ 2018-12-06 15:35:22 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400.woff
+[ 2018-12-06 15:35:22 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:22 ] useragent = Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; de-at) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1
+[ 2018-12-06 15:35:22 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-400.woff --> File Created !!!
+[ 2018-12-06 15:35:22 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:22 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400.ttf
+[ 2018-12-06 15:35:22 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-400.ttf
+[ 2018-12-06 15:35:22 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400.ttf
+[ 2018-12-06 15:35:22 ] scrape_it = 1
+[ 2018-12-06 15:35:22 ] ---------------------------------------
+[ 2018-12-06 15:35:22 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:22 ] ---------------------------------------
+[ 2018-12-06 15:35:22 ] TEST 1
+[ 2018-12-06 15:35:22 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400.ttf
+[ 2018-12-06 15:35:23 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:23 ] useragent = Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) like Gecko
+[ 2018-12-06 15:35:23 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-400.ttf --> File Created !!!
+[ 2018-12-06 15:35:23 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:23 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400.svg#open_sansregular
+[ 2018-12-06 15:35:23 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-400.svg
+[ 2018-12-06 15:35:23 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400.svg#open_sansregular
+[ 2018-12-06 15:35:23 ] scrape_it = 1
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] TEST 1
+[ 2018-12-06 15:35:23 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400.svg#open_sansregular
+[ 2018-12-06 15:35:23 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:23 ] useragent = Mozilla/5.0 (X11; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1 Iceweasel/14.0.1
+[ 2018-12-06 15:35:23 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-400.svg --> File Created !!!
+[ 2018-12-06 15:35:23 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:23 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-600.eot
+[ 2018-12-06 15:35:23 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-600.eot
+[ 2018-12-06 15:35:23 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-600.eot
+[ 2018-12-06 15:35:23 ] scrape_it = 1
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] TEST 1
+[ 2018-12-06 15:35:23 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-600.eot
+[ 2018-12-06 15:35:23 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:23 ] useragent = Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:22.0) Gecko/20130328 Firefox/22.0
+[ 2018-12-06 15:35:23 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-600.eot --> File Created !!!
+[ 2018-12-06 15:35:23 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:23 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-600.eot?#iefix
+[ 2018-12-06 15:35:23 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-600.eot
+[ 2018-12-06 15:35:23 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-600.eot?#iefix
+[ 2018-12-06 15:35:23 ] scrape_it = 1
+[ 2018-12-06 15:35:23 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:23 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-600.woff
+[ 2018-12-06 15:35:23 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-600.woff
+[ 2018-12-06 15:35:23 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-600.woff
+[ 2018-12-06 15:35:23 ] scrape_it = 1
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] TEST 1
+[ 2018-12-06 15:35:23 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-600.woff
+[ 2018-12-06 15:35:23 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:23 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0; Tablet PC 2.0; InfoPath.3; .NET4.0C; .NET4.0E)
+[ 2018-12-06 15:35:23 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-600.woff --> File Created !!!
+[ 2018-12-06 15:35:23 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:23 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-600.ttf
+[ 2018-12-06 15:35:23 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-600.ttf
+[ 2018-12-06 15:35:23 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-600.ttf
+[ 2018-12-06 15:35:23 ] scrape_it = 1
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] TEST 1
+[ 2018-12-06 15:35:23 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-600.ttf
+[ 2018-12-06 15:35:23 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:23 ] useragent = Mozilla/5.0 (Windows NT 6.1; rv:21.0) Gecko/20130328 Firefox/21.0
+[ 2018-12-06 15:35:23 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-600.ttf --> File Created !!!
+[ 2018-12-06 15:35:23 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:23 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-600.svg#open_sanssemibold
+[ 2018-12-06 15:35:23 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-600.svg
+[ 2018-12-06 15:35:23 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-600.svg#open_sanssemibold
+[ 2018-12-06 15:35:23 ] scrape_it = 1
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] TEST 1
+[ 2018-12-06 15:35:23 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-600.svg#open_sanssemibold
+[ 2018-12-06 15:35:23 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:23 ] useragent = Mozilla/5.0 (X11; Linux x86_64; rv:15.0) Gecko/20120724 Debian Iceweasel/15.0
+[ 2018-12-06 15:35:23 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-600.svg --> File Created !!!
+[ 2018-12-06 15:35:23 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:23 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-700.eot
+[ 2018-12-06 15:35:23 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-700.eot
+[ 2018-12-06 15:35:23 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-700.eot
+[ 2018-12-06 15:35:23 ] scrape_it = 1
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] TEST 1
+[ 2018-12-06 15:35:23 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-700.eot
+[ 2018-12-06 15:35:23 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:23 ] useragent = Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36
+[ 2018-12-06 15:35:23 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-700.eot --> File Created !!!
+[ 2018-12-06 15:35:23 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:23 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-700.eot?#iefix
+[ 2018-12-06 15:35:23 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-700.eot
+[ 2018-12-06 15:35:23 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-700.eot?#iefix
+[ 2018-12-06 15:35:23 ] scrape_it = 1
+[ 2018-12-06 15:35:23 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:23 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-700.woff
+[ 2018-12-06 15:35:23 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-700.woff
+[ 2018-12-06 15:35:23 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-700.woff
+[ 2018-12-06 15:35:23 ] scrape_it = 1
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] TEST 1
+[ 2018-12-06 15:35:23 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-700.woff
+[ 2018-12-06 15:35:23 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:23 ] useragent = Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; zh-cn) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2018-12-06 15:35:23 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-700.woff --> File Created !!!
+[ 2018-12-06 15:35:23 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:23 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-700.ttf
+[ 2018-12-06 15:35:23 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-700.ttf
+[ 2018-12-06 15:35:23 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-700.ttf
+[ 2018-12-06 15:35:23 ] scrape_it = 1
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] TEST 1
+[ 2018-12-06 15:35:23 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-700.ttf
+[ 2018-12-06 15:35:23 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:23 ] useragent = Mozilla/4.0 (Compatible; MSIE 8.0; Windows NT 5.2; Trident/6.0)
+[ 2018-12-06 15:35:23 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-700.ttf --> File Created !!!
+[ 2018-12-06 15:35:23 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:23 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-700.svg#open_sansbold
+[ 2018-12-06 15:35:23 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-700.svg
+[ 2018-12-06 15:35:23 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-700.svg#open_sansbold
+[ 2018-12-06 15:35:23 ] scrape_it = 1
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] TEST 1
+[ 2018-12-06 15:35:23 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-700.svg#open_sansbold
+[ 2018-12-06 15:35:23 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:23 ] useragent = Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36
+[ 2018-12-06 15:35:23 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-700.svg --> File Created !!!
+[ 2018-12-06 15:35:23 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:23 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300i.eot
+[ 2018-12-06 15:35:23 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-300i.eot
+[ 2018-12-06 15:35:23 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300i.eot
+[ 2018-12-06 15:35:23 ] scrape_it = 1
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] TEST 1
+[ 2018-12-06 15:35:23 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300i.eot
+[ 2018-12-06 15:35:23 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:23 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:25.0) Gecko/20100101 Firefox/25.0
+[ 2018-12-06 15:35:23 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-300i.eot --> File Created !!!
+[ 2018-12-06 15:35:23 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:23 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300i.eot?#iefix
+[ 2018-12-06 15:35:23 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-300i.eot
+[ 2018-12-06 15:35:23 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300i.eot?#iefix
+[ 2018-12-06 15:35:23 ] scrape_it = 1
+[ 2018-12-06 15:35:23 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:23 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300i.woff
+[ 2018-12-06 15:35:23 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-300i.woff
+[ 2018-12-06 15:35:23 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300i.woff
+[ 2018-12-06 15:35:23 ] scrape_it = 1
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:23 ] ---------------------------------------
+[ 2018-12-06 15:35:23 ] TEST 1
+[ 2018-12-06 15:35:23 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300i.woff
+[ 2018-12-06 15:35:23 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:24 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0; Tablet PC 2.0; InfoPath.3; .NET4.0C; .NET4.0E)
+[ 2018-12-06 15:35:24 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-300i.woff --> File Created !!!
+[ 2018-12-06 15:35:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:24 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300i.ttf
+[ 2018-12-06 15:35:24 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-300i.ttf
+[ 2018-12-06 15:35:24 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300i.ttf
+[ 2018-12-06 15:35:24 ] scrape_it = 1
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] TEST 1
+[ 2018-12-06 15:35:24 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300i.ttf
+[ 2018-12-06 15:35:24 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:24 ] useragent = Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/4.0; InfoPath.2; SV1; .NET CLR 2.0.50727; WOW64)
+[ 2018-12-06 15:35:24 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-300i.ttf --> File Created !!!
+[ 2018-12-06 15:35:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:24 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300i.svg#open_sanslight_italic
+[ 2018-12-06 15:35:24 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-300i.svg
+[ 2018-12-06 15:35:24 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300i.svg#open_sanslight_italic
+[ 2018-12-06 15:35:24 ] scrape_it = 1
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] TEST 1
+[ 2018-12-06 15:35:24 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-300i.svg#open_sanslight_italic
+[ 2018-12-06 15:35:24 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:24 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0
+[ 2018-12-06 15:35:24 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-300i.svg --> File Created !!!
+[ 2018-12-06 15:35:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:24 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400i.eot
+[ 2018-12-06 15:35:24 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-400i.eot
+[ 2018-12-06 15:35:24 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400i.eot
+[ 2018-12-06 15:35:24 ] scrape_it = 1
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] TEST 1
+[ 2018-12-06 15:35:24 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400i.eot
+[ 2018-12-06 15:35:24 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:24 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36
+[ 2018-12-06 15:35:24 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-400i.eot --> File Created !!!
+[ 2018-12-06 15:35:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:24 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400i.eot?#iefix
+[ 2018-12-06 15:35:24 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-400i.eot
+[ 2018-12-06 15:35:24 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400i.eot?#iefix
+[ 2018-12-06 15:35:24 ] scrape_it = 1
+[ 2018-12-06 15:35:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:24 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400i.woff
+[ 2018-12-06 15:35:24 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-400i.woff
+[ 2018-12-06 15:35:24 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400i.woff
+[ 2018-12-06 15:35:24 ] scrape_it = 1
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] TEST 1
+[ 2018-12-06 15:35:24 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400i.woff
+[ 2018-12-06 15:35:24 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:24 ] useragent = Mozilla/5.0 (Windows NT 6.2; rv:22.0) Gecko/20130405 Firefox/23.0
+[ 2018-12-06 15:35:24 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-400i.woff --> File Created !!!
+[ 2018-12-06 15:35:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:24 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400i.ttf
+[ 2018-12-06 15:35:24 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-400i.ttf
+[ 2018-12-06 15:35:24 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400i.ttf
+[ 2018-12-06 15:35:24 ] scrape_it = 1
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] TEST 1
+[ 2018-12-06 15:35:24 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400i.ttf
+[ 2018-12-06 15:35:24 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:24 ] useragent = Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/5.0)
+[ 2018-12-06 15:35:24 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-400i.ttf --> File Created !!!
+[ 2018-12-06 15:35:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:24 ] file url = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400i.svg#open_sansitalic
+[ 2018-12-06 15:35:24 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-400i.svg
+[ 2018-12-06 15:35:24 ] file url 1 = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400i.svg#open_sansitalic
+[ 2018-12-06 15:35:24 ] scrape_it = 1
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] TEST 1
+[ 2018-12-06 15:35:24 ] URL = https://goodbadbetween.com/cdn-cgi/styles/fonts/opensans-400i.svg#open_sansitalic
+[ 2018-12-06 15:35:24 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:24 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/534.55.3 (KHTML, like Gecko) Version/5.1.3 Safari/534.53.10
+[ 2018-12-06 15:35:24 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/fonts/opensans-400i.svg --> File Created !!!
+[ 2018-12-06 15:35:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:24 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2018-12-06 15:35:24 ] 
+[ 2018-12-06 15:35:24 ] 
+[ 2018-12-06 15:35:24 ] 
+[ 2018-12-06 15:35:24 ] /**************************************************************/
+[ 2018-12-06 15:35:24 ] /*******		Extract background_images files		**********/
+[ 2018-12-06 15:35:24 ] /**************************************************************/
+[ 2018-12-06 15:35:24 ] file url = https://goodbadbetween.com/cdn-cgi/images/error_icons.png
+[ 2018-12-06 15:35:24 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/img/error_icons.png
+[ 2018-12-06 15:35:24 ] file url 1 = https://goodbadbetween.com/cdn-cgi/images/error_icons.png
+[ 2018-12-06 15:35:24 ] scrape_it = 1
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] TEST 1
+[ 2018-12-06 15:35:24 ] URL = https://goodbadbetween.com/cdn-cgi/images/error_icons.png
+[ 2018-12-06 15:35:24 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:24 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 2.0.50727; Media Center PC 6.0)
+[ 2018-12-06 15:35:24 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/img/error_icons.png --> File Created !!!
+[ 2018-12-06 15:35:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:24 ] file url = https://goodbadbetween.com/cdn-cgi/images/icon-exclamation.png
+[ 2018-12-06 15:35:24 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/img/icon-exclamation.png
+[ 2018-12-06 15:35:24 ] file url 1 = https://goodbadbetween.com/cdn-cgi/images/icon-exclamation.png
+[ 2018-12-06 15:35:24 ] scrape_it = 1
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] TEST 1
+[ 2018-12-06 15:35:24 ] URL = https://goodbadbetween.com/cdn-cgi/images/icon-exclamation.png
+[ 2018-12-06 15:35:24 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:24 ] useragent = Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2018-12-06 15:35:24 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/img/icon-exclamation.png --> File Created !!!
+[ 2018-12-06 15:35:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:24 ] file url = https://goodbadbetween.com/cdn-cgi/images/error_icons.png
+[ 2018-12-06 15:35:24 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/img/error_icons.png
+[ 2018-12-06 15:35:24 ] file url 1 = https://goodbadbetween.com/cdn-cgi/images/error_icons.png
+[ 2018-12-06 15:35:24 ] scrape_it = 1
+[ 2018-12-06 15:35:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:24 ] file url = https://goodbadbetween.com/cdn-cgi/images/error_icons.png
+[ 2018-12-06 15:35:24 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/img/error_icons.png
+[ 2018-12-06 15:35:24 ] file url 1 = https://goodbadbetween.com/cdn-cgi/images/error_icons.png
+[ 2018-12-06 15:35:24 ] scrape_it = 1
+[ 2018-12-06 15:35:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:24 ] file url = https://goodbadbetween.com/cdn-cgi/images/browser-bar.png
+[ 2018-12-06 15:35:24 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/img/browser-bar.png
+[ 2018-12-06 15:35:24 ] file url 1 = https://goodbadbetween.com/cdn-cgi/images/browser-bar.png
+[ 2018-12-06 15:35:24 ] scrape_it = 1
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] TEST 1
+[ 2018-12-06 15:35:24 ] URL = https://goodbadbetween.com/cdn-cgi/images/browser-bar.png
+[ 2018-12-06 15:35:24 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:24 ] useragent = Mozilla/5.0 (Windows NT 5.1; rv:21.0) Gecko/20100101 Firefox/21.0
+[ 2018-12-06 15:35:24 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/img/browser-bar.png --> File Created !!!
+[ 2018-12-06 15:35:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:24 ] file url = https://goodbadbetween.com/cdn-cgi/images/error_icons.png
+[ 2018-12-06 15:35:24 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/img/error_icons.png
+[ 2018-12-06 15:35:24 ] file url 1 = https://goodbadbetween.com/cdn-cgi/images/error_icons.png
+[ 2018-12-06 15:35:24 ] scrape_it = 1
+[ 2018-12-06 15:35:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:24 ] file url = https://goodbadbetween.com/cdn-cgi/images/error_icons.png
+[ 2018-12-06 15:35:24 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/img/error_icons.png
+[ 2018-12-06 15:35:24 ] file url 1 = https://goodbadbetween.com/cdn-cgi/images/error_icons.png
+[ 2018-12-06 15:35:24 ] scrape_it = 1
+[ 2018-12-06 15:35:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:24 ] file url = https://goodbadbetween.com/cdn-cgi/images/error_icons.png
+[ 2018-12-06 15:35:24 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/img/error_icons.png
+[ 2018-12-06 15:35:24 ] file url 1 = https://goodbadbetween.com/cdn-cgi/images/error_icons.png
+[ 2018-12-06 15:35:24 ] scrape_it = 1
+[ 2018-12-06 15:35:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:24 ] /*******		End : Extract background_images files		**********/
+[ 2018-12-06 15:35:24 ] 
+[ 2018-12-06 15:35:24 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/styles/cf.errors.css --> File Created !!!
+[ 2018-12-06 15:35:24 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:24 ] /*******		End : Extract css files		**********/
+[ 2018-12-06 15:35:24 ] 
+[ 2018-12-06 15:35:24 ] 
+[ 2018-12-06 15:35:24 ] 
+[ 2018-12-06 15:35:24 ] /**************************************************************/
+[ 2018-12-06 15:35:24 ] /*******		Extract fonts_from_html files		**********/
+[ 2018-12-06 15:35:24 ] /**************************************************************/
+[ 2018-12-06 15:35:24 ] /*******		End : Extract fonts_from_html files		**********/
+[ 2018-12-06 15:35:24 ] 
+[ 2018-12-06 15:35:24 ] 
+[ 2018-12-06 15:35:24 ] 
+[ 2018-12-06 15:35:24 ] /**************************************************************/
+[ 2018-12-06 15:35:24 ] /*******		Extract xml files		**********/
+[ 2018-12-06 15:35:24 ] /**************************************************************/
+[ 2018-12-06 15:35:24 ] /*******		End : Extract xml files		**********/
+[ 2018-12-06 15:35:24 ] 
+[ 2018-12-06 15:35:24 ] 
+[ 2018-12-06 15:35:24 ] 
+[ 2018-12-06 15:35:24 ] /**************************************************************/
+[ 2018-12-06 15:35:24 ] /*******		Extract txt files		**********/
+[ 2018-12-06 15:35:24 ] /**************************************************************/
+[ 2018-12-06 15:35:24 ] /*******		End : Extract txt files		**********/
+[ 2018-12-06 15:35:24 ] 
+[ 2018-12-06 15:35:24 ] 
+[ 2018-12-06 15:35:24 ] 
+[ 2018-12-06 15:35:24 ] /**************************************************************/
+[ 2018-12-06 15:35:24 ] /*******		Extract script files		**********/
+[ 2018-12-06 15:35:24 ] /**************************************************************/
+[ 2018-12-06 15:35:24 ] file url = https://goodbadbetween.com/cdn-cgi/scripts/zepto.min.js
+[ 2018-12-06 15:35:24 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/scripts/zepto.min.js
+[ 2018-12-06 15:35:24 ] file url 1 = https://goodbadbetween.com/cdn-cgi/scripts/zepto.min.js
+[ 2018-12-06 15:35:24 ] scrape_it = 1
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:24 ] ---------------------------------------
+[ 2018-12-06 15:35:24 ] TEST 1
+[ 2018-12-06 15:35:24 ] URL = https://goodbadbetween.com/cdn-cgi/scripts/zepto.min.js
+[ 2018-12-06 15:35:24 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:25 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; chromeframe/12.0.742.112)
+[ 2018-12-06 15:35:25 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/scripts/zepto.min.js --> File Created !!!
+[ 2018-12-06 15:35:25 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:25 ] file url = https://goodbadbetween.com/cdn-cgi/scripts/cf.common.js
+[ 2018-12-06 15:35:25 ] local_file_full_path = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/scripts/cf.common.js
+[ 2018-12-06 15:35:25 ] file url 1 = https://goodbadbetween.com/cdn-cgi/scripts/cf.common.js
+[ 2018-12-06 15:35:25 ] scrape_it = 1
+[ 2018-12-06 15:35:25 ] ---------------------------------------
+[ 2018-12-06 15:35:25 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:25 ] ---------------------------------------
+[ 2018-12-06 15:35:25 ] TEST 1
+[ 2018-12-06 15:35:25 ] URL = https://goodbadbetween.com/cdn-cgi/scripts/cf.common.js
+[ 2018-12-06 15:35:25 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:25 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0
+[ 2018-12-06 15:35:25 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/scripts/cf.common.js --> File Created !!!
+[ 2018-12-06 15:35:25 ] -------------------------------------------------------------------------------------------
+[ 2018-12-06 15:35:25 ] /*******		End : Extract script files		**********/
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		Extract img files		**********/
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		End : Extract img files		**********/
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		Extract background_images files		**********/
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		End : Extract background_images files		**********/
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		Extract background_images_in_html files		**********/
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		End : Extract background_images_in_html files		**********/
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		Extract swf files		**********/
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		End : Extract swf files		**********/
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] Removed external links total ( 0 / 4 )
+[ 2018-12-06 15:35:25 ] Partial Size : 4680
+[ 2018-12-06 15:35:25 ] size_limit_KO : 10000
+[ 2018-12-06 15:35:25 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/cdn-cgi/l/email-protection.html --> HTML File Created !!!
+[ 2018-12-06 15:35:25 ] ----------------------------------------------------------------------
+[ 2018-12-06 15:35:25 ] ( 2 / 5 )  Done - 1 error pages fixed
+[ 2018-12-06 15:35:25 ] ------------------------------------------------------------------
+[ 2018-12-06 15:35:25 ] File name found in to_create_arr
+[ 2018-12-06 15:35:25 ] #####################################################################################################
+[ 2018-12-06 15:35:25 ] ###############https://goodbadbetween.com/policy ( Scraping  of 3 / 5 )  - 1 error pages fixed###############
+[ 2018-12-06 15:35:25 ] ###############Local URL = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/policy.html###############
+[ 2018-12-06 15:35:25 ] ###############Try number = 1###############
+[ 2018-12-06 15:35:25 ] #####################################################################################################
+[ 2018-12-06 15:35:25 ]  Main level =1
+[ 2018-12-06 15:35:25 ] ---------------------------------------
+[ 2018-12-06 15:35:25 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:25 ] ---------------------------------------
+[ 2018-12-06 15:35:25 ] TEST 1
+[ 2018-12-06 15:35:25 ] URL = https://goodbadbetween.com/policy
+[ 2018-12-06 15:35:25 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:25 ] useragent = Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-us) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2018-12-06 15:35:25 ] Original encoding = UTF-8
+[ 2018-12-06 15:35:25 ] Final encoding = UTF-8
+[ 2018-12-06 15:35:25 ] Language = N/A
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		Extract css_from_import files		**********/
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		End : Extract css_from_import files		**********/
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		Extract pdf files		**********/
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		End : Extract pdf files		**********/
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		Extract css files		**********/
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		End : Extract css files		**********/
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		Extract fonts_from_html files		**********/
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		End : Extract fonts_from_html files		**********/
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		Extract xml files		**********/
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		End : Extract xml files		**********/
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		Extract txt files		**********/
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		End : Extract txt files		**********/
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		Extract script files		**********/
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		End : Extract script files		**********/
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		Extract img files		**********/
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		End : Extract img files		**********/
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		Extract background_images files		**********/
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		End : Extract background_images files		**********/
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		Extract background_images_in_html files		**********/
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		End : Extract background_images_in_html files		**********/
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		Extract swf files		**********/
+[ 2018-12-06 15:35:25 ] /**************************************************************/
+[ 2018-12-06 15:35:25 ] /*******		End : Extract swf files		**********/
+[ 2018-12-06 15:35:25 ] 
+[ 2018-12-06 15:35:25 ] Removed external links total ( 0 / 0 )
+[ 2018-12-06 15:35:25 ] Partial Size : 4696
+[ 2018-12-06 15:35:25 ] size_limit_KO : 10000
+[ 2018-12-06 15:35:25 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/policy.html --> HTML File Created !!!
+[ 2018-12-06 15:35:25 ] ----------------------------------------------------------------------
+[ 2018-12-06 15:35:25 ] ( 3 / 5 )  Done - 1 error pages fixed
+[ 2018-12-06 15:35:25 ] ------------------------------------------------------------------
+[ 2018-12-06 15:35:25 ] File name found in to_create_arr
+[ 2018-12-06 15:35:25 ] #####################################################################################################
+[ 2018-12-06 15:35:25 ] ###############https://goodbadbetween.com/terms ( Scraping  of 4 / 5 )  - 1 error pages fixed###############
+[ 2018-12-06 15:35:25 ] ###############Local URL = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/terms.html###############
+[ 2018-12-06 15:35:25 ] ###############Try number = 1###############
+[ 2018-12-06 15:35:25 ] #####################################################################################################
+[ 2018-12-06 15:35:25 ]  Main level =1
+[ 2018-12-06 15:35:25 ] ---------------------------------------
+[ 2018-12-06 15:35:25 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:25 ] ---------------------------------------
+[ 2018-12-06 15:35:25 ] TEST 1
+[ 2018-12-06 15:35:25 ] URL = https://goodbadbetween.com/terms
+[ 2018-12-06 15:35:25 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:26 ] useragent = Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 7.0; InfoPath.3; .NET CLR 3.1.40767; Trident/6.0; en-IN)
+[ 2018-12-06 15:35:26 ] Original encoding = UTF-8
+[ 2018-12-06 15:35:26 ] Final encoding = UTF-8
+[ 2018-12-06 15:35:26 ] Language = N/A
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		Extract css_from_import files		**********/
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		End : Extract css_from_import files		**********/
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		Extract pdf files		**********/
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		End : Extract pdf files		**********/
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		Extract css files		**********/
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		End : Extract css files		**********/
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		Extract fonts_from_html files		**********/
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		End : Extract fonts_from_html files		**********/
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		Extract xml files		**********/
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		End : Extract xml files		**********/
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		Extract txt files		**********/
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		End : Extract txt files		**********/
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		Extract script files		**********/
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		End : Extract script files		**********/
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		Extract img files		**********/
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		End : Extract img files		**********/
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		Extract background_images files		**********/
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		End : Extract background_images files		**********/
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		Extract background_images_in_html files		**********/
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		End : Extract background_images_in_html files		**********/
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		Extract swf files		**********/
+[ 2018-12-06 15:35:26 ] /**************************************************************/
+[ 2018-12-06 15:35:26 ] /*******		End : Extract swf files		**********/
+[ 2018-12-06 15:35:26 ] 
+[ 2018-12-06 15:35:26 ] Removed external links total ( 0 / 1 )
+[ 2018-12-06 15:35:26 ] Partial Size : 4728
+[ 2018-12-06 15:35:26 ] size_limit_KO : 10000
+[ 2018-12-06 15:35:26 ] files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/terms.html --> HTML File Created !!!
+[ 2018-12-06 15:35:26 ] ----------------------------------------------------------------------
+[ 2018-12-06 15:35:26 ] ( 4 / 5 )  Done - 1 error pages fixed
+[ 2018-12-06 15:35:26 ] ------------------------------------------------------------------
+[ 2018-12-06 15:35:26 ] File name found in to_create_arr
+[ 2018-12-06 15:35:26 ] #####################################################################################################
+[ 2018-12-06 15:35:26 ] ###############https://goodbadbetween.com/send_email( orignal url ) ( Scraping  of 5 / 5 )  - 1 error pages fixed###############
+[ 2018-12-06 15:35:26 ] ###############Local URL = files/live/goodbadbetween.com_54321hemanth_gmail.com_xsx3dkvjd3q/send_email.html###############
+[ 2018-12-06 15:35:26 ] ###############Try number = 1###############
+[ 2018-12-06 15:35:26 ] #####################################################################################################
+[ 2018-12-06 15:35:26 ]  Main level =1
+[ 2018-12-06 15:35:26 ] ---------------------------------------
+[ 2018-12-06 15:35:26 ] get_curl_live() function : Start
+[ 2018-12-06 15:35:26 ] ---------------------------------------
+[ 2018-12-06 15:35:26 ] TEST 1
+[ 2018-12-06 15:35:26 ] URL = https://goodbadbetween.com/send_email(%20orignal%20url%20)
+[ 2018-12-06 15:35:26 ] no proxy used ( Test nbr 1/5 )
+[ 2018-12-06 15:35:27 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/534.55.3 (KHTML, like Gecko) Version/5.1.3 Safari/534.53.10
+[ 2018-12-06 15:35:27 ] Code = 404
+[ 2018-12-06 15:35:27 ] HTML found = Yes
+[ 2018-12-06 15:35:27 ]     No sleep!
+[ 2018-12-06 15:35:27 ] ----
+[ 2018-12-06 15:35:27 ] TEST 2
+[ 2018-12-06 15:35:27 ] URL = http://goodbadbetween.com/send_email(%20orignal%20url%20)  --> Switch protocol ( Try 'http' )
+[ 2018-12-06 15:35:27 ] no proxy used ( Test nbr 2/5 )
+[ 2018-12-06 15:35:27 ] useragent = Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36
+[ 2018-12-06 15:35:27 ] Code = 404
+[ 2018-12-06 15:35:27 ] HTML found = Yes
+[ 2018-12-06 15:35:27 ]     No sleep!
+[ 2018-12-06 15:35:27 ] ----
+[ 2018-12-06 15:35:27 ] TEST 3
+[ 2018-12-06 15:35:27 ] URL = https://goodbadbetween.com/send_email(%20orignal%20url%20)
+[ 2018-12-06 15:35:27 ] no proxy used ( Test nbr 3/5 )
+[ 2018-12-06 15:35:28 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0; InfoPath.3; MS-RTC LM 8; .NET4.0C; .NET4.0E)
+[ 2018-12-06 15:35:28 ] Code = 404
+[ 2018-12-06 15:35:28 ] HTML found = Yes
+[ 2018-12-06 15:35:28 ]     No sleep!
+[ 2018-12-06 15:35:28 ] ----
+[ 2018-12-06 15:35:28 ] Original encoding = ASCII
+[ 2018-12-06 15:35:28 ] Final encoding = ASCII
+[ 2018-12-06 15:35:28 ] Language = N/A
+[ 2018-12-06 15:35:28 ] Partial Size : 4732
+[ 2018-12-06 15:35:28 ] size_limit_KO : 10000
+[ 2018-12-06 15:35:28 ] 404 error returned !!!
+[ 2018-12-06 15:35:28 ] ----------------------------------------------------------------------
+[ 2018-12-06 15:35:28 ] ( 5 / 5 )  Done - 1 error pages fixed
+[ 2018-12-06 15:35:28 ] Final Size : 4732
