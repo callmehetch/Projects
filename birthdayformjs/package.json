@@ -1,0 +1,14 @@
+{
+  "name": "birthdayformjs",
+  "version": "1.0.0",
+  "description": "IIITDM BirthDay Form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hemanth Kumar N",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
