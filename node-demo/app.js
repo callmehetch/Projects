@@ -1,8 +1,21 @@
 var express = require("express");
+var nodemailer = require('nodemailer');
 var app = express();
 var port = 3000;
 var bodyParser = require('body-parser');
 var path = require('path');
+
+
+var smtpTransport = nodemailer.createTransport({
+    service: "gmail",
+    host: "smtp.gmail.com",
+    auth: {
+        user: "54321hemanth@gmail.com",
+        pass: "hemanth3219"
+    }
+});
+
+
 
 
 app.use(express.static(path.join(__dirname, 'public')));
@@ -16,6 +29,8 @@ var mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
 mongoose.connect("mongodb://localhost:27017/data");
 var nameSchema = new mongoose.Schema({
+    
+    
   rname : String,
     rroll :String,
     rgender : String,
@@ -30,6 +45,14 @@ var nameSchema = new mongoose.Schema({
     broom : Number,
     bdate : Date,
     bslot : String,
+ 
+        name : String,
+    mail : String,
+  
+    
+        
+
+  
     
     
 });
@@ -42,16 +65,35 @@ app.get("/", (req, res) => {
 });
 
 
-app.post("/adddata", (req, res) => {
+app.get('/send',function(req,res){
+    var mailOptions={
+        to : req.query.to,
+        subject : req.query.subject,
+        text : req.query.text
+    }
+    console.log(mailOptions);
+    smtpTransport.sendMail(mailOptions, function(error, response){
+     if(error){
+            console.log(error);
+        res.end("error");
+     }else{
+            console.log("Message sent: " + response.message);
+        res.end("sent");
+         }
+});
+});
+
+app.post("/success", (req, res) => {
     var myData = new User(req.body);
     myData.save()
         .then(item => {
-            res.send("Name saved to database");
+             res.sendFile(__dirname + "/success.html");
         })
         .catch(err => {
             res.status(400).send("Unable to save to database");
         });
 });
+
 
 app.listen(port, () => {
     console.log("Server listening on port " + port);

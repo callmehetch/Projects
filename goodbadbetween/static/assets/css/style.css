@@ -207,7 +207,7 @@ hr.devider:after {
 }
 
 .boxed-btn {
-    padding: 14px 40px;
+    padding: 40px 40px;
     color: #fff;
   //background-color: #08bed3;
     background: linear-gradient(125deg, #0b81a3, #12182c);
@@ -290,16 +290,16 @@ hr.devider:after {
 */
 
 .navbar {
-          padding : 25px 0 ;
+    padding: 25px 0;
     margin-bottom: 0;
     background: #fff;
     border-bottom: 0;}
 
 .navbar-brand {
     padding: 0;
-    margin-top: 4%;
     height: 0;
 }
+
 .navbar-nav>li>a:focus,
 .navbar-nav>li>a {
     padding: 0 15px;
@@ -404,7 +404,9 @@ header::after {
     z-index: -1;
 }*/
 
-
+.header-content {
+    padding-top: 250px;
+}
 
 .header-content h1 {
     font-size: 44px;
@@ -415,13 +417,13 @@ header::after {
 }
 
 .header-content p {
-    width: 50%;
+    width: 60%;
     margin: 0 auto 40px;
     color: #fff;
 }
 
 .header-content .boxed-btn {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .header-app-slider {
@@ -883,7 +885,7 @@ header::after {
 
 
 .boxed-btn.confirm {
-    background: white;
+    background: linear-gradient(125deg, #0b81a3, #12182c);
   //background-color: #08bed3;
   //background-image: -moz-linear-gradient( -67deg, rgb(104, 227, 255) 0%, rgba(87, 239, 190, 0.90196) 100%);
   //background-image: -webkit-linear-gradient( -67deg, rgb(104, 227, 255) 0%, rgba(87, 239, 190, 0.90196) 100%);
@@ -918,7 +920,7 @@ header::after {
 }
 
 .dark-version .boxed-btn.confirm {
-    background: white;
+    background: #272d3a;
 }
 
 
@@ -1048,9 +1050,9 @@ header::after {
 */
 
 #subscribe .subscribe-wrapper {
-    background: #fbfbfb;
+    /*background: #fbfbfb;
     box-shadow: 0px -2px 6px 0px rgba(0, 0, 0, 0.11);
-    padding: 10px;
+    */padding: 80px;
 }
 
 #subscribe .form-control {
@@ -1060,7 +1062,7 @@ header::after {
     background: #fff none repeat scroll 0 0;
     color: #4c5462;
     height: 50px;
-    padding: 0 80px 0 20px;
+    padding: 0 100px 0 30px;
 }
 
 input.subscribe::placeholder {
@@ -1077,7 +1079,8 @@ input.subscribe::placeholder {
     right: 0;
     color: #fff;
     top: 0;
-    background-color: #08bed3;
+    background: linear-gradient(125deg, #0b81a3, #12182c);
+      /*background-color: #08bed3;*/
   //background-image: -moz-linear-gradient( -45deg, rgb(104, 227, 255) 0%, rgba(87, 239, 190, 0.90196) 100%);
   //background-image: -webkit-linear-gradient( -45deg, rgb(104, 227, 255) 0%, rgba(87, 239, 190, 0.90196) 100%);
   //background-image: -ms-linear-gradient( -45deg, rgb(104, 227, 255) 0%, rgba(87, 239, 190, 0.90196) 100%);

@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logo.png" />
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <title>IIITDM-Form</title>
+    
 
     <script type="text/javascript">
         function validate() {
@@ -88,35 +91,162 @@
 
     </script>
 
+
+
+
+
     <style>
 
 
+        .HWlogo{
+			width: 75%;
+		}
+		@media screen and (max-width: 736px) {
+
+			.HWlogo {
+				width: 100%;
+			}
+
+		}
     </style>
 </head>
 
 <body>
 
-    <a href="<?= 'https://accounts.google.com/o/oauth2/v2/auth?scope=' . urlencode('https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/plus.me') . '&redirect_uri=' . urlencode(CLIENT_REDIRECT_URL) . '&response_type=code&client_id=' . CLIENT_ID . '&access_type=online' ?>" style="padding-top: %" style="font-family: 'Work Sans', sans-serif;">Institute Login</a>
 
-    <img src="./images/HWlogo1.png" style="background: #264F8F; width: 100%; border: solid white 1px;">
+
+
+    <div class=container-fluid>
+        <div style="background-color: #204b8c;">
+            <button class="btn" id="login-button" style="float: left; padding-left: 0; cursor: pointer;  color: white;background-color: #204b8c;"><i class="fas fa-sign-in-alt"></i> Institute Login </button>
+        </div>
+    </div>
+    <div style="width: 100%; background-color: #214B8C;"><img class="HWlogo" style="margin: 2px 0;" src="images/HWlogo1.png" alt="" /></div>
+
+
+    <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};HandleGoogleApiLibrary()" onreadystatechange="if (this.readyState === 'complete') this.onload()"></script>
+    <script>
+
+
+        function HandleGoogleApiLibrary() {
+	
+	gapi.load('client:auth2', {
+		callback: function() {
+			gapi.client.init({
+		    	apiKey: 'AIzaSyBHAyUli1r3NZDQUobQJA11ChIrAUyV5uQ',
+		    	clientId: '811095232910-himuoec84blql8col3b7mm14ehklgkbi.apps.googleusercontent.com',
+		    	scope: 'https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/plus.me'
+			}).then(
+				
+				function(success) {
+			  		
+			  		$("#login-button").removeAttr('disabled');
+                  
+				}, 
+				
+				function(error) {
+					alert('Error : Failed to Load Library');
+			  	}
+			);
+		},
+		onerror: function() {
+			
+		}
+	});
+}
+
+
+$("#login-button").on('click', function() {
+	$("#login-button").attr('disabled', 'disabled');
+			
+
+	gapi.auth2.getAuthInstance().signIn().then(
+	
+		function(success) {
+			
+			gapi.client.request({ path: 'https://www.googleapis.com/plus/v1/people/me' }).then(
+	
+				function(success) {
+					console.log(success);
+					var user_info = JSON.parse(success.body);
+					console.log(user_info);
+                    var a = user_info.emails[0].value ;
+                    var b = a.substring(0,9);
+                    var c = b.toUpperCase();
+                    
+
+					$("#rdiv input").eq(0).val(user_info.displayName);	
+					$("#rrdiv input").val(c);
+
+				
+					$("#login-button").hide();
+                    $("#req").hide();
+                      $("#submit").removeAttr('disabled');
+				},
+				// On error
+				function(error) {
+					$("#login-button").removeAttr('disabled');
+					alert('Error : Failed to get user user information');
+				}
+			);
+		},
+		// On error
+		function(error) {
+			$("#login-button").removeAttr('disabled');
+			alert('Error : Login Failed');
+		}
+	);
+});
+
+</script>
+
+
+
+
+
+
+<p id = "status"> </p>
+
+<script>
+$(document).ready(function(){
+    var from,to,subject,text;
+    $("#submit").click(function(){      
+        to=$("#broll").val();
+        subject= "Re. Birthday Permission";
+        text= " Your application for requestin birthday celebration has been submitted.";
+      
+        $.get("http://localhost:3000/send",{to:to,subject:subject,text:text},function(data){
+  
+
+});
+    });
+});
+</script>
+    
 
     <div class="container" style="padding-top : 1%;">
         <div class="col-md-8 order-md-1">
             <h3 class="mb-3" style="text-decoration: underline; text-align:center;font-family: 'Work Sans', sans-serif;">Birthday Request Form: </h3>
             <hr class="mb-4">
-            <form class="needs-validation" onsubmit="return validate();" action="/adddata" method="post" autocomplete="off">
+            <form class="needs-validation" id="bform" method="post" action= "/success"  autocomplete="off">
+           
                 <div class="row">
 
                     <div class="col-md-6 mb-4">
                         <label for="rname">Name:</label>
-                        <input type="text" class="form-control" name="rname" id="rname" placeholder="" value="" required>
+
+                        <div id="rdiv">
+                            <input type="text" class="form-control" name="rname" id="rname" value="" readonly required>
+
+                        </div>
                         <div class="invalid-feedback">
                             Valid Name is required.
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
                         <label for="rroll">Roll:</label>
-                        <input type="text" class="form-control" name="rroll" id="rroll" placeholder="" value="" required>
+                        <div id = "rrdiv">
+                        <input type="text" class="form-control" name="rroll" id="rroll"  value="" readonly required></div>
                         <div class="invalid-feedback">
                             Valid Roll No. is required.
                         </div>
@@ -134,7 +264,8 @@
                     </div>
 
                 </div>
-                <div class="row">
+
+                <div class="row"> 
                     <div class="col-md-6 mb-4">
                         <label for="rphone">Phone Number:</label>
                         <div class="input-group">
@@ -254,13 +385,13 @@
                     <tbody>
                         <tr>
                             <td>
-                                <input type="text" name="name" class="form-control" />
+                                <input type="text" name="name" id="name" class="form-control" />
                             </td>
                             <td>
-                                <input type="mail" name="mail" class="form-control" />
+                                <input type="mail" name="mail" id = "mail" class="form-control" />
                             </td>
                             <td>
-                                <input type="text" name="phone" class="form-control" />
+                                <input type="text" name="phone" id = "phone" class="form-control" />
                             </td>
                             <td><a class="deleteRow"></a>
 
@@ -321,8 +452,8 @@
 
                 <hr class="mb-4">
 
-                <button class="btn " style="width : 30%; background-color: #214B8C; color: white ">Submit</button>
-                <p style="color: red">Please Login with Institute mail to submit.</p>
+                <button class="btn" id="submit" style="width : 30%; background-color: #214B8C; color: white " disabled>Submit</button>
+                <p id="req" style="color: red">Please Login with Institute mail to submit.</p>
 
 
 
@@ -339,7 +470,7 @@
 
         <div class="row valign-wrapper" style="width: 100%; background-color: #214B8C; margin: 0">
             <div class="col s5" style="min-width: 110px">
-                <a href="Profile/homePage.php" style="margin: 0;padding: 10px 0 0 0; color: #edeaea; cursor: pointer" target="_blank">Institute Login</a>
+                <a href="#login-button" style="margin: 0;padding: 10px 0 0 0; color: #edeaea; cursor: pointer">Institute Login</a>
             </div>
             <div class="col s2">
 
@@ -406,6 +537,7 @@
         }
 
     </script>
+
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

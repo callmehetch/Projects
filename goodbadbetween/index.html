@@ -1,11 +1,10 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>GOOD BAD BETWEEN</title>
-    <meta name="description" content="GOOD BAD BETWEEN">
+<meta name="description" content="GOOD BAD BETWEEN">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:image" content="/static/assets/img/d.jpg">
     <link rel="shortcut icon" href="static/assets/img/favicon.ico" type="image/x-icon" />
@@ -16,20 +15,58 @@
     <link rel="stylesheet" type="text/css" href="static/assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="static/assets/css/responsive.css">
     <link rel="stylesheet" type="text/css" href="static/assets/css/card.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/assets/css/introjs.css">
     <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
     <script src="cdn.rawgit.com/oauth-io/oauth-js/c5af4519/dist/oauth.js"></script>
-    <link rel="stylesheet" href="maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/    font-awesome.min.css">
     <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.min.css">
     <script src="ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script  type="text/javascript" src="static/assets/js/intro.js"></script>
+    <script type="text/javascript">
+      function startIntro(){
+        var intro = introJs();
+          intro.setOptions({
+            steps: [
+              {
+                element: '#step1',
+                intro: "This is a <b>bold</b> tooltip."
+              },
+              {
+                element: '#step2',
+                intro: "Ok, <i>wasn't</i> that fun?",
+                position: 'right'
+              },
+              {
+                element: '#step3',
+                intro: 'More features, more <span style="color: red;">f</span><span style="color: green;">u</span><span style="color: blue;">n</span>.',
+                position: 'left'
+              },
+              {
+                element: '#step4',
+                intro: "<span style='font-family: Tahoma'>Another step with new font!</span>",
+                position: 'bottom'
+              },
+              {
+                element: '#step5',
+                intro: '<strong>Get</strong> it, <strong>use</strong> it.'
+              }
+            ]
+          });
+
+          intro.start();
+      }
+    </script>
 </head>
+
+    
 <style type="text/css">
     .card_butn {
         padding: 0px;
         width: 95px;
         height: 35px;
     }
-
     #card_options {
         display: none;
         z-index: 5000;
@@ -38,12 +75,10 @@
         height: 300px;
         background: #036E80;
     }
-
     #buttons {
         margin-bottom: 4%;
         margin-left: 0%;
     }
-
     .tool .tooltiptexthidden {
         visibility: hidden;
         width: 120px;
@@ -58,11 +93,9 @@
         left: 50%;
         margin-left: -60px;
     }
-
     .tool:hover .tooltiptexthidden {
         visibility: visible;
     }
-
     .tool .tooltiptexthidden::after {
         content: "";
         position: absolute;
@@ -73,7 +106,6 @@
         border-style: solid;
         border-color: black transparent transparent transparent;
     }
-
     .tool .tooltiptext::after {
         content: "";
         position: absolute;
@@ -84,12 +116,10 @@
         border-style: solid;
         border-color: black transparent transparent transparent;
     }
-
     .tool {
         position: relative;
         display: inline-block;
     }
-
     .tool .tooltiptext {
         visibility: visible;
         width: 120px;
@@ -104,7 +134,6 @@
         left: 50%;
         margin-left: -60px;
     }
-
     .tool .tooltiptext::after {
         content: "";
         position: absolute;
@@ -115,7 +144,6 @@
         border-style: solid;
         border-color: black transparent transparent transparent;
     }
-
     .tool .tooltiptextlefthidden {
         visibility: hidden;
         width: 120px;
@@ -129,7 +157,6 @@
         top: -5px;
         right: 110%;
     }
-
     .tool .tooltiptextlefthidden::after {
         content: "";
         position: absolute;
@@ -140,7 +167,6 @@
         border-style: solid;
         border-color: transparent transparent transparent black;
     }
-
     .tool:hover .tooltiptextlefthidden {
         visibility: visible;
     }
@@ -148,26 +174,21 @@
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
     .button {
-  background-color: #08bed3;
+ background: linear-gradient(125deg, #0b81a3, #12182c);
   border: none;
   color: white;
   padding: 7.5px 16px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-
-  
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
-
     #footer {
-        
         padding-top: 0.75%;
         background-color: white;
     }
-
     #footer h5 {
         padding-left: 10px;
         border-left: 3px solid black;
@@ -176,18 +197,15 @@
         color:  #272d3a;
 ;
     }
-
     #footer a {
         color: black;
         text-decoration: none !important;
         background-color: transparent;
         -webkit-text-decoration-skip: objects;
     }
-
     #footer ul.social li {
         padding: 3px 0;
     }
-
     #footer ul.social li a i {
         margin-right: 5px;
         font-size: 25px;
@@ -195,42 +213,34 @@
         -moz-transition: .5s all ease;
         transition: .5s all ease;
     }
-
     #footer ul.social li:hover a i {
         font-size: 30px;
         margin-top: -10px;
     }
-
     #footer ul.social li a,
     #footer ul.quick-links li a {
         color: black;
     }
-
     #footer ul.social li a:hover {
         color: #08bed3;
     }
-
     #footer ul.quick-links li {
         padding: 3px 0;
         -webkit-transition: .5s all ease;
         -moz-transition: .5s all ease;
         transition: .5s all ease;
     }
-
     #footer ul.quick-links li:hover {
         padding: 3px 0;
         margin-left: 5px;
         font-weight: 700;
     }
-
     #footer ul.quick-links li a i {
         margin-right: 5px;
     }
-
     #footer ul.quick-links li:hover a i {
         font-weight: 700;
     }
-
     @media (max-width:767px) {
         #footer h5 {
             padding-left: 0;
@@ -242,7 +252,6 @@
     /* Blink for Webkit and others
 (Chrome, Safari, Firefox, IE, ...)
 */
-
 @-webkit-keyframes blinker {
   from {opacity: 1.0;}
   to {opacity: 0.0;}
@@ -255,10 +264,8 @@
 	-webkit-animation-timing-function:ease-in-out;
 	-webkit-animation-direction: alternate;
 }
-
 </style>
-
-<body>
+<body onload = "javascript:introJs().start();">
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -310,6 +317,15 @@
             </div>
         </div>
     </div>
+    <ol id="tour" style="display: none;">
+  <li data-target="#one" data-angle="130">
+    The first step in the tour
+  </li>
+  <li data-target=".two" data-options="distance:20">
+    This is the second step in the tour
+  </li>
+</ol>
+    
     <!--==============> Preloader End <==============-->
     <!--==============> Nav Start <==============-->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -324,18 +340,11 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar" >
                 <ul class="nav navbar-nav navbar-right" style="font-size:  110%">
-                  
-                       
                             <li  class="list-inline-item" style="padding-top: 4%"><a href="https://www.facebook.com/goodbadbetween/?ref=aymt_homepage_panel" target="_blank"><i class="fa fa-facebook"></i></a></li>
                             <li class="list-inline-item" style="padding-top: 4%"><a href="https://twitter.com/GoodBadBetween" target="_blank"><i class="fa fa-twitter"></i></a></li>
                             <li class="list-inline-item" style="padding-top: 4%"><a href="https://www.instagram.com/goodbadbetween/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                             <li class="list-inline-item" style="padding-top: 4%"><a href="https://www.linkedin.com/company/goodbadbetween/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-
-                       
                        <li class=""><button class = "button1 button" style="cursor: pointer;" data-toggle="modal" data-target="#login">Login</button></li>
-                       
-                  
-                    
                     <!-- <li><a href="#app-screenshot" class="page-scroll">Product Demo</a></li> -->
                     <!-- <li><a href="#about-app" class="page-scroll">Our Mission</a></li> -->
                     <!-- <li><a href="#features" class="page-scroll">Why Choose Us?</a></li> -->
@@ -360,8 +369,9 @@
                         <p class="wow fadeInDown" data-wow-delay=".1s" style="font-size: 140%" style = "padding-top : 2%;">Explore - Express - Expand  -  Your Worldview!</p>
                         <!-- <div class="fb-login-button" data-max-rows="1" data-size="medium" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="true" onlogin="checkLoginState();"></div> -->
                         <!-- <fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button> -->
+
                        <div style="padding-top: 2%" >
-                        <a  style="cursor: pointer; background: white; color: black; width: 35%;  font-size: 300%" data-toggle="modal" data-target="#login" class="wow fadeInDown boxed-btn lg blink" data-wow-delay=".2s" >Explore<i class="fas fa-hand-pointer"></i></a></div>
+                           <a  style="cursor: pointer;  color: white; width: 35%;  font-size: 300%" data-toggle="modal" data-target="#login" data-step="1" data-intro="This is a tooltip!" class="wow fadeInDown boxed-btn lg  blink" data-wow-delay=".2s" >Explore<i class="fas fa-hand-pointer"></i></a></div>
                         <!-- login widget -->
                         <div id="login" class="modal" style="top:20%; left:30%;">
                             <div class="modal-content animate-zoom" style="width: 600px;border-radius: 20px">
@@ -395,7 +405,7 @@
                                 </header>
                                 <div class="w3-container w3-section">
                                     <a id="facebook-button" class="btn btn-social btn-facebook" onclick="checkLoginState('business');">
-                                        <i class="fa fa-facebook"></i> Sign in with Facebook Page
+                                        <i class="fab fa-facebook-f"></i> Sign in with Facebook Page
                                     </a>
                                     <br>
                                     <br>
@@ -411,15 +421,15 @@
     </header>
     <!--==============> Header ENd <==============-->
     <!--==============> Subscribe Now Start <==============-->
-  <section id="subscribe" class="spt2" style="background: white; padding-top: 0.5%; padding-bottom: 0.5%" >
+  <section id="subscribe" class="spt2" style="background: white; padding-top: %; margin-bottom:7.3%;" >
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="subscribe-wrapper">
-                        <div class="row">
-                            <div class="col-md-5 text-center"><h2 style = "font-size: 170%; margin-top: 3.5% ">SEND ME THE BEST VIEWPOINTS</h2></div>
+                    <div class="subscribe-wrapper" style="padding: 20px;">
+                        <div  data-step="2" data-intro="Ok, wasn't that fun?" data-position='right' data-scrollTo='tooltip' class="row">
+                            <div class="col-md-5 text-center"><h2 style = "font-size: 170%; margin-top: 3.5% ">SUBSCRIBE ME BEST VIEWPOINTS</h2></div>
                             <div class="col-md-7 " style=" ">
-                                <form class="subscription-form" method="POST" action="/subscribe_the_user" style="padding-left : 0% ">
+                                <form class="subscription-form" method="POST" action="index.html" style="padding-left : 0% ">
                                     <input type="email" class="form-control subscribe" id="subscribe-input" name="user_email" placeholder="Your Email Here">
                                     <button class="email-submit-btn" type="submit"><i class="fa fa-paper-plane"></i></button>
                                 </form>
@@ -430,70 +440,42 @@
             </div>
         </div>
     </section>
+  
     <!--==============> Contact Start <==============-->
-
     <!--==============> Contact ENd <==============-->
     <!--==============> Footer area Start <==============-->
-
-
-
-
-
-    <div style="padding-top: 4.25%">
+    <div style="padding-top: 0.5%">
         <section id="footer" >
             <div class="container-fluid">
                 <div class="row text-center text-xs-center text-sm-left text-md-left">
                     <div class="col-xs-12 col-sm-3 col-md-3" style="margin: auto; align-content:  center">
-
                         <ul class="list-unstyled quick-links" >
                             <li class="list-inline-item"><a>Copyright © 2018 GoodBadBetween</a></li>
-
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-3 col-md-3" style="margin: auto; align-content:  center">
-
                         <ul class="list-unstyled quick-links" >
-                            <li class="list-inline-item"><a  href="https://mail.google.com/mail/?view=cm&fs=1&to=hello@goodbadbetween.com" target="_blank"><i class="fa fa-envelope"></i>hello@goodbadbetween.com</a></li>
-
+                            <li class="list-inline-item"><a  href="https://mail.google.com/mail/?view=cm&fs=1&to=hello@goodbadbetween.com" target="_blank"><i class="fa fa-envelope"></i><span class="__cf_email__" data-cfemail="fd9598919192bd9a9292999f9c999f98898a989893d39e9290">[email&#160;protected]</span></a></li>
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-3 col-md-3" style="margin: auto; align-items: center">
-
                         <ul class="list-unstyled list-inline social ">
                             <li class="list-inline-item"><a href="https://www.facebook.com/goodbadbetween/?ref=aymt_homepage_panel" target="_blank"><i class="fa fa-facebook"></i></a></li>
                             <li class="list-inline-item"><a href="https://twitter.com/GoodBadBetween" target="_blank"><i class="fa fa-twitter"></i></a></li>
                             <li class="list-inline-item"><a href="https://www.instagram.com/goodbadbetween/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                             <li class="list-inline-item"><a href="https://www.linkedin.com/company/goodbadbetween/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-3 col-md-3" style="margin: auto; align-items: center">
-
-         
-
-                        <a href="policy.html" target="_blank" style="float:center; margin-left: 5%">Privacy Policy</a> <span style="float: center; margin-left: 5%"> | </span><a href="terms.html" target="_blank" style="float:center;">Terms of Service</a>
-
-
+                        <a href="index.html" target="_blank" style="float:center; margin-left: 5%">Privacy Policy</a> <span style="float: center; margin-left: 5%"> | </span><a href="index.html" target="_blank" style="float:center;">Terms of Service</a>
                     </div>
                 </div>
-
-
             </div>
         </section>
     </div>
-
-
-
-
-
-
-
-
-
-
     <!--==============> Footer area ENd <==============-->
     <!--==============// ALl jS Scripts \\==============-->
-    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="static/assets/js/vendor/jquery-3.2.1.min.js"></script>
     <script src="static/assets/js/elemets.js"></script>
     <script src="static/assets/js/swiper.js"></script>
@@ -505,11 +487,8 @@
     <!-- Wow active -->
     <script>
         new WOW().init();
-
     </script>
-
-
-    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script type="text/javascript" src="downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
     <script type="text/javascript">
         window.dojoRequire(["mojo/signup-forms/Loader"], function(L) {
             L.start({
@@ -519,18 +498,7 @@
                 "uniqueMethods": true
             })
         })
-
     </script>
-
-
-
-
-
-
-
-
-
-
     <script type="text/javascript">
         // To change the dropdown values to default selelcted values when refresh
         var options = document.querySelectorAll('#search_param1 option');
@@ -601,7 +569,6 @@
                 }
             });
         });
-
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="www.googletagmanager.com/gtag/js_id_UA-125822081-1.js"></script>
@@ -643,7 +610,6 @@
                 }
             }
         }
-
         function polarity_interact(button_id) {
             console.log(button_id);
             var polarity = button_id.match(/good|bad|between/g);
@@ -681,11 +647,9 @@
                 // self_card_otherbutton[0].className = "butn card_butn selected";
             }
         }
-
     </script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
         function gtag() {
             dataLayer.push(arguments);
         }
@@ -693,7 +657,6 @@
         gtag('config', 'UA-125822081-1');
         var user_type;
         var user_fb_id, user_fb_name, user_fb_email, user_fb_gender, user_fb_age, user_fb_picture;
-
         function get_pages(page_list, params, callback) {
             FB.api('/' + user_fb_id + '/accounts', params, function(response) {
                 console.log(response);
@@ -713,7 +676,6 @@
             });
             // return page_list;
         }
-
         function checkLoginState(user) {
             user_type = user;
             FB.login(function(response) {
@@ -725,7 +687,6 @@
             //     statusChangeCallback(response);
             // });
         }
-
         function statusChangeCallback(response) {
             console.log(response);
             if (response["status"] == "connected") {
@@ -849,6 +810,5 @@
                 // }) 
             });
         })
-
     </script>
 </body>
