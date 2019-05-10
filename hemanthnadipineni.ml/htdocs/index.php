@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal Site">
     <meta name="author" content="Hemanth Nadipinei">
+    <meta name="google-site-verification" content="zkkSZA4QVAU0dweRHti8fnaz1vb2K6UIZq30Ntd6l8k" />
     <link rel="shortcut icon" href="favicon.jpg">
 
     <title>Hemanth || Portfolio</title>
     <link href="assets/css/hn_bootstrap.css" rel="stylesheet">
     <link href="assets/css/hn_main.css" rel="stylesheet">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/hover.zoom.js"></script>
     <script src="assets/js/hover.zoom.conf.js"></script>
@@ -34,10 +34,10 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.php">Home</a></li>
+              <li><a href="gallery.php">Gallery</a></li>
+            <li><a href="blog.php">Blog</a></li>
+            <li><a href="contact.php">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -153,7 +153,7 @@
 			</div>
             <h4>You can find resume here :</h4>
 
-<button class="button" ONCLICK="window.location.href='https://drive.google.com/open?id=1sb5lSIj7j_UtZ8FzmyECo_8FTPBR3JAv'">Resume </button>
+<button class="button" ONCLICK="window.location.href='https://drive.google.com/open?id=1sb5lSIj7j_UtZ8FzmyECo_8FTPBR3JAv'" style="background-color:#1abc9c">Resume</button>
 		</div>
 	</div>
       </div>

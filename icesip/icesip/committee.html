@@ -1,0 +1,585 @@
+<html>
+<head>
+	<link href="../icesip/css/reset.css" rel='stylesheet' type='text/css'>
+	<link href="../icesip/css/basscss.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<script
+  		src="../code.jquery.com/jquery-3.1.1.min.js"
+  		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  		crossorigin="anonymous">
+  	</script>
+	<link rel="stylesheet" href="../icesip/css/main-styles.css">
+	<link rel="stylesheet" type="text/css" href="../icesip/css/registration.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="noindex">
+	<meta name="keywords" content="ICESIP2019,Conference,IEEE,MSC,CCA,Conference on Control Applications, ISIC, International Symposium on Intelligent Control, CACSD, Conference on Computer-Aided Control System Design, Multi-Conference on Systems and Control,  Multi-Conference on Systems and Control,CCA,Conference on Control Applications,IEEE Conference on Control Applications,ISIC,CSS,CACSD, IEEE Control Systems Society Conferences,IEEE Conference on Computer-Aided Control System Design">
+	<style type="text/css">
+		#header:after{
+		    background-image: url(../icesip/../icesip/images/hotel1-banner.jpg); 
+		    background-position: right  top  ;
+		}
+	</style>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var newsCounter = 0
+			$('#news-ticker-link').attr('href', config.newsTicker[0].link)
+			$('#news-ticker-link').html(config.newsTicker[0].content)
+			setInterval(function(){
+				if(newsCounter + 1 > config.newsTicker.length-1){
+					newsCounter = 0
+				}else{
+					newsCounter++
+				}
+				$('#news-ticker-link').fadeOut(500, function(){
+					$('#news-ticker-link').attr('href', config.newsTicker[newsCounter].link)
+					if(config.newsTicker[newsCounter].openInNewWindow){
+						$('#news-ticker-link').attr('target', '_blank')
+					}else{
+						$('#news-ticker-link').attr('target', '')
+					}
+					$('#news-ticker-link').html(config.newsTicker[newsCounter].content)
+					$('#news-ticker-link').fadeIn(500, function(){
+					})
+				})
+			}, 5000)
+		})
+	</script>
+	<script>var config={
+	"meta": {
+		"conferenceYear": 2019,
+		"dateStart": "2019-07-04",
+		"dateEnd": "2019-07-06",
+		"conferenceName": "ICESIP 2019"
+	},
+	"header": {
+		"title": "ICESIP 2019",
+		"subtitle": "2019 <span style='font-weight: bolder;'>IEEE</span> 1<sup style='vertical-align: text-top;font-size: 18px;'>st</sup> International Conference on Energy, Systems and Information Processing",
+		"dateTitle": "July 04 - 06, 2019",
+		"locationPlaceName": "IIITDM Kancheepuram",
+		"locationAreaName": "Chennai - 600127",
+		"bannerImage": "../icesip/../icesip/images/hotel1-banner.jpg"
+	},
+	"socialMediaLinks": {
+		"facebook": "https://www.facebook.com/",
+		"twitter": "https://twitter.com/"
+	},
+	"dates": [{
+			"title": "Paper Submission Opens (<a target='_blank' href='https://ieee.chroniclemanager.com/login?conf_id=ieee-icesip-2019'>link</a>)",
+			"date": "November 01, 2018",
+			"showInNavBar": true
+		},
+		{
+			"title": "Paper Submission Due",
+			"date": "January 31, 2019",
+			"showInNavBar": true
+		},
+		{
+			"title": "Notification of Acceptance",
+			"date": "March 15, 2019",
+			"showInNavBar": true
+		},
+		{
+			"title": "Final Submissions Due",
+			"date": "April 15, 2019",
+			"showInNavBar": true
+		},
+		{
+			"title": "ICESIP 2019 Conference Date",
+			"date": "July 04-06, 2019",
+			"showInNavBar": true
+		}
+	],
+	"footerLinks": {
+		"firstSection": {
+			"title": "Contact:",
+			"links": [{
+					"name": "Organizing Chair, ICESIP 2019",
+					"link": "contact.php",
+					"openInNewWindow": false
+				},
+				{
+					"name": "Department of Electronics and Communication Engineering",
+					"link": "contact.php",
+					"openInNewWindow": false
+				},
+				{
+					"name": "IIITDM Kancheepuram",
+					"link": "contact.php",
+					"openInNewWindow": false
+				},
+				{
+					"name": "Chennai - 600127, India",
+					"link": "contact.php",
+					"openInNewWindow": false
+				},
+				{
+					"name": "icesip2019@iiitdm.ac.in",
+					"link": "contact.php",
+					"openInNewWindow": false
+				}
+			]
+		},
+		"secondSection": {
+			"title": "QUICK LINKS:",
+			"links": [{
+					"name": "Call for Papers (PDF)",
+					"link": "call.php",
+					"openInNewWindow": false
+				},
+				{
+					"name": "Registration",
+					"link": "registration.php",
+					"openInNewWindow": false
+				},
+				{
+					"name": "Journal Publication",
+					"link": "journal.php",
+					"openInNewWindow": false
+				},
+				{
+					"name": "Paper Submission portal",
+					"link": "",
+					"openInNewWindow": true
+				}
+			]
+		}
+	},
+	"newsTicker": [{
+			"content": "Paper Submission (OPEN)",
+			"link": "call.php",
+			"openInNewWindow": false
+		},
+		{
+			"content": "Early bird Registration is before 15/04/2019",
+			"link": "registration.php",
+			"openInNewWindow": false
+		}
+	]
+}</script></head>
+<body>
+	<div class="flex-column main-container">
+		<div id="header" class="flex flex-columm flex-auto">
+			<div class="flex-auto">
+				<div class="bars"><a href="#left-bar-container"><i class="fa fa-2x fa-bars"></i></a></div>
+				<div class="dates"><a href="#right-bar"><i class="fa fa-2x fa-calendar"></i></a></div>
+				<div id="header-title-container">				
+					<div class="header-title bold flux-auto" style="font-family: georgia;"><img src="../icesip/images/logo2.png"/><div style="vertical-align: middle;display: inline-block;font-size: 44px;">ICESIP 2019</div></div>
+					<div class="header-title bold" style="font-size: x-large;font-family: 'arial narrow';">2019 <span style='font-weight: bolder;'>IEEE</span> 1<sup style='vertical-align: text-top;font-size: 18px;'>st</sup> International Conference on Energy, Systems and Information Processing</div>
+					<div class="header-title bold" style="font-size: large;">July 04 - 06, 2019</div>
+					<div class="header-title bold" style="font-size: medium;">IIITDM Kancheepuram <br> Chennai - 600127</div>
+				</div>
+				<div id="header-quick-links" class="flex flex-wrap">
+					<!--<button onclick="location.href='hotel.php';">HOTEL</button>-->
+					<button style="padding: 12px;" onclick="location.href='../icesip/journal.html';">Journal Publication</button>
+					<button style="padding: 12px;" onclick="location.href='../icesip/call.html';">CALL FOR PAPERS</button>
+				</div>
+				<div id="news-ticker" class="flex flex-wrap news-ticker" style="margin-top: 5px;">
+					<p style="padding:0;margin:0;font-size:smaller">
+						<i style="color:red;margin-right:10px" class="fa fa-1x fa-newspaper-o"></i> 
+						<span id="news-ticker-content">
+							<a id="news-ticker-link" href="#">Paper submission opens XX XX, 2019</a>
+						</span>
+					</p>
+				</div>
+			</div>
+			<div class="flex flex-wrap logos" style="min-width: 224px">
+				<div style="width:100%;background:url(../icesip/../icesip/images/ieee_madras.jpg) no-repeat"></div>
+				<!--<div style="margin-top:1%;width:220px;height:85px;background:url(../icesip/../icesip/images/robotics-logo.png) no-repeat"></div>
+				<div style="margin-top:1%;width:220px;height:85px;background:url(../icesip/../icesip/images/sice-logo.png) no-repeat"></div>-->
+			</div>
+		</div>
+		<div id="content-container" class="flex flex-auto flex-space-between">
+			<div id=left-bar-container class="flex flex-auto col-2">
+				<ul class="left-bar list-reset" style="">
+					<li name="back" class="bold" style="font-size: x-large">IEEE ICESIP 2019<a href="#" class="slide-back"><i class="fa fa-lg fa-arrow-circle-left" aria-hidden="true"></i></a></li>
+					<li name="home"><a href="../icesip/index.html"><i class="fa fa-lg fa-home" aria-hidden="true"></i>HOME</a></li>
+					<li name="registration"><a href="../icesip/registration.html"><i class="fa fa-lg fa-sign-in" aria-hidden="true"></i>REGISTRATION</a></li>
+					<li name="hotel">
+						<a href="../icesip/committee.html"><i class="fa fa-lg fa-tasks" aria-hidden="true"></i>COMMITTEE</a>
+						<ul style="background-color: midnightblue;    font-size: 10px;">
+							<li><a href="../icesip/committee.html#adv"><i class="fa fa-lg fa-book" aria-hidden="true"></i>Advisory Committee</a></li>
+							<li><a href="../icesip/committee.html#tpc"><i class="fa fa-lg fa-compass" aria-hidden="true"></i>Technical Programme Committee</a></li>
+							<li><a href="../icesip/committee.html#oc"><i class="fa fa-lg fa-sitemap" aria-hidden="true"></i>Organizing Committee</a></li>
+						</ul>
+					</li>
+					<li name="visa-information"><a href="../icesip/sponsors.html"><i class="fa fa-lg fa-thumbs-up" aria-hidden="true"></i>SPONSORSHIP</a></li>
+					<li name="visa-information"><a href="../icesip/venue.html"><i class="fa fa-lg fa-map-marker" aria-hidden="true"></i>VENUE</a></li>
+					<li name="authors"><a href="../icesip/call.html"><i class="fa fa-lg fa-envelope" aria-hidden="true"></i>CALL FOR PAPERS</a></li>
+					<li name="authors"><a href="../icesip/authors.html"><i class="fa fa-lg fa-pencil-square-o" aria-hidden="true"></i>AUTHORS</a></li>
+					<li name="students"><a href="../icesip/student-router.html"><i class="fa fa-lg fa-bed" aria-hidden="true"></i>ACCOMMODATION</a></li>
+					<li name="organizers"><a href="../icesip/contact.html"><i class="fa fa-lg fa-users" aria-hidden="true"></i>CONTACT</a></li>
+				</ul>
+			</div>
+			<div id="center-content" class="flex flex-auto flex-column col-7">
+				<div class="flex">
+					<div style="height:80px;background:#191970;color:white;width: 100%">
+						<div id="page-title" style="padding:3%;font-weight:bold;font-size: x-large;text-transform: uppercase;"><i class="fa fa-3 fa-long-arrow-right" aria-hidden="true"></i> Committee</div>
+					</div>
+				</div>
+				<div class="main-content flex-auto"><style type="text/css">
+.datagrid {margin:0 auto;margin-bottom: 30px;} .datagrid table { overflow-x:visible; border-collapse: collapse; text-align: left; width: 100%; } .datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 1px solid #8C8C8C; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; overflow-x: scroll; }.datagrid table td, .datagrid table th { padding: 3px 10px; }.datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8C8C8C), color-stop(1, #7D7D7D) );background:-moz-linear-gradient( center top, #8C8C8C 5%, #7D7D7D 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8C8C8C', endColorstr='#7D7D7D');background-color:#8C8C8C; color:#FFFFFF; font-size: 15px; font-weight: bold; border-left: 1px solid #A3A3A3; } .datagrid table thead th:first-child { border: none; }.datagrid table tbody td { color: #00f; border-left: 1px solid #DBDBDB;font-size: 16px;font-weight: bold; }.datagrid table tbody .alt td { background: #EBEBEB; color: purple; }.datagrid table tbody td:first-child { border-left: none; }.datagrid table tbody tr:last-child td { border-bottom: none; }.datagrid table tfoot td div { border-top: 1px solid #8C8C8C;background: #EBEBEB;} .datagrid table tfoot td { padding: 0; font-size: 12px } .datagrid table tfoot td div{ padding: 2px; }.datagrid table tfoot td ul { margin: 0; padding:0; list-style: none; text-align: right; }.datagrid table tfoot  li { display: inline; }.datagrid table tfoot li a { text-decoration: none; display: inline-block;  padding: 2px 8px; margin: 1px;color: #F5F5F5;border: 1px solid #8C8C8C;-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8C8C8C), color-stop(1, #7D7D7D) );background:-moz-linear-gradient( center top, #8C8C8C 5%, #7D7D7D 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8C8C8C', endColorstr='#7D7D7D');background-color:#8C8C8C; }.datagrid table tfoot ul.active, .datagrid table tfoot ul a:hover { text-decoration: none;border-color: #7D7D7D; color: #F5F5F5; background: none; background-color:#8C8C8C;}div.dhtmlx_window_active, div.dhx_modal_cover_dv { position: fixed !important; } .datagrid {margin:10px 0 10px 0;} 
+.bd ul{
+	list-style-type: disc;
+	list-style-position: inside;
+	margin-left:3%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.bd ul li{
+	padding: 5px 0 5px 0;
+}
+</style>
+<!-- <div class="text">
+	This is where the organizers go.
+</div> -->
+<div style="margin-top:5%; margin-bottom: 5%" class="flex-column">
+	<!--<div class="organizer-group-title">Honorary Chair</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(../icesip/../icesip/images/organizers/astrom.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Karl J. Astrom</div>
+			<!-- <div class="role bold">Honorary Chair</div> --
+			<div class="affiliation">Lund University</div>
+		</div>
+	</div>-->
+	<div class="spacer"></div>
+	<h1 id="adv">Advisory Committee</h1>
+	<hr/>
+		<div class="datagrid">
+		<table style="margin:0 auto">
+			<thead>
+				<tr>
+					<th>Name </th>
+					<th>Institute</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><td>Bimal K. Bose, Life Fellow IEEE</td><td>The University of Tennessee, Knoxville, USA</td></tr>
+				<tr class="alt"><td>Muhammad H Rashid, Life Fellow IEEE</td><td>University of West Florida, USA</td></tr>
+				<tr><td>Josep M. Guerrero, Fellow IEEE</td><td>Aalborg University, Denmark</td></tr>
+				<tr class="alt"><td>Prof. M.N.S. Swamy, Fellow IEEE</td><td>Concordia University, Canada</td></tr>
+				<tr><td>Prof. Rao Vemuri</td><td> University of California, Davis</td></tr>
+				<tr class="alt"><td>Prof. Alon Kuperman</td><td>Ben-Gurion University of the Negev, Israel</td></tr>
+				<tr><td>Prof. Rajkumar Buyya</td><td>University of Melbourne, Australia</td></tr>
+				<tr class="alt"><td>Prof. Dharma P. Agrawal</td><td>University of Cincinnati, USA</td></tr>
+				<tr><td>Prof. Kiyoshi Asakawa</td><td>University of Tsukuba, Japan</td></tr>
+				<tr class="alt"><td>Dr.Dinesh Kumar</td><td>Danfoss Drives A/S, Denmark</td></tr>
+				<tr><td>Prof.Mohan Kolhe</td><td>The University of Agder, Norway</td></tr>
+				<tr class="alt"><td>Prof.Firuz Zare</td><td> The University of Queensland, Australia</td></tr>
+				<tr><td>Prof. Gautam Das</td><td>The University of Texas , Arlington, USA</td></tr>
+				<tr class="alt"><td>Prof. S. H. Jensen, SMIEEE</td><td>Aalborg University, Denmark</td></tr>
+				<tr><td>Prof. Pitikhate Sooraksa,SMIEEE</td><td>KMITL, Bangkok, Thailand</td></tr>
+				<tr class="alt"><td>Dr.Tomislav Dragicevic  SMIEEE</td><td>Aalborg University, Denmark</td></tr>
+				<tr><td>Prof.Zbigniew Leonowicz SMIEEE</td><td>WUST, Poland</td></tr>
+				<tr class="alt"><td>Prof. Ramesh Bansal SMIEEE</td><td>University of Pretoria, South Africa</td></tr>
+				<tr><td>Dr Francisco Gonzalez-Longatt</td><td>Loughborough University, U.K</td></tr>
+				<tr class="alt"><td>Prof.Jie Shen</td><td>University of Michigan-Dearborn, USA</td></tr>
+				<tr><td>Dr.Niketa Gandhi</td><td>MIR Labs, USA</td></tr>
+				<tr class="alt"><td>Prof.Ivan Petrović</td><td>University of Zagreb, Croatia</td></tr>
+				<tr><td>Dr.Ivan Marković</td><td>University of Zagreb, Croatia</td></tr>
+			</tbody>
+		</table>
+		</div>
+		<br/><br/>
+		<h1  id="tpc">Technical Programme Committee</h1>
+		<hr/>
+		<h2>Track Chairs</h2><br/>
+		<h2>Track-1  (Power & Energy)</h2>
+		Dr. Damodharan P<br/>
+Dr. VijayaKumar K<br/><br/>
+		<h2>Track-2 (Electronics Systems)</h2>
+		Dr. Binsu J Kailath<br/>
+Dr. Kumar Prasannajit Pradhan<br/><br/>
+		<h2>Track-3 (Communication Systems)</h2>
+		Dr. Premkumar K<br/>
+Dr. Prerna Saxena<br/><br/>
+		<h2>Track-4 (Control and Information Processing)</h2>
+		Dr. Shunmugham R. Pandian<br/>
+Dr. Priyanka Kokil<br/>
+Dr. Umarani Jayaraman<br/>
+Dr. Munesh Singh<br/><br/><br/>
+		<!--<div class="datagrid">
+		<table style="margin:0 auto">
+			<thead>
+				<tr>
+					<th>Name </th>
+					<th>IEEE Membership</th>
+					<th>Institute</th>
+				</tr>
+			</thead>
+			<tbody>	
+				<tr class="alt"><td>Dr. M.D.Selvaraj</td><td>IIITDM Kancheepuram</td></tr>
+				<tr><td>Dr.S.R.Pandian</td><td>IIITDM Kancheepuram</td></tr>
+				<tr class="alt"><td>Dr. Selvajyothi Kamakshy </td><td>IIITDM Kancheepuram</td></tr>
+				<tr><td>Dr.Priyanka Kokil</td><td>IIITDM Kancheepuram</td></tr>
+				<tr class="alt"><td>Dr. Vijayakumar Krishnasamy</td><td> IIITDM Kancheepuram</td></tr>
+				<tr><td>Dr. M J Shankar Raman</td><td>IIITDM Kancheepuram</td></tr>
+				<tr class="alt"><td>Dr.K.Vijayakumar</td><td>IIITDM Kancheepuram</td></tr>
+				<tr><td>Dr. Kumar Prasannajit Pradhan</td><td> IIITDM Kancheepuram</td></tr>
+				<tr class="alt"><td>Dr. Jagadeesh Kakarla</td><td>IIITDM Kancheepuram</td></tr>
+				<tr><td>Dr.Asutosh Kar</td><td>IIITDM Kancheepuram</td></tr>
+				<tr class="alt"><td>Dr.Prerna Saxena</td><td> IIITDM Kancheepuram</td></tr>
+			</tbody>
+		</table>
+		</div>-->
+	<div class="spacer"></div>
+	<h2>Technical Programme Committee</h2>
+		<div class="datagrid">
+		<table style="margin:0 auto">
+			<thead>
+				<tr>
+					<th>Name </th>
+					<th>Institute</th>
+				</tr>
+			</thead>
+			<tbody>		
+				<tr class="alt"><td>Dr.Ranjan Kumar Behera</td><td>IIT Patna</td></tr>
+				<tr><td>Dr.Bhavesh Bhalja</td><td>IIT Roorkee</td></tr>
+				<tr class="alt"><td>Dr.C.Thanga Raj</td><td>IIT Roorkee</td></tr>
+				<tr><td>Dr.Soumya Ranjan Mohanty</td><td>IIT BHU, Varanasi</td></tr>
+				<tr class="alt"><td>Dr.Arup Goswamy</td><td>NIT Silchar</td></tr>
+				<tr><td>Dr.Narasimharaju B L</td><td>NIT Warangal</td></tr>
+				<tr class="alt"><td>Dr.P.Parthiban</td><td>NIT Surathkal</td></tr>
+				<tr><td>Prof. S. Raghavan</td><td>NIT Trichy</td></tr>
+				<tr class="alt"><td>Prof.Rajesh Gupta</td><td>MNNIT Allahabad</td></tr>
+				<tr><td>Dr.Sabharaj Arya</td><td>SVNIT Surat</td></tr>
+				<tr class="alt"><td>Dr. Debashisha jena</td><td>NIT Surathkal</td></tr>
+				<tr><td>Dr. G. Siva Kumar</td><td>NIT Warangal</td></tr>
+				<tr class="alt"><td>Dr.Rajesh Kumar</td><td>MNIT Jaipur</td></tr>
+				<tr><td>Dr. K. K. Pattanaik</td><td>IIITM Gwalior</td></tr>
+				<tr class="alt"><td>Dr. Sanjib Ganguly</td><td>IIT Guwahati</td></tr>
+				<tr><td>Dr.Chandan Kumar</td><td>IIT Guwahati</td></tr>
+				<tr class="alt"><td>Dr. Sandip Ghosh</td><td>IIT BHU, Varanasi</td></tr>
+				<tr><td>Dr.Gauri Shankar</td><td>IIT Dhanbad</td></tr>
+				<tr class="alt"><td>Dr. Kalpana Naidu</td><td>NIT Warangal</td></tr>
+				<tr><td>Dr Ramesh Babu battula</td><td>MNIT Jaipur</td></tr>
+				<tr class="alt"><td>Dr. Pankaj Kumar</td><td>NIT Rourkela</td></tr>
+				<tr><td>Dr. Diptendu Sinha Roy</td><td>NIT Meghalaya</td></tr>
+				<tr class="alt"><td>Dr. Vivek Shrivastava</td><td>NIT Delhi</td></tr>
+				<tr><td>Dr. Anurag Singh</td><td>NIT Delhi</td></tr>
+				<tr class="alt"><td>Dr. Sachin Singh</td><td>NIT Delhi</td></tr>
+				<tr><td>Dr.P.Karuppanan</td><td>MNNIT Allahabad</td></tr>
+				<tr class="alt"><td> Dr. S. Gopalakrishna</td><td>NIT Rourkela</td></tr>
+				<tr><td>Dr. Shyamlal</td><td>NIT Surathkal</td></tr>
+				<tr class="alt"><td>Dr. M. Ravi Kumar</td><td>MNIT Jaipur</td></tr>
+				<tr><td>Dr.Nitin Gupta</td><td>MNIT Jaipur</td></tr>
+				<tr class="alt"><td>Dr. Vinod Kumar Jain</td><td>PDPM IIITDM Jabalpur</td></tr>
+				<tr><td>Dr. Matadeen Bansal</td><td>PDPM IIITDM Jabalpur</td></tr>
+				<tr class="alt"><td>Prof. H.D. Mathur</td><td>BITS Pilani</td></tr>
+				<tr><td>Dr. Sanjeev Sharma</td><td>RGPV Bhopal</td></tr>
+				</tbody>
+		</table>
+		</div>
+		<br/><br/>
+	<div class="spacer"></div>
+	<br/><br/>
+		<h1  id="oc">Organizing Committee</h1>
+		<hr/>
+		<h2>Patron </h2>
+<b>Prof B. Majhi, Director, IIITDM Kancheepuram</b><br/><br/>
+<h2>General Chair </h2>
+Dr. K. Selvajyothi, (HoD ECE)<br/><br/>
+<h2>General Co-chair </h2>
+Dr. M. D. Selvaraj, (Dean SRICCE)<br/><br/>
+<h2>Conference Organizing Chair</h2>
+<b>Dr. B. Chitti Babu</b><br/><br/>
+<h2>Organizing Co-chair(s)</h2>
+Dr. Jagadeesh Kakarla<br/>
+Dr. Asutosh Kar<br/><br/>
+<h2>Finance Committee</h2>
+Dr. B. Chitti Babu<br/>
+Dr. M. D. Selvaraj<br/><br/>
+<h2>Website Committee</h2>
+Dr. Jagadeesh Kakarla<br/>
+Mr. Vikram Rao<br/><br/>
+<h2>Publicity Committee</h2>
+Dr. Asutosh kar<br/>
+Dr. Kumar Prasannajit Pradhan<br/>
+Dr. Munesh Singh<br/><br/>
+<h2>Publication Committee</h2>
+Dr. B. Chitti Babu<br/>
+Dr. Selvajyothi K<br/>
+Dr. VijayaKumar K<br/><br/>
+<h2>Program Committee</h2>
+Dr. Asutosh Kar<br/>
+Dr. Prerna Saxena<br/>
+Dr. Kumar Prasannajit Pradhan<br/><br/>
+<h2>Hospital and Logistics Committee </h2>
+Dr. Jagadeesh Kakarla<br/>
+Dr. Priyanka Kokil<br/><br/>
+<h2>Local Organizing Committee</h2>
+Dr. Asutosh kar<br/>
+Dr. Binsu J Kailath<br/>
+Dr. B. Chitti Babu<br/>
+Dr. Damodharan P<br/>
+Dr. Jagadeesh Kakarla<br/>
+Dr. Kumar Prasannajit Pradhan<br/>
+Dr. Munesh Singh<br/>
+Dr. Premkumar K<br/>
+Dr. Prerna Saxena<br/>
+Dr. Priyanka  Kokil<br/>
+Dr. SelvaJyoti K<br/>
+Dr. M. D. Selvaraj<br/>
+Dr. Shunmugham R. Pandian<br/>
+Dr. VijayaKumar K<br/><br/> 
+	<!--<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/images/organizers/no.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Tariq Samad</div>
+			<div class="role">2009 IEEE CSS President (CSS)</div>
+			<div class="affiliation">Honeywell</div>
+		</div>
+	</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/images/organizers/no.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Yutaka Yamamoto</div>
+			<div class="role">2013 IEEE CSS President (SICE & CSS)</div>
+			<div class="affiliation">Prof. Emeritus, Kyoto Univ</div>
+		</div>
+	</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/images/organizers/no.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Bruno Siciliano</div>
+			<div class="role">2008-09 IEEE RAS President (RAS)</div>
+			<div class="affiliation">University of Naples Federico II</div>
+		</div>
+	</div>
+	<div class="spacer"></div>
+	<div class="organizer-group-title">Organizing Committee</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/images/organizers/no.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Stephen Yurkovich</div>
+			<div class="role bold">General Chair</div>
+			<div class="affiliation">University of Texas at Dallas</div>
+			<div class="contact"><a href="mailto:steve.yurkovich@utdallas.edu">steve.yurkovich@utdallas.edu</a></div>
+		</div>
+	</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/images/organizers/no.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Mark  W. Spong</div>
+			<div class="role bold">Program Co-Chair</div>
+			<div class="affiliation">University of Texas at Dallas</div>
+			<div class="contact"><a href="mailto:mspong@utdallas.edu">mspong@utdallas.edu</a></div>
+		</div>
+	</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/images/organizers/no.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Mario Rotea</div>
+			<div class="role bold">Program Co-Chair</div>
+			<div class="affiliation">University of Texas at Dallas</div>
+			<div class="contact"><a href="mailto:rotea@utdallas.edu">rotea@utdallas.edu</a></div>
+		</div>
+	</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/images/organizers/no.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Gary Yen</div>
+			<div class="role bold">Events Chair</div>
+			<div class="affiliation">Oklahoma State University</div>
+			<div class="contact"><a href="mailto:gyen@okstate.edu">gyen@okstate.edu</a></div>
+		</div>
+	</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/images/organizers/no.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Oscar Gonzalez</div>
+			<div class="role bold">Publications Chair </div>
+			<div class="affiliation">Old Dominion</div>
+			<div class="contact"><a href="mailto:ogonzale@odu.edu">ogonzale@odu.edu</a></div>
+		</div>
+	</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/images/organizers/no.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Simona Onori</div>
+			<div class="role bold">Registration Chair</div>
+			<div class="affiliation">Clemson University</div>
+			<div class="contact"><a href="mailto:sonori@clemson.edu">sonori@clemson.edu</a></div>
+		</div>
+	</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/images/organizers/no.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Enrique Barbieri</div>
+			<div class="role bold">Finance Chair</div>
+			<div class="affiliation">University of North Texas</div>
+			<div class="contact"><a href="mailto:enrique.barbieri@unt.edu">enrique.barbieri@unt.edu</a></div>
+		</div>
+	</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/../icesip/images/organizers/no.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Robert Gregg</div>
+			<div class="role bold">Workshops Chair</div>
+			<div class="affiliation">University of Texas at Dallas</div>
+			<div class="contact"><a href="mailto:rgregg@utdallas.edu">rgregg@utdallas.edu</a></div>
+		</div>
+	</div>-->
+</div>
+</div>
+			</div>
+			<div id="right-bar" class="flex flex-column col-2" style="background: whitesmoke">
+				<div id="top" class="flex">
+					<div style="color:white;width:0;height:0;border-top:40px solid transparent;border-bottom: 40px solid transparent;border-left: 40px solid #191970;">
+					</div>
+					<div class="close-dates"><a href="#" style=""><i class="fa fa-2x fa-arrow-circle-right" aria-hidden="true"></i></a></div>
+					<div id="title" class="bold">IMPORTANT DATES</div>
+				</div>
+ 				<div id="content" class="flex-auto">
+	 				<ul class="list-reset">
+	 					<li>
+										<div class="title">Paper Submission Opens (<a target='_blank' href='https://ieee.chroniclemanager.com/login?conf_id=ieee-icesip-2019'>link</a>)</div>
+										<div class="date"><i class="fa fa-lg fa-calendar" aria-hidden="true"></i> 
+											November 01, 2018</div>
+									</li><li>
+										<div class="title">Paper Submission Due</div>
+										<div class="date"><i class="fa fa-lg fa-calendar" aria-hidden="true"></i> 
+											January 31, 2019</div>
+									</li><li>
+										<div class="title">Notification of Acceptance</div>
+										<div class="date"><i class="fa fa-lg fa-calendar" aria-hidden="true"></i> 
+											March 15, 2019</div>
+									</li><li>
+										<div class="title">Final Submissions Due</div>
+										<div class="date"><i class="fa fa-lg fa-calendar" aria-hidden="true"></i> 
+											April 15, 2019</div>
+									</li><li>
+										<div class="title">ICESIP 2019 Conference Date</div>
+										<div class="date"><i class="fa fa-lg fa-calendar" aria-hidden="true"></i> 
+											July 04-06, 2019</div>
+									</li>	 					<li style="font-size:small;color:red;text-transform:uppercase;cursor:pointer"><a style="font-size: large;" target="_blank" href="../icesip/resources/ICESIP.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Call for papers</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="footer" class="flex-column">
+				<div id="link-section" class="flex flex-wrap">
+					<div class="footer-items left flex-auto">
+						<div class="title">Contact:</div><ul class="list-reset"><li><a target="" href="../icesip/contact.html">Organizing Chair, ICESIP 2019</a></li><li><a target="" href="../icesip/contact.html">Department of Electronics and Communication Engineering</a></li><li><a target="" href="../icesip/contact.html">IIITDM Kancheepuram</a></li><li><a target="" href="../icesip/contact.html">Chennai - 600127, India</a></li><li><a target="" href="../icesip/contact.html">icesip2019@iiitdm.ac.in</a></li></ul>					</div>
+					<div class="footer-items right flex-auto">
+						<div class="title">QUICK LINKS:</div><ul class="list-reset"><li><a target="" href="../icesip/call.html">Call for Papers (PDF)</a></li><li><a target="" href="../icesip/registration.html">Registration</a></li><li><a target="" href="../icesip/journal.html">Journal Publication</a></li><li><a target="_blank" href="">Paper Submission portal</a></li></ul>					</div>
+					<div class="footer-items left flex-auto">
+						<div class="title"></div><ul class="list-reset"></ul>					</div>
+					<div class="footer-items right flex-auto">
+						<div class="title"></div><ul class="list-reset"></ul>					</div>
+				</div>
+				<div id="bottom-section" class="flex justify-center">
+					<div class="center">
+						&copy IEEE ICESIP 2019						<!--<br><br>
+						<a target="_blank" href="https://www.facebook.com/"><i class="fa fa-3x fa-facebook"></i></a>
+						<a target="_blank" href="https://twitter.com/"><i class="fa fa-3x fa-twitter"></i></a>
+						 <a target="_blank" href=""><i class="fa fa-3x fa-linkedin"></i> </a> -->
+					</div> 
+					<div class="">
+					</div>
+				</div>
+		</div>
+	</div>
+ </body>
+ </html>

@@ -11,11 +11,11 @@
     <title>Hemanth ||Portfolio</title>
     <link href="assets/css/hn_bootstrap.css" rel="stylesheet">
     <link href="assets/css/hn_main.css" rel="stylesheet">
-
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/bttn.css/0.2.4/bttn.css">
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/hover.zoom.js"></script>
     <script src="assets/js/hover.zoom.conf.js"></script>
-
+    
   </head>
 
   <body>
@@ -33,16 +33,34 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.php">Home</a></li>
+              <li><a href="gallery.php">Gallery</a></li>
+            <li><a href="blog.php">Blog</a></li>
+            <li><a href="contact.php">Contact</a></li>
           </ul>
         </div>
       </div>
     </div>
 
 
+
+	<div id="grey">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<p><img src="assets/img/hemanth.png" width="50px" height="50px"> <ba>Hemanth Nadipineni</ba></p>
+					<p><bd>May 30, 2018</bd></p>
+					<h4>The Amazing Spiderman</h4>
+					<p><b>Spider-Man</b> is a fictional character, a comic book superhero that appears in comic books published by Marvel Comics. Created by writer-editor Stan Lee and writer-artist Steve Ditko, he first appeared in Amazing Fantasy #15 (cover-dated Aug. 1962). </p>
+					<p>Lee and Ditko conceived the character as an orphan being raised by his Aunt May and Uncle Ben, and as a teenager, having to deal with the normal struggles of adolescence in addition to those of a costumed crimefighter.</p>
+					<p><a href="blog01.html">Continue Reading...</a></p>
+				</div>
+
+			</div>
+	    </div>
+	</div>
+	
+	
 	<div id="white">
 	    <div class="container">
 			<div class="row">
@@ -51,13 +69,23 @@
 					<p><bd>May 19, 2018</bd></p>
 					<h4>An Image Post</h4>
 					<p><img class="img-responsive" src="assets/img/blog01.jpg" alt=""></p>
-					<p>Moradabad: 1 arrested and Rs.32 lakh seized by police. SSP Ravindra Gaur says, 'we have arrested him in the robbery incident that took place on May 5 near Axis bank, there are 4 other people who are involved in this case we are trying to arrest them. Further investigation underway' (ANI)</p>
-					<p>Swearing-in ceremony of JDS-Congress government will be on May 23 instead of May 21, says JDS leader Kumaraswamy (PTI)</p>
-					<p>I haven't started blogging yet. So I just manipulated some text from News.</p>
-					<br>
-					<p><bt>TAGS: <a href="https://www.indiatvnews.com/news/india-breaking-news-live-top-alerts-latest-news-may-19-442914" target="_blank">India News</a></bt></p>
-					<hr>
-					<p><a href="blog.html">-> Back</a></p>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					<p><a href="blog01.html">Continue Reading...</a></p>
+				</div>
+
+			</div>
+	    </div> 
+	</div>
+	
+
+	<div id="grey">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<p><img src="assets/img/hemanth.png" width="50px" height="50px"> <ba>Hemanth Nadipineni</ba></p>
+					<p><bd>May 16, 2018</bd></p>
+					<h4>Believe In Yourself</h4>
+					<p class="bq">"A bird sitting on a tree is never afraid of the branch breaking, because her trust is not in the branch, but in her own wings."</p>
 				</div>
 
 			</div>
@@ -66,8 +94,7 @@
 	
 	
 	
-	
-	<div id="footer">
+		<div id="footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4">

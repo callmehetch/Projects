@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>VISIRIS_MAPS</title>
+  <style>
+    #map{
+      height:760px;
+      width:1300px;
+    }
+    #a
+    {
+width: 400px;
+height: 400px;
+padding: 10px;
+    }
+  </style>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+  <h1>My Google Map</h1>
+  <div id="map"></div>
+  <script>
+
+$.ajax({
+    type:"GET",
+    dataType: "json",
+    
+    url: "{{ url_for('maps_locations') }}",
+    success: function(data){
+        buf1=data;
+        console.log(data);
+        initMap(data);
+    }
+})
+
+function initMap(data){
+            var options = {
+        zoom:13,
+        center:new google.maps.LatLng(19.373341, 78.662109),
+         mapTypeId: google.maps.MapTypeId.ROADMAP
+      }
+
+      // New map
+      var map = new google.maps.Map(document.getElementById('map'), options);
+      var trafficLayer = new google.maps.TrafficLayer();
+        trafficLayer.setMap(map);
+        
+ 
+     //adding markers
+     var marker,i
+      for ( i = 0; i < data.length; i++) {
+        latitude=data[i]["lat"]
+        long=data[i]["longitude"]
+           marker = new google.maps.Marker({
+           position: new google.maps.LatLng(latitude, long),
+          map: map,
+          icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
+        });
+        
+
+
+            var infoWindow = new google.maps.InfoWindow();
+         (function (marker, data) {
+
+                google.maps.event.addListener(marker, "click", function (e) {
+                    //Wrap the content inside an HTML DIV in order to set height and width of InfoWindow.
+                    var src="http://www.html5rocks.com/en/tutorials/video/basics/devstories.webm" 
+                    var content ='<div id="a" >'+'<video controls="" autoplay style="width:100%;height:300px;" poster="poster.png">' +
+                      '<source src= '+data["src"]+' >' +
+                          '</video>'+
+                          '<hr>' +
+                          '<span> COUNT :'+data["count"]+'</span>'+
+                          '</div>'
+                    infoWindow.setContent(content);
+                    infoWindow.open(map, marker);
+                });
+            })(marker, data[i]);
+
+      }
+
+
+    
+
+    }
+      // Map options
+     
+
+      
+    //   // Add marker
+    //   var marker = new google.maps.Marker({
+    //     position:{lat:19.373341,lng:78.662109},
+    //     map:map,
+    //     icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
+      
+    //   });
+
+    //   var infoWindow = new google.maps.InfoWindow({
+    //     content: '<div id="a" >'+'<video controls="" style="width:200px;height:200px;" poster="poster.png">' +
+    // '<source src="http://www.html5rocks.com/en/tutorials/video/basics/devstories.webm" type="video/webm;">' +
+    // '<source src="http://www.html5rocks.com/en/tutorials/video/basics/devstories.mp4" type="video/mp4;">' +
+    // '</video>'+
+    // '</div>'
+    //   });
+
+    //   marker.addListener('click', function(){
+    //     infoWindow.open(map, marker);
+    //   });
+      
+
+      
+    // }
+  </script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBda5_7uEt5s4o5JJNBNde_kd9o9N7ijzU&callback=initMap">
+    </script>
+</body>
+</html>

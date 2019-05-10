@@ -35,7 +35,7 @@
   <body>
 
    
-    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="navbar navbar-inverse navbar-static-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -47,10 +47,10 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.php">Home</a></li>
+              <li><a href="gallery.php">Gallery</a></li>
+            <li><a href="blog.php">Blog</a></li>
+            <li><a href="contact.php">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -170,12 +170,12 @@
 				<img class="img-responsive" src="assets/img/portfolio/9.jpg" alt="Img" />
 				<p>DOOM PATROL</p>
               
-			</div>
+            </div></div>
             
 	<div class="resp-container">
           <iframe class="resp-iframe" src="https://www.youtube.com/embed/AZhPKl5hr_I"  gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
               <iframe class="resp-iframe" src="https://www.youtube.com/embed/I5F6Zifph84"  gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
-	</div>
+            </div></div>
 	
      
 	

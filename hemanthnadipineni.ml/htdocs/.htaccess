@@ -1,0 +1,16 @@
+
+RewriteEngine on  
+RewriteBase /
+
+
+RewriteCond %{THE_REQUEST} (.*)\.php  
+RewriteRule ^(.*)\.php $1.hn [R=301,L]  
+
+RewriteCond %{THE_REQUEST} (.*)\.hn  
+RewriteRule ^(.*)\.hn $1.php [L]
+
+
+Options -Indexes
+
+ErrorDocument 404 /404.php
+ErrorDocument 403 /404.php

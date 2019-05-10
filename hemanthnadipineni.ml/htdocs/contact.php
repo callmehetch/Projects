@@ -33,10 +33,10 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.php">Home</a></li>
+              <li><a href="gallery.php">Gallery</a></li>
+            <li><a href="blog.php">Blog</a></li>
+            <li><a href="contact.php">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -48,7 +48,7 @@
 			<div class="col-lg-6 col-lg-offset-3 centered">
 				<h3>CONTACT ME</h3>
 				<hr>
-				<p>There's nothing going to be happened even if you send me something as I haven't seen about php yet.I will update the form as soon as I learn php.</p>
+				
 			</div>
 		</div>
 		<div class="row mt">	

@@ -1,0 +1,331 @@
+
+<html>
+<head>
+	<link href="../icesip/css/reset.css" rel='stylesheet' type='text/css'>
+	<link href="../icesip/css/basscss.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<script
+  		src="../code.jquery.com/jquery-3.1.1.min.js"
+  		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  		crossorigin="anonymous">
+  	</script>
+	<link rel="stylesheet" href="../icesip/css/main-styles.css">
+	<link rel="stylesheet" type="text/css" href="../icesip/css/authors.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="noindex">
+	<meta name="keywords" content="ICESIP2019,Conference,IEEE,MSC,CCA,Conference on Control Applications, ISIC, International Symposium on Intelligent Control, CACSD, Conference on Computer-Aided Control System Design, Multi-Conference on Systems and Control,  Multi-Conference on Systems and Control,CCA,Conference on Control Applications,IEEE Conference on Control Applications,ISIC,CSS,CACSD, IEEE Control Systems Society Conferences,IEEE Conference on Computer-Aided Control System Design">
+	<style type="text/css">
+		#header:after{
+		    background-image: url(../icesip/../icesip/images/hotel1-banner.jpg); 
+		    background-position: right  top  ;
+		}
+	</style>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var newsCounter = 0
+			$('#news-ticker-link').attr('href', config.newsTicker[0].link)
+			$('#news-ticker-link').html(config.newsTicker[0].content)
+			setInterval(function(){
+				if(newsCounter + 1 > config.newsTicker.length-1){
+					newsCounter = 0
+				}else{
+					newsCounter++
+				}
+				$('#news-ticker-link').fadeOut(500, function(){
+					$('#news-ticker-link').attr('href', config.newsTicker[newsCounter].link)
+					if(config.newsTicker[newsCounter].openInNewWindow){
+						$('#news-ticker-link').attr('target', '_blank')
+					}else{
+						$('#news-ticker-link').attr('target', '')
+					}
+					$('#news-ticker-link').html(config.newsTicker[newsCounter].content)
+					$('#news-ticker-link').fadeIn(500, function(){
+					})
+				})
+			}, 5000)
+		})
+	</script>
+	<script>var config={
+	"meta": {
+		"conferenceYear": 2019,
+		"dateStart": "2019-07-04",
+		"dateEnd": "2019-07-06",
+		"conferenceName": "ICESIP 2019"
+	},
+	"header": {
+		"title": "ICESIP 2019",
+		"subtitle": "2019 <span style='font-weight: bolder;'>IEEE</span> 1<sup style='vertical-align: text-top;font-size: 18px;'>st</sup> International Conference on Energy, Systems and Information Processing",
+		"dateTitle": "July 04 - 06, 2019",
+		"locationPlaceName": "IIITDM Kancheepuram",
+		"locationAreaName": "Chennai - 600127",
+		"bannerImage": "../icesip/../icesip/images/hotel1-banner.jpg"
+	},
+	"socialMediaLinks": {
+		"facebook": "https://www.facebook.com/",
+		"twitter": "https://twitter.com/"
+	},
+	"dates": [{
+			"title": "Paper Submission Opens (<a target='_blank' href='https://ieee.chroniclemanager.com/login?conf_id=ieee-icesip-2019'>link</a>)",
+			"date": "November 01, 2018",
+			"showInNavBar": true
+		},
+		{
+			"title": "Paper Submission Due",
+			"date": "January 31, 2019",
+			"showInNavBar": true
+		},
+		{
+			"title": "Notification of Acceptance",
+			"date": "March 15, 2019",
+			"showInNavBar": true
+		},
+		{
+			"title": "Final Submissions Due",
+			"date": "April 15, 2019",
+			"showInNavBar": true
+		},
+		{
+			"title": "ICESIP 2019 Conference Date",
+			"date": "July 04-06, 2019",
+			"showInNavBar": true
+		}
+	],
+	"footerLinks": {
+		"firstSection": {
+			"title": "Contact:",
+			"links": [{
+					"name": "Organizing Chair, ICESIP 2019",
+					"link": "contact.php",
+					"openInNewWindow": false
+				},
+				{
+					"name": "Department of Electronics and Communication Engineering",
+					"link": "contact.php",
+					"openInNewWindow": false
+				},
+				{
+					"name": "IIITDM Kancheepuram",
+					"link": "contact.php",
+					"openInNewWindow": false
+				},
+				{
+					"name": "Chennai - 600127, India",
+					"link": "contact.php",
+					"openInNewWindow": false
+				},
+				{
+					"name": "icesip2019@iiitdm.ac.in",
+					"link": "contact.php",
+					"openInNewWindow": false
+				}
+			]
+		},
+		"secondSection": {
+			"title": "QUICK LINKS:",
+			"links": [{
+					"name": "Call for Papers (PDF)",
+					"link": "call.php",
+					"openInNewWindow": false
+				},
+				{
+					"name": "Registration",
+					"link": "registration.php",
+					"openInNewWindow": false
+				},
+				{
+					"name": "Journal Publication",
+					"link": "journal.php",
+					"openInNewWindow": false
+				},
+				{
+					"name": "Paper Submission portal",
+					"link": "",
+					"openInNewWindow": true
+				}
+			]
+		}
+	},
+	"newsTicker": [{
+			"content": "Paper Submission (OPEN)",
+			"link": "call.php",
+			"openInNewWindow": false
+		},
+		{
+			"content": "Early bird Registration is before 15/04/2019",
+			"link": "registration.php",
+			"openInNewWindow": false
+		}
+	]
+}</script></head>
+<body>
+	<div class="flex-column main-container">
+		<div id="header" class="flex flex-columm flex-auto">
+			<div class="flex-auto">
+				<div class="bars"><a href="#left-bar-container"><i class="fa fa-2x fa-bars"></i></a></div>
+				<div class="dates"><a href="#right-bar"><i class="fa fa-2x fa-calendar"></i></a></div>
+				<div id="header-title-container">				
+					<div class="header-title bold flux-auto" style="font-family: georgia;"><img src="../icesip/images/logo2.png"/><div style="vertical-align: middle;display: inline-block;font-size: 44px;">ICESIP 2019</div></div>
+					<div class="header-title bold" style="font-size: x-large;font-family: 'arial narrow';">2019 <span style='font-weight: bolder;'>IEEE</span> 1<sup style='vertical-align: text-top;font-size: 18px;'>st</sup> International Conference on Energy, Systems and Information Processing</div>
+					<div class="header-title bold" style="font-size: large;">July 04 - 06, 2019</div>
+					<div class="header-title bold" style="font-size: medium;">IIITDM Kancheepuram <br> Chennai - 600127</div>
+				</div>
+				<div id="header-quick-links" class="flex flex-wrap">
+					<!--<button onclick="location.href='hotel.php';">HOTEL</button>-->
+					<button style="padding: 12px;" onclick="location.href='../icesip/journal.html';">Journal Publication</button>
+					<button style="padding: 12px;" onclick="location.href='../icesip/call.html';">CALL FOR PAPERS</button>
+				</div>
+				<div id="news-ticker" class="flex flex-wrap news-ticker" style="margin-top: 5px;">
+					<p style="padding:0;margin:0;font-size:smaller">
+						<i style="color:red;margin-right:10px" class="fa fa-1x fa-newspaper-o"></i> 
+						<span id="news-ticker-content">
+							<a id="news-ticker-link" href="#">Paper submission opens XX XX, 2019</a>
+						</span>
+					</p>
+				</div>
+			</div>
+			<div class="flex flex-wrap logos" style="min-width: 224px">
+				<div style="width:100%;background:url(../icesip/../icesip/images/ieee_madras.jpg) no-repeat"></div>
+				<!--<div style="margin-top:1%;width:220px;height:85px;background:url(../icesip/../icesip/images/robotics-logo.png) no-repeat"></div>
+				<div style="margin-top:1%;width:220px;height:85px;background:url(../icesip/../icesip/images/sice-logo.png) no-repeat"></div>-->
+			</div>
+		</div>
+		<div id="content-container" class="flex flex-auto flex-space-between">
+			<div id=left-bar-container class="flex flex-auto col-2">
+				<ul class="left-bar list-reset" style="">
+					<li name="back" class="bold" style="font-size: x-large">IEEE ICESIP 2019<a href="#" class="slide-back"><i class="fa fa-lg fa-arrow-circle-left" aria-hidden="true"></i></a></li>
+					<li name="home"><a href="../icesip/index.html"><i class="fa fa-lg fa-home" aria-hidden="true"></i>HOME</a></li>
+					<li name="registration"><a href="../icesip/registration.html"><i class="fa fa-lg fa-sign-in" aria-hidden="true"></i>REGISTRATION</a></li>
+					<li name="hotel">
+						<a href="../icesip/committee.html"><i class="fa fa-lg fa-tasks" aria-hidden="true"></i>COMMITTEE</a>
+						<ul style="background-color: midnightblue;    font-size: 10px;">
+							<li><a href="../icesip/committee.html#adv"><i class="fa fa-lg fa-book" aria-hidden="true"></i>Advisory Committee</a></li>
+							<li><a href="../icesip/committee.html#tpc"><i class="fa fa-lg fa-compass" aria-hidden="true"></i>Technical Programme Committee</a></li>
+							<li><a href="../icesip/committee.html#oc"><i class="fa fa-lg fa-sitemap" aria-hidden="true"></i>Organizing Committee</a></li>
+						</ul>
+					</li>
+					<li name="visa-information"><a href="../icesip/sponsors.html"><i class="fa fa-lg fa-thumbs-up" aria-hidden="true"></i>SPONSORSHIP</a></li>
+					<li name="visa-information"><a href="../icesip/venue.html"><i class="fa fa-lg fa-map-marker" aria-hidden="true"></i>VENUE</a></li>
+					<li name="authors"><a href="../icesip/call.html"><i class="fa fa-lg fa-envelope" aria-hidden="true"></i>CALL FOR PAPERS</a></li>
+					<li name="authors"><a href="../icesip/authors.html"><i class="fa fa-lg fa-pencil-square-o" aria-hidden="true"></i>AUTHORS</a></li>
+					<li name="students"><a href="../icesip/student-router.html"><i class="fa fa-lg fa-bed" aria-hidden="true"></i>ACCOMMODATION</a></li>
+					<li name="organizers"><a href="../icesip/contact.html"><i class="fa fa-lg fa-users" aria-hidden="true"></i>CONTACT</a></li>
+				</ul>
+			</div>
+			<div id="center-content" class="flex flex-auto flex-column col-7">
+				<div class="flex">
+					<div style="height:80px;background:#191970;color:white;width: 100%">
+						<div id="page-title" style="padding:3%;font-weight:bold;font-size: x-large;text-transform: uppercase;"><i class="fa fa-3 fa-long-arrow-right" aria-hidden="true"></i> Journal Publication</div>
+					</div>
+				</div>
+				<div class="main-content flex-auto">
+<!--
+<div class="flex flex-auto" style="padding-top: 1%">
+<div style="margin-bottom: 1%;">
+		<div style="font-weight: bold;font-size: larger">Decision notifications from the article review process have been sent out; please see the Technical Program page for a link to the program. If you are an author and/or presenter of an article at the ICESIP 2019, please note the following.
+</div>
+		<ul>
+			<li>	
+				Acceptance of articles is made with the understanding that at least one author will attend the conference to deliver a 20-minute presentation; severe disruption to a session is caused if an article is not presented. Therefore, in the event that one of the article's authors cannot attend the conference to make a presentation in the Technical Program, the corresponding author should inform the ICESIP Program Chair as soon as possible and the article will be withdrawn. If the article is not presented at the conference, IEEE reserves the right to exclude a paper from distribution after the conference (e.g., removal from IEEE Xplore and the official conference record). 
+			</li>
+			<li>In order to submit the final version of the manuscript and abstract, at least one of the authors of the article must <a href="../icesip/registration.html" style="color:red">register</a> for the conference to upload the final manuscript. Please note the registration policy with regard to the allowable number of articles that can be uploaded.</li>
+			<li>All necessary forms needed for submission of the final manuscript will be created by the submission website at the time of final submission. Electronic submission of the final article version through PaperPlaza is due by <strong>July 1, 2017.</strong> </li>
+			<li>Final articles must be formatted in the standard 2-column Proceedings format. Please use the standard article templates <a href="http://css.paperplaza.net/conferences/support/support.php" target="_blank" style="color:red">found here.</a></li>
+			<li>Please note that the nominal page limit for all articles is six (6) pages; articles exceeding these limits are subject to a page over-length fee. Excess page charges may be paid at the rate of 175 USD per page, where the article length is not to exceed a total of eight (8) pages (PaperPlaza will not permit longer articles to be uploaded).</li>
+			<li>PaperPlaza will require that you submit your abstract and make any final changes to the author list and title of the article before uploading the article. After this, no changes can be made.</li>
+			<li>Authors making presentations at the conference should plan on bringing their own notebooks/tablets/laptops for their presentations. Although the projectors used in the sessions will have multiple input capabilities (VGA is standard), it is possible that an adaptor may be required. The conference organizers will have a limited number and variety of adapters available on site, but presenters should plan on also bringing their own adapters for their presentation devices.</li>
+		</ul>
+</div>
+</div>-->
+<div class="flex flex-auto" style="padding-top: 1%">
+<div style="margin-bottom: 1%;">
+<div style="font-weight: bold;font-size: larger">
+</div>
+High quality presented papers at the conference with extended version ( at least 25% new
+work) will be recommended for possible publication in the following Journals with peer review.
+</div><br/><br/>
+</div>
+<div class="datagrid">
+	<table><tbody>
+	<tr>
+	<td><a href="https://www.journals.elsevier.com/renewable-energy-focus"><img src="../icesip/images/j1.jpg" height="250px">	 <h2> Renewable Energy Focus (Scopus)</h2> <img src="../www.elsevier.com/__data/assets/file/0003/278661/ELS_NS_Logo_2C_RGB.svg" height="50px"> </a>     </td>
+	<td><a href="https://www.tandfonline.com/action/journalInformation?show=aimsScope&amp;journalCode=ueso20"><img src="../icesip/images/j2.jpg" height="250px">	<h2> Energy Sources, Part A: Recovery, Utilization, and Environmental Effects (SCI, I.F: 0.555 )</h2> <img src="../www.tandfonline.com/pb-assets/Global/tfo_logo.png" width="150px"></a>	</td>
+	</tr>
+	<tr class='alt'><td colspan=2></td></tr>
+	<tr>
+	<td>	<a href="https://www.tandfonline.com/toc/taut20/current"><img src="../icesip/images/j3.jpg" height="250px">	<h2> Automatika (SCI, I.F: 0.217)</h2> <img src="../www.tandfonline.com/pb-assets/Global/tfo_logo.png" width="150px"> </a>	</td>
+	<td>	<a href="https://www.tandfonline.com/toc/tjms20/current"><img src="../icesip/images/j4.jpg" height="250px">	<h2> International Journal of Modelling and Simulation (Scopus)</h2> <img src="../www.tandfonline.com/pb-assets/Global/tfo_logo.png" width="150px"> </a>    </td>
+	</tr>
+	<tr>
+	<td colspan=2>
+		<a href=https://www.inderscience.com/jhome.php?jcode=ijpelec"><img src="../www.inderscience.com/images/cover/scoverijpelec.jpg" height="250px">	 <h2> International Journal of Power Electronics (Scopus)</h2> <img src="../www.inderscience.com/mobile/common/images/logo.svg" height="50px"> </a> 
+	</td>
+	</tr>
+	</tbody></table>
+</div>
+<style type="text/css">
+.datagrid {margin:0 auto;margin-bottom: 30px;} .datagrid table { overflow-x:visible; border-collapse: collapse; text-align: left; width: 100%; } .datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 1px solid #8C8C8C; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; overflow-x: scroll; }.datagrid table td, .datagrid table th { padding: 3px 10px; }.datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8C8C8C), color-stop(1, #7D7D7D) );background:-moz-linear-gradient( center top, #8C8C8C 5%, #7D7D7D 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8C8C8C', endColorstr='#7D7D7D');background-color:#8C8C8C; color:#FFFFFF; font-size: 15px; font-weight: bold; border-left: 1px solid #A3A3A3; } .datagrid table thead th:first-child { border: none; }.datagrid table tbody td { color: #7D7D7D; border-left: 1px solid #DBDBDB;font-size: 12px;font-weight: normal; }.datagrid table tbody .alt td { background: #EBEBEB; color: #7D7D7D; }.datagrid table tbody td:first-child { border-left: none; }.datagrid table tbody tr:last-child td { border-bottom: none; }.datagrid table tfoot td div { border-top: 1px solid #8C8C8C;background: #EBEBEB;} .datagrid table tfoot td { padding: 0; font-size: 12px } .datagrid table tfoot td div{ padding: 2px; }.datagrid table tfoot td ul { margin: 0; padding:0; list-style: none; text-align: right; }.datagrid table tfoot  li { display: inline; }.datagrid table tfoot li a { text-decoration: none; display: inline-block;  padding: 2px 8px; margin: 1px;color: #F5F5F5;border: 1px solid #8C8C8C;-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8C8C8C), color-stop(1, #7D7D7D) );background:-moz-linear-gradient( center top, #8C8C8C 5%, #7D7D7D 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8C8C8C', endColorstr='#7D7D7D');background-color:#8C8C8C; }.datagrid table tfoot ul.active, .datagrid table tfoot ul a:hover { text-decoration: none;border-color: #7D7D7D; color: #F5F5F5; background: none; background-color:#8C8C8C;}div.dhtmlx_window_active, div.dhx_modal_cover_dv { position: fixed !important; } .datagrid {margin:10px 0 10px 0;} 
+.datagrid td{text-align: center;width:50%;}
+</style>
+<div style="height:50px;"></div>
+</div>
+			</div>
+			<div id="right-bar" class="flex flex-column col-2" style="background: whitesmoke">
+				<div id="top" class="flex">
+					<div style="color:white;width:0;height:0;border-top:40px solid transparent;border-bottom: 40px solid transparent;border-left: 40px solid #191970;">
+					</div>
+					<div class="close-dates"><a href="#" style=""><i class="fa fa-2x fa-arrow-circle-right" aria-hidden="true"></i></a></div>
+					<div id="title" class="bold">IMPORTANT DATES</div>
+				</div>
+ 				<div id="content" class="flex-auto">
+	 				<ul class="list-reset">
+	 					<li>
+										<div class="title">Paper Submission Opens (<a target='_blank' href='https://ieee.chroniclemanager.com/login?conf_id=ieee-icesip-2019'>link</a>)</div>
+										<div class="date"><i class="fa fa-lg fa-calendar" aria-hidden="true"></i> 
+											November 01, 2018</div>
+									</li><li>
+										<div class="title">Paper Submission Due</div>
+										<div class="date"><i class="fa fa-lg fa-calendar" aria-hidden="true"></i> 
+											January 31, 2019</div>
+									</li><li>
+										<div class="title">Notification of Acceptance</div>
+										<div class="date"><i class="fa fa-lg fa-calendar" aria-hidden="true"></i> 
+											March 15, 2019</div>
+									</li><li>
+										<div class="title">Final Submissions Due</div>
+										<div class="date"><i class="fa fa-lg fa-calendar" aria-hidden="true"></i> 
+											April 15, 2019</div>
+									</li><li>
+										<div class="title">ICESIP 2019 Conference Date</div>
+										<div class="date"><i class="fa fa-lg fa-calendar" aria-hidden="true"></i> 
+											July 04-06, 2019</div>
+									</li>	 					<li style="font-size:small;color:red;text-transform:uppercase;cursor:pointer"><a style="font-size: large;" target="_blank" href="../icesip/resources/ICESIP.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Call for papers</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="footer" class="flex-column">
+				<div id="link-section" class="flex flex-wrap">
+					<div class="footer-items left flex-auto">
+						<div class="title">Contact:</div><ul class="list-reset"><li><a target="" href="../icesip/contact.html">Organizing Chair, ICESIP 2019</a></li><li><a target="" href="../icesip/contact.html">Department of Electronics and Communication Engineering</a></li><li><a target="" href="../icesip/contact.html">IIITDM Kancheepuram</a></li><li><a target="" href="../icesip/contact.html">Chennai - 600127, India</a></li><li><a target="" href="../icesip/contact.html">icesip2019@iiitdm.ac.in</a></li></ul>					</div>
+					<div class="footer-items right flex-auto">
+						<div class="title">QUICK LINKS:</div><ul class="list-reset"><li><a target="" href="../icesip/call.html">Call for Papers (PDF)</a></li><li><a target="" href="../icesip/registration.html">Registration</a></li><li><a target="" href="../icesip/journal.html">Journal Publication</a></li><li><a target="_blank" href="">Paper Submission portal</a></li></ul>					</div>
+					<div class="footer-items left flex-auto">
+						<div class="title"></div><ul class="list-reset"></ul>					</div>
+					<div class="footer-items right flex-auto">
+						<div class="title"></div><ul class="list-reset"></ul>					</div>
+				</div>
+				<div id="bottom-section" class="flex justify-center">
+					<div class="center">
+						&copy IEEE ICESIP 2019						<!--<br><br>
+						<a target="_blank" href="https://www.facebook.com/"><i class="fa fa-3x fa-facebook"></i></a>
+						<a target="_blank" href="https://twitter.com/"><i class="fa fa-3x fa-twitter"></i></a>
+						 <a target="_blank" href=""><i class="fa fa-3x fa-linkedin"></i> </a> -->
+					</div> 
+					<div class="">
+					</div>
+				</div>
+		</div>
+	</div>
+ </body>
+ </html>
